@@ -45,6 +45,9 @@
 							<xsl:otherwise>0</xsl:otherwise>
 						</xsl:choose>
 					</minoredit>
+					<comment>	<!-- Aenderungskommentar -->
+						<xsl:value-of select='*[@class="comment comment--without-parentheses"]'/>
+					</comment>
 				</version>
 			</xsl:for-each>
 		</article>
@@ -99,9 +102,9 @@
 			<xsl:when test="string(number(substring($dateTime, 6, 2))) != 'NaN' and string(number(substring($dateTime, 9, 2))) = 'NaN'"> 
 				<xsl:value-of select='concat("0", substring($dateTime, 9, 1))'/>		
 			</xsl:when>
-			<!-- Stellen 6+7 sowie 8+9 sind eine Zahl -> Stellen 8+9 definieren den Tag -->
-			<xsl:when test="string(number(substring($dateTime, 6, 2))) != 'NaN' and string(number(substring($dateTime, 8, 2))) != 'NaN'"> 
-				<xsl:value-of select='substring($dateTime, 8, 2)'/>		
+			<!-- Stellen 6+7 sowie 9+10 sind eine Zahl -> Stellen 9+10 definieren den Tag -->
+			<xsl:when test="string(number(substring($dateTime, 6, 2))) != 'NaN' and string(number(substring($dateTime, 9, 2))) != 'NaN'"> 
+				<xsl:value-of select='substring($dateTime, 9, 2)'/>		
 			</xsl:when>
 			<xsl:otherwise>00</xsl:otherwise>
 		</xsl:choose>
