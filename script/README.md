@@ -1,6 +1,6 @@
-## getHistory.sh
+## [getHistory.sh](getHistory.sh)
 
-Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. history.xsl) im Skriptverzeichnis befindet.
+Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
 ```
 sh getHistory.sh -u URL -v VERZEICHNIS
 ```
