@@ -4,8 +4,7 @@ Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie
 
 ## [getHistory.sh](getHistory.sh)
 
-Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. (siehe unten)
-Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
+Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. ([Siehe unten](#history-xsl)) Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
 
 ```bash
 sh getHistory.sh -u URL -v VERZEICHNIS
@@ -39,7 +38,7 @@ Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Ang
 - `xmllint`: [http://xmlsoft.org/xmllint.html]
 - `sed`: [http://sed.sourceforge.net/]
 
-## [history.xsl](history.xsl)
+## <a name="history-xsl">[history.xsl](history.xsl)</a>
 
 Die Schemadatei dient dazu, das HTML-Dokument einer Wikipedia-Versionsgeschichte zu zerlegen und in eine auswertbare Struktur zu bringen. Die XML folgt dabei der Form:
 
