@@ -1,6 +1,12 @@
+# Skripte
+
+[TOC]
+
 ## [getHistory.sh](getHistory.sh)
 
-Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
+Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. (siehe unten)
+Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
+
 ```
 sh getHistory.sh -u URL -v VERZEICHNIS
 ```
@@ -9,3 +15,56 @@ Es werden folgende Kommandozeilenprogramme verwendet:
 
 - `xsltproc` http://xmlsoft.org/XSLT/xsltproc.html
 - `wget` https://wiki.ubuntuusers.de/wget/
+
+## [getArticles.sh](getArticles.sh)
+
+Das Skript ruft eine Reihe von Wikipedia-Artikelversionen ab und speichert diese als XML-Datei. Die XML entspricht dabei folgender Form:
+
+```
+<article>
+	<version id= >
+	</version>
+</article>
+```
+
+Der Abruf folgt einer zu definierenden ID-Liste, wobei diese entweder als simples Textfile übergeben werden kann. Alternativ wird über den Aufruf des Skriptes `getHistory.sh` eine ID-Liste erzeugt, die weiterhin auch zeitlich eingeschränkt werden kann. Der Skriptverlauf wird in eine Logfile geschrieben.
+
+```
+sh getArticles.sh -u URL -v VERZEICHNIS -b BEGINNZEITRAUM -e ENDEZEITRAUM
+```
+Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Angabe eines Arbeitsverzeichnisses sowie `-u` zur Angabe der URL der zugehörigen Versionsgeschichte. Es ist angeraten, die Parameter in Anführungszeichen zu setzen, um eine korrekte Übernahme auch bei komplexeren Zeichenketten (mit Leerzeichen und anderen Sonderzeichen) zu gewährleisten. Wird keine URL angegeben, wird diese zur Laufzeit des Skriptes abgefragt. Sollte kein Arbeitsverzeichnis angegeben sein, werden die Ergebnisdateien im Skriptverzeichnis abgelegt. Über die Parameter `-b` *Beginn*  sowie `-e` *Ende* kann der Zeitraum der abzurufenden Artikel eingegrenzt werden. Die Datumsangaben sind im Format `YYYYMMDDhhmm` anzugeben. Werden Beginn oder Ende nicht gesetzt, kann der abzurufende Zeitraum zur Laufzeit des Skriptes angegeben werden. Es werden folgende Kommandozeilenprogramme verwendet:
+
+- `xsltproc` http://xmlsoft.org/XSLT/xsltproc.html
+- `wget` https://wiki.ubuntuusers.de/wget/
+- `xmllint` ???
+- `eval`
+- `sed`
+
+## [history.xsl](history.xsl)
+
+Die Schemadatei dient dazu, das HTML-Dokument einer Wikipedia-Versionsgeschichte zu zerlegen und in eine auswertbare Struktur zu bringen. Die XML folgt dabei der Form:
+
+```
+<article>
+	<versions>
+        <version>
+            <id/>
+            <timestamp/>
+            <date/>
+            <time/>
+            <user/>
+            <minoredit/>
+            <comment/>
+        </version>
+	</versions>
+</article>
+```
+
+Das Tag `<verions/>` beinhaltet hierbei die zentrale Liste mit den einzelnen Versionen des zugehörigen Artikels. Der restliche Seiteninhalt wird entsprechend davor und dahinter im Tag `<article/>` gesichert.
+Das Schema zerlegt die dargestellten Datumsangaben in das neutrale Format `YYYYMMDDhhmm` um eine einfache Verarbeitung zu gewährleisten. Mit Stand 20.01.2020 ist nur die Zerlegung des in der chinesischen Wikipedia benutzten Datumsformat (etwa `2020年1月4日 (六) 10:20`) implementiert.
+
+Außerhalb des Skripts `getHistory.sh` kann das Schema mittels des Kommandozeilenprogramms `xsltproc` ausgeführt werden:
+
+```
+xsltproc -v -o ZIELDATEI history.xsl HTMLDATEI
+```

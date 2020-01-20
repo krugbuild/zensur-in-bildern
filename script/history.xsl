@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <!-- __history.xsl___
-	Stand: 2020-01-10
+	Stand: 2020-01-20
 	Autor: Stefan Krug
 -->
 
 <xsl:template match="/">
-	<document>
+	<article>
 	<!-- includiert alle Elemente vor der Tabelle, kapselt diese im <document>-Tag und schafft somit valides XML -->
 		<xsl:apply-templates />
 	<!-- Elemente nach der Tabelle landen hier -->
-	</document>
+	</article>
 </xsl:template>
 
 <xsl:template match='ul[@id="pagehistory"]'>		<!-- match: <ul id="pagehistory"> -->
-		<article>
+		<versions>
 			<xsl:for-each select="li">
 				<version>
 					<id><xsl:value-of select="@data-mw-revid"/></id>
@@ -50,7 +50,7 @@
 					</comment>
 				</version>
 			</xsl:for-each>
-		</article>
+		</versions>
 </xsl:template>
 
 <!--	___formatDateChinese (dateTime)___

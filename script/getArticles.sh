@@ -1,12 +1,19 @@
 #!/bin/bash
 #
-# Das Skript ruft mittels wget alle in der id-Liste definierten Artikelversionen ab und fügt diese zu einer Datei zusammen.
-# und mehr!
+# Das Skript ruft anhand einer ID-Liste Wikipedia-Artikel ab und speichert diese als separate Elemente in einer XML-Datei.
+# Die ID-Liste kann dabei entweder als simples Textfile eingelesen werden, oder über den Aufruf des Skriptes getHistory.sh aus einer Versionsgeschichte generiert werden.
+# Im zweiten Fall wird die Versionsgeschichte als XML abgelegt und in diesem Skript via XPath ausgelesen. Eine Einschränkung des auszulesenden Zeitraums ist dabei möglich.
+#
+# Parameter:
+#			-u 		(optional) Abzurufende URL. Jede URL ist valide, die Transformation ist jedoch nur auf die Versionsgeschichten der Wikipedia ausgelegt. Bei fehlender Eingabe wird URL zur Laufzeit abgefragt.
+#			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
+#			-b		(optional) BEGINN des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf > geprüft.
+#			-e		(optional) Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf < geprüft.
 #
 # Autor: 	Stefan Krug
-# Stand:	2020-01-13
+# Stand:	2020-01-20
 
-echo "\n### getArticles.sh - Stand 2020-01-17 - Initialisierung.."
+echo "\n### getArticles.sh - Stand 2020-01-20 - Initialisierung.."
 
 ## Variablendefinition
 	xmlSource="historyData.xml"	# Quelldatei für die Liste
@@ -78,7 +85,7 @@ echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 		
 		if [ $option = "2" ]; then				# unparametrisiert
 			
-			idList="xmllint --xpath 'document/article/version/id/text()' $xmlSource"
+			idList="xmllint --xpath 'article/versions/version/id/text()' $xmlSource"
 		
 		elif [ $option = "3" ]; then			# parametrisiert
 			
@@ -94,7 +101,7 @@ echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 			
 			fi
 			
-			idList="xmllint --xpath 'document/article/version[timestamp>$zBeginn and timestamp<$zEnde]/id/text()' $xmlSource"
+			idList="xmllint --xpath 'article/versions/version[timestamp>$zBeginn and timestamp<$zEnde]/id/text()' $xmlSource"
 			
 		fi
 	fi
@@ -109,26 +116,26 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 
 	fi
 
-	echo "<articles>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
+	echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
 
 	for id in $(eval $idList)
 	do
 
 		url=$statUrl$id					# die abzurufende URL wird aus dem statischem Teil der Artikel-Url und der ID als Parameter generiert
 		
-		echo "Artikel" $url "wird abgerufen.."
-		echo "Artikel" $url "wird abgerufen." >> $logFile
+		echo "Version" $url "wird abgerufen.."
+		echo "Version" $url "wird abgerufen." >> $logFile
 		
-		echo "<article id='$id'>" >> $xmlFile		# <article> wird mit ID als Parameter vor den abzurufen Inhalt gesetzt
+		echo "<version id='$id'>" >> $xmlFile		# <version> wird mit ID als Parameter vor den abzurufen Inhalt gesetzt
 		
 		wget -a $logFile -O ->> $xmlFile $url			# -a Logfile wird appended; -O Ausgabedatei (append durch "->>" Operator) 
 		
-		echo "</article>" >> $xmlFile			# </article> wird ans Ende des abzurufenden Inhalts gesetzt
+		echo "</version>" >> $xmlFile			# </version> wird ans Ende des abzurufenden Inhalts gesetzt
 		
-		sleep $timer							# kurze Wartzeit, um DOS-Erkennung zu vermeiden
+		sleep $timer							# kurze Wartzeit, um fälschliche DOS-Erkennung zu vermeiden
 	done
 
-	echo "</articles>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
+	echo "</article>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
 
 	$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irreguläre Tags aus HTML entfernen
 
