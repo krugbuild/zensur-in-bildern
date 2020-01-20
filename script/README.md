@@ -1,8 +1,6 @@
 # Skripte
 
-Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden.
-
-Das XSLT-Schema [history.xsl](history.xsl) folgt dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und kann mittels beliebiger XML-Editoren angewendet werden.
+Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Das XSLT-Schema [history.xsl](history.xsl) folgt dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und kann mittels beliebiger XML-Editoren angewendet werden.
 
 ## [getHistory.sh](getHistory.sh)
 
