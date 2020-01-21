@@ -112,7 +112,7 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 ## Artikel gem‰ﬂ Auswahl abrufen und als XML speichern
 	if [ -f $xmlFile ]; then	# es folgen Append-Operationen, deshalb brauchen wir eine 'leere' Datei
 		
-		$(rm $htmlFile)
+		$(rm $xmlFile)
 
 	fi
 
