@@ -3,10 +3,14 @@
 Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Das XSLT-Schema [history.xsl](history.xsl) folgt dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und kann mittels beliebiger XML-Editoren angewendet werden.
 
 Direkt zur Dokumentation der einzelnen Skripte / Schemata:
-| [getHistory.sh](#getHistory) | [history.xsl](#history-xsl) |
+
+| [BASH-Skripte](#bash-skripte) | [XSLT-Schemata](#xslt-schemata) |
 | - | - |
+| [getHistory.sh](#getHistory) | [history.xsl](#history-xsl) |
 | [getArticles.sh](#getArticles) | [images.xsl](#images-xsl) |
-| [getImageTable](#getImageTables) | |
+| [getImageTable.sh](#getImageTable) | |
+
+---
 
 ## BASH-Skripte
 
@@ -50,7 +54,7 @@ Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Ang
 
 Das Skript legt eine HTML-Tabelle an, in der alle aus der Quelldatei ermittelten Bilder allen Artikelversionen gegenübergestellt werden. Aus dieser Tabelle lässt sich somit die Entwicklung der Verwendung einzelner Bilder über den definierten Versionsverlauf nachvollziehen.
 
-```shell
+```bash
 sh getImageTable.sh -v VERZEICHNIS
 ```
 
