@@ -1,21 +1,29 @@
-# Skripte
+# Skripte und Schemata
 
 Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Das XSLT-Schema [history.xsl](history.xsl) folgt dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und kann mittels beliebiger XML-Editoren angewendet werden.
 
-## [getHistory.sh](getHistory.sh)
+Direkt zur Dokumentation der einzelnen Skripte / Schemata:
+| [getHistory.sh](#getHistory) | [history.xsl](#history-xsl) |
+| - | - |
+| [getArticles.sh](#getArticles) | [images.xsl](#images-xsl) |
+| [getImageTable](#getImageTables) | |
+
+## BASH-Skripte
+
+### <a name="getHistory">[getHistory.sh](getHistory.sh)</a>
 
 Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. ([Siehe unten](#history-xsl)) Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
 
 ```bash
 sh getHistory.sh -u URL -v VERZEICHNIS
 ```
-Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-u` zur Angabe der abzurufenden URL sowie `-v` zur Angabe eines Arbeitsverzeichnisses, um die Ergebnisdateien dort abzulegen. Es ist angeraten, die Parameter in Anführungszeichen zu setzen, um eine korrekte Übernahme auch bei komplexeren Zeichenketten (mit Leerzeichen und anderen Sonderzeichen) zu gewährleisten. Wird keine URL angegeben, wird diese zur Laufzeit des Skriptes abgefragt. Sollte kein Arbeitsverzeichnis angegeben sein, werden die Ergebnisdateien im Skriptverzeichnis abgelegt.
+Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-u` zur Angabe der abzurufenden URL sowie `-v` zur Angabe eines Arbeitsverzeichnisses, um die Ergebnisdateien dort abzulegen. Es ist angeraten, die Parameter in Anführungszeichen zu setzen, um eine korrekte Übernahme auch bei komplexeren Zeichenketten (mit Leerzeichen und anderen Sonderzeichen) zu gewährleisten. Wird keine URL angegeben, wird diese zur Laufzeit des Skriptes abgefragt. Sollte kein Arbeitsverzeichnis angegeben sein, werden die Ergebnisdateien im Skriptverzeichnis abgelegt. Die Prozesse werden in einem Logfile dokumentiert.
 Es werden folgende Kommandozeilenprogramme verwendet:
 
 - `xsltproc`: [http://xmlsoft.org/XSLT/xsltproc.html]
 - `wget`: [https://wiki.ubuntuusers.de/wget/]
 
-## [getArticles.sh](getArticles.sh)
+### <a name="getArticles">[getArticles.sh](getArticles.sh)</a>
 
 Das Skript ruft eine Reihe von Wikipedia-Artikelversionen ab und speichert diese als XML-Datei. Die XML entspricht dabei folgender Form:
 
@@ -38,7 +46,24 @@ Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Ang
 - `xmllint`: [http://xmlsoft.org/xmllint.html]
 - `sed`: [http://sed.sourceforge.net/]
 
-## <a name="history-xsl">[history.xsl](history.xsl)</a>
+### <a name="getImageTable">[getImageTable.sh](getImageTable.sh)</a>
+
+Das Skript legt eine HTML-Tabelle an, in der alle aus der Quelldatei ermittelten Bilder allen Artikelversionen gegenübergestellt werden. Aus dieser Tabelle lässt sich somit die Entwicklung der Verwendung einzelner Bilder über den definierten Versionsverlauf nachvollziehen.
+
+```shell
+sh getImageTable.sh -v VERZEICHNIS
+```
+
+Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Angabe eines Arbeitsverzeichnisses. Zur Prüfung der Artikelversionen gegen den Bildbestand werden zunächst alle einzigartigen (unique) Bilder ermittelt, diese werden dabei anhand der URL identifiziert. Anschließend wird die HTML-Tabelle geschrieben, wobei für jede Artikelversion geprüft wird, welche Bilder aus dem Gesamtbestand darin vorkommen. Das Ergebnis wird in eine HTML-Datei (default `imageTable.html`) geschrieben. Die einzelnen Skript-Schritte werden in einem Logfile dokumentiert.
+Es werden folgende Kommandozeilenprogramme verwendet:
+
+- `xsltproc`: [http://xmlsoft.org/XSLT/xsltproc.html]
+
+---
+
+## XSLT-Schemata
+
+### <a name="history-xsl">[history.xsl](history.xsl)</a>
 
 Die Schemadatei dient dazu, das HTML-Dokument einer Wikipedia-Versionsgeschichte zu zerlegen und in eine auswertbare Struktur zu bringen. Die XML folgt dabei der Form:
 
@@ -66,3 +91,5 @@ Außerhalb des Skripts `getHistory.sh` kann das Schema mittels des Kommandozeile
 ```bash
 xsltproc -v -o ZIELDATEI history.xsl HTMLDATEI
 ```
+
+### <a name="images-xsl">[images.xsl](images.xsl)</a>
