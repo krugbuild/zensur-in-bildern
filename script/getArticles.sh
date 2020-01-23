@@ -9,6 +9,7 @@
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
 #			-b		(optional) BEGINN des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf > geprüft.
 #			-e		(optional) Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf < geprüft.
+#			-l		(Kennzeichen) Nur lokal. Verhindert den (erneuten) Abruf der historyData.xml.
 #
 # Autor: 	Stefan Krug
 # Stand:	2020-01-20
@@ -25,17 +26,19 @@ echo "\n### getArticles.sh - Stand 2020-01-20 - Initialisierung.."
 	zBeginn=0					# Beginn des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	zEnde=0						# Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	url="false"					# URL der abzurufenden Versionsgeschichte, um ID-Liste zu ermitteln
+	lokal="false"
 	
 	statUrl='https://zh.wikipedia.org/w/index.php?oldid='	# statischer Teil der URL, ist nach Landesversion anzupassen
 
 ## Parameter übergeben
-	while getopts v:b:e:u: option; do
+	while getopts v:b:e:u:l option; do
 		case "${option}" in
 			
 			v) verzeichnis=${OPTARG};;
 			b) zBeginn=${OPTARG};;
 			e) zEnde=${OPTARG};;
 			u) url=${OPTARG};;
+			l) lokal="true";;
 			
 		esac
 	done
@@ -81,7 +84,12 @@ echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 		
 		echo "-> Aufruf von getHistory.sh zur Ermittlung einer ID-Liste" >> $logFile
 		
-		sh getHistory.sh -v $verzeichnis -u $url	# Abruf der Versionsgeschichte, um daraus die IDs auszulesen
+		# wenn Parameter 'lokal' gesetzt wurde, soll die Versionsgeschichte nicht abgerufen werden
+		if [ $lokal = "false" ]; then
+		
+			# Abruf der Versionsgeschichte, um daraus die IDs auszulesen
+			sh getHistory.sh -v $verzeichnis -u $url	
+		fi
 		
 		if [ $option = "2" ]; then				# unparametrisiert
 			
@@ -133,6 +141,20 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 		echo "</version>" >> $xmlFile			# </version> wird ans Ende des abzurufenden Inhalts gesetzt
 		
 		sleep $timer							# kurze Wartzeit, um fälschliche DOS-Erkennung zu vermeiden
+		
+		# Dateigröße der Ausgabe prüfen und ggf. eine neue Datei beginnen
+		if [ $(du -k "$xmlFile" | cut -f 1) -ge "5" ]; then #größer 5kb
+
+			echo "</article>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
+
+			$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irreguläre Tags aus HTML entfernen
+			
+			echo "\nDas HTML-Teil-Abbild wurde als "$xmlFile" gespeichert."
+			
+			xmlFile="$verzeichnis/"$(eval 'basename $xmlFile ".xml"')$id".xml"
+			
+			echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
+		fi
 	done
 
 	echo "</article>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
