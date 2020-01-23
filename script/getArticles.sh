@@ -26,7 +26,8 @@ echo "\n### getArticles.sh - Stand 2020-01-20 - Initialisierung.."
 	zBeginn=0					# Beginn des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	zEnde=0						# Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	url="false"					# URL der abzurufenden Versionsgeschichte, um ID-Liste zu ermitteln
-	lokal="false"
+	lokal="false"					# Parameter, Aufruf von getHistory.sh zu verhinden
+	maxFileSize="5000"				# maximale Dateigröße für die Ziel-XML in kb
 	
 	statUrl='https://zh.wikipedia.org/w/index.php?oldid='	# statischer Teil der URL, ist nach Landesversion anzupassen
 
@@ -126,6 +127,8 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 
 	echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
 
+	xmlFileCore=$(eval 'basename $xmlFile ".xml"')	# Dateinamen ohne Verzeichnis und Endung ermitteln
+
 	for id in $(eval $idList)
 	do
 
@@ -143,7 +146,7 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 		sleep $timer							# kurze Wartzeit, um fälschliche DOS-Erkennung zu vermeiden
 		
 		# Dateigröße der Ausgabe prüfen und ggf. eine neue Datei beginnen
-		if [ $(du -k "$xmlFile" | cut -f 1) -ge "5" ]; then #größer 5kb
+		if [ $(du -k "$xmlFile" | cut -f 1) -ge $maxFileSize ]; then 
 
 			echo "</article>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
 
@@ -151,7 +154,13 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 			
 			echo "\nDas HTML-Teil-Abbild wurde als "$xmlFile" gespeichert."
 			
-			xmlFile="$verzeichnis/"$(eval 'basename $xmlFile ".xml"')$id".xml"
+			xmlFile=$xmlFileCore$id".xml"		#neue Datei um die letzte ID erweitern
+			
+			if [ $verzeichnis != "false" ]; then
+			
+				xmlFile=$verzeichnis/$xmlFile
+			
+			fi
 			
 			echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
 		fi
