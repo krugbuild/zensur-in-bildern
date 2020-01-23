@@ -1,8 +1,8 @@
 #!/bin/bash
 #
-# Das Skript ruft anhand einer ID-Liste Wikipedia-Artikel ab und speichert diese als separate Elemente in einer XML-Datei.
-# Die ID-Liste kann dabei entweder als simples Textfile eingelesen werden, oder über den Aufruf des Skriptes getHistory.sh aus einer Versionsgeschichte generiert werden.
-# Im zweiten Fall wird die Versionsgeschichte als XML abgelegt und in diesem Skript via XPath ausgelesen. Eine Einschränkung des auszulesenden Zeitraums ist dabei möglich.
+# Das Skript ruft anhand einer ID-Liste (idR. wird diese aus einer historyData.xml ausgelesen) Wikipedia-Artikel ab und speichert diese als Elemente in einer gemeinsamen XML-Datei.
+# Mit dem Parameter -l wird ein Auslesen aus einer lokalen Datei erzwungen. Per default wird das Skript getHistory.sh aufgerufen, um die historyData.xml zu generieren.
+# Um die maximale Dateigröße zu begrenzen wird ab einer definierten Größe (default 200mb) eine neue Ziel-Datei mit fortlauender Nummer generiert.
 #
 # Parameter:
 #			-u 		(optional) Abzurufende URL. Jede URL ist valide, die Transformation ist jedoch nur auf die Versionsgeschichten der Wikipedia ausgelegt. Bei fehlender Eingabe wird URL zur Laufzeit abgefragt.
@@ -12,9 +12,10 @@
 #			-l		(Kennzeichen) Nur lokal. Verhindert den (erneuten) Abruf der historyData.xml.
 #
 # Autor: 	Stefan Krug
-# Stand:	2020-01-20
+# Lizenz: 	CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:	2020-01-23
 
-echo "\n### getArticles.sh - Stand 2020-01-20 - Initialisierung.."
+echo "\n### getArticles.sh - Stand 2020-01-23 - Initialisierung.."
 
 ## Variablendefinition
 	xmlSource="historyData.xml"	# Quelldatei für die Liste
@@ -27,7 +28,7 @@ echo "\n### getArticles.sh - Stand 2020-01-20 - Initialisierung.."
 	zEnde=0						# Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	url="false"					# URL der abzurufenden Versionsgeschichte, um ID-Liste zu ermitteln
 	lokal="false"					# Parameter, Aufruf von getHistory.sh zu verhinden
-	maxFileSize="5000"				# maximale Dateigröße für die Ziel-XML in kb
+	maxFileSize="200000"			# maximale Dateigröße für die Ziel-XML in kb, default 200.000kb
 	
 	statUrl='https://zh.wikipedia.org/w/index.php?oldid='	# statischer Teil der URL, ist nach Landesversion anzupassen
 
@@ -128,7 +129,9 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 	echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
 
 	xmlFileCore=$(eval 'basename $xmlFile ".xml"')	# Dateinamen ohne Verzeichnis und Endung ermitteln
-
+	
+	fileCounter=1		# Zähler zur fortlaufenden Bezeichnung der Ausgabedateien
+	
 	for id in $(eval $idList)
 	do
 
@@ -146,7 +149,7 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 		sleep $timer							# kurze Wartzeit, um fälschliche DOS-Erkennung zu vermeiden
 		
 		# Dateigröße der Ausgabe prüfen und ggf. eine neue Datei beginnen
-		if [ $(du -k "$xmlFile" | cut -f 1) -ge $maxFileSize ]; then 
+		if [ $(du -k "$xmlFile" | cut -f 1) -gt $maxFileSize ]; then 
 
 			echo "</article>" >> $xmlFile				# schließenden Tag setzen, um Wohlgeformtheit des Dokuments zu gewähleisten
 
@@ -154,7 +157,9 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 			
 			echo "\nDas HTML-Teil-Abbild wurde als "$xmlFile" gespeichert."
 			
-			xmlFile=$xmlFileCore$id".xml"		#neue Datei um die letzte ID erweitern
+			# Ab hier neue Datei
+			
+			xmlFile=$xmlFileCore$fileCounter".xml"		#neue Datei um die letzte ID erweitern
 			
 			if [ $verzeichnis != "false" ]; then
 			
@@ -163,6 +168,8 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 			fi
 			
 			echo "<article>" >> $xmlFile		# öffnenden Tag setzen, um Wohlgeformtheit im XML zu gewährleisten
+			
+			fileCounter=$((fileCounter + 1))
 		fi
 	done
 

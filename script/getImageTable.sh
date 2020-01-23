@@ -2,7 +2,7 @@
 #
 # Das Skript legt eine HTML-Tabelle an, in der alle aus der Quelldatei ermittelten Bilder allen Artikelversionen gegenübergestellt werden.
 # Aus dieser Tabelle lässt sich somit die Entwicklung der Verwendung einzelner Bilder über den definierten Versionsverlauf nachvollziehen.
-# Hierzu wird entweder eine vorhandene Quelldatei (-q Parameter gesetzt) eingelesen, oder es wird versucht, eine ArticleData-XML zu transformieren.
+# Hierzu wird entweder eine vorhandene Quelldatei (-n Parameter gesetzt) eingelesen, oder es wird versucht, eine ArticleData-XML zu transformieren.
 # Zur Prüfung gegen den Bildbestand werden anschließend alle einzigartigen (unique) Bilder ermittelt, diese werden anhand der URL identifiziert.
 # Auch beim Vergleich der Artikelversionen mit der Bildliste wird gegen die URL geprüft.
 #
@@ -10,19 +10,21 @@
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
 #			-n		(Kennzeichen) Deaktiviert die Transformation der articleXML. Stattdessen wird eine vorhandene imagesDataXML eingelesen.
 #
-# Autor: 	Stefan Krug
-# Stand:	2020-01-22
+# Autor: 		Stefan Krug
+# Lizenz: 	CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:		2020-01-23
 
-echo "\n### getImageTable.sh - Stand 2020-01-22 - Initialisierung.."
+echo "\n### getImageTable.sh - Stand 2020-01-23 - Initialisierung.."
 
 ## Variablendefinition
-	htmlFile="imageTable.html"	# Zieldatei
-	logFile="imageTable_log.txt"	# Zielpfad für das Log
-	articleXML="articleData.xml" # Quelldatei für XSL-Transformation
-	imagesXML="imageData.xml"	# Quelldatei für Auswertung, wird duch XSLT generiert, default "false"
-	stylesheet="images.xsl"		# Schemadatei zur XSL-Transformation
-	imageList=""				# Variable, um auszuwertende Liste vorzuhalten
-	verzeichnis="false"		# Arbeitsverzeichnis für die zu lesenden und zu erstellenden Dateien, default "false"
+	htmlFile="imageTable.html"		# Zieldatei
+	logFile="imageTable_log.txt"		# Zielpfad für das Log
+	articleXML="articleData.xml" 	# Quelldatei für XSL-Transformation
+	historyXML="historyData.xml"	# Quelldatei für Metainformationen
+	imagesXML="imageData.xml"		# Quelldatei für Auswertung, wird duch XSLT generiert
+	stylesheet="images.xsl"			# Schemadatei zur XSL-Transformation
+	imageList=""					# Variable, um auszuwertende Liste vorzuhalten
+	verzeichnis="false"			# Arbeitsverzeichnis für die zu lesenden und zu erstellenden Dateien, default "false"
 	
 ## Parameter übergeben
 	while getopts v:n option; do
@@ -40,6 +42,7 @@ echo "\n### getImageTable.sh - Stand 2020-01-22 - Initialisierung.."
 		mkdir -p ./$verzeichnis
 		imagesXML=$verzeichnis/$imagesXML
 		articleXML=$verzeichnis/$articleXML
+		historyXML=$verzeichnis/$historyXML
 		htmlFile=$verzeichnis/$htmlFile
 		logFile=$verzeichnis/$logFile
 		
@@ -48,7 +51,6 @@ echo "\n### getImageTable.sh - Stand 2020-01-22 - Initialisierung.."
 uname -s -r -v -m >> $logFile		# initialer logFile-Eintrag mit Systeminformationen
 echo $(date) "getImageTable.sh - start" >> $logFile
 echo "-> definiertes Arbeitsverzeichnis= $verzeichnis" >> $logFile
-
 
 ## Transformation via xsltproc und Schemadatei, um Quelldatei zu erzeugen
 	if [ $stylesheet != "false" ]; then
@@ -116,7 +118,7 @@ echo "Header geschrieben." >> $logFile
 		echo "<tr>" >> $htmlFile	# neue Zeile
 		
 		# Prüfen, ob Version nur eine kleine Änerung beinhaltet
-		if [ $(eval "xmllint historyData.xml -xpath 'article/versions/version[$version]/minoredit/text()'") = 1 ]; then
+		if [ $(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/minoredit/text()'") = 1 ]; then
 			
 			echo "<td><nobr>$version <b>k</b></nobr></td>" >> $htmlFile	# ID mit Kennzeichen 'kleine Änderung' in erste Spalte schreiben
 			
@@ -126,7 +128,7 @@ echo "Header geschrieben." >> $logFile
 		fi
 		
 		# Date in zweite Spalte schreiben
-		echo "<td><b>"$(eval "xmllint historyData.xml -xpath 'article/versions/version[$version]/date/text()'")  "</b></td>" >> $htmlFile
+		echo "<td><b>"$(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/date/text()'")  "</b></td>" >> $htmlFile
 		
 		# Prüfung, welche Bild-ID in dieser Version vorkommen - jeweils pro Bild in $imageList
 		for id in $imageList;
@@ -153,13 +155,13 @@ echo "Header geschrieben." >> $logFile
 		done 
 		
 		# Time in dritt letzte Spalte schreiben
-		echo "<td><b>"$(eval "xmllint historyData.xml -xpath 'article/versions/version[$version]/time/text()'")"</b></td>" >> $htmlFile
+		echo "<td><b>"$(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/time/text()'")"</b></td>" >> $htmlFile
 	
 		# Benutzer in vorletzte Spalte schreiben
-		echo "<td><b>"$(eval "xmllint historyData.xml -xpath 'article/versions/version[$version]/user/text()'")"</b></td>" >> $htmlFile
+		echo "<td><b>"$(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/user/text()'")"</b></td>" >> $htmlFile
 	
 		# Kommentar letzte Spalte schreiben, Zeile abschließen
-		echo "<td><nobr>"$(eval "xmllint historyData.xml -xpath 'article/versions/version[$version]/comment/text()'")"</nobr></td></tr>" >> $htmlFile
+		echo "<td><nobr>"$(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/comment/text()'")"</nobr></td></tr>" >> $htmlFile
 	
 		echo "Inhaltszeile für Version $version abgeschlossen." >> $logFile
 	
