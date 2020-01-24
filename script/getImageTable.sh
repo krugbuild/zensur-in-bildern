@@ -11,18 +11,17 @@
 #			-n		(Kennzeichen) Deaktiviert die Transformation der articleXML. Stattdessen wird eine vorhandene imagesDataXML eingelesen.
 #
 # Autor: 		Stefan Krug
-# Lizenz: 	CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
-# Stand:		2020-01-23
+# Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:		2020-01-24
 
-echo "\n### getImageTable.sh - Stand 2020-01-23 - Initialisierung.."
+echo "\n### getImageTable.sh - Stand 2020-01-24 - Initialisierung.."
 
 ## Variablendefinition
 	htmlFile="imageTable.html"		# Zieldatei
 	logFile="imageTable_log.txt"		# Zielpfad für das Log
-	articleXML="articleData.xml" 	# Quelldatei für XSL-Transformation
 	historyXML="historyData.xml"	# Quelldatei für Metainformationen
 	imagesXML="imageData.xml"		# Quelldatei für Auswertung, wird duch XSLT generiert
-	stylesheet="images.xsl"			# Schemadatei zur XSL-Transformation
+	stylesheet="true"				# Kennzeichen, ob XSLT durchgeführt werden soll
 	imageList=""					# Variable, um auszuwertende Liste vorzuhalten
 	verzeichnis="false"			# Arbeitsverzeichnis für die zu lesenden und zu erstellenden Dateien, default "false"
 	
@@ -41,7 +40,6 @@ echo "\n### getImageTable.sh - Stand 2020-01-23 - Initialisierung.."
 		
 		mkdir -p ./$verzeichnis
 		imagesXML=$verzeichnis/$imagesXML
-		articleXML=$verzeichnis/$articleXML
 		historyXML=$verzeichnis/$historyXML
 		htmlFile=$verzeichnis/$htmlFile
 		logFile=$verzeichnis/$logFile
@@ -55,14 +53,8 @@ echo "-> definiertes Arbeitsverzeichnis= $verzeichnis" >> $logFile
 ## Transformation via xsltproc und Schemadatei, um Quelldatei zu erzeugen
 	if [ $stylesheet != "false" ]; then
 
-		echo "XSLT wird angewendet.."
-		echo "-> Schemadatei $stylesheet wird angewendet" >> $logFile
-		
-		xsltproc -v -o $imagesXML $stylesheet $articleXML
-		
-		echo "\n Daten wurden als $imagesXML gespeichert."
-		echo "-> Auswertung wurde nach $imagesXML geschrieben." >> $logFile
-	
+		sh getImages.sh -v $verzeichnis
+
 	fi
 
 ## eventuell vorhandene Zieldatei löschen, um Validität der folgenden Append-Operationen sicherzustellen	
