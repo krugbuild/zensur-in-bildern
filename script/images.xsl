@@ -6,6 +6,7 @@
 -->
 
 <xsl:param name="count"/>
+<xsl:param name="directory"/>
     
 <xsl:template match="/">
 	<article>
@@ -21,10 +22,10 @@
 	<xsl:variable name="document">
 		<xsl:choose>
 			<xsl:when test="$counter = 0">
-				<xsl:text>articleData.xml</xsl:text>
+				<xsl:value-of select="concat($directory, '/articleData.xml')"/>
 			</xsl:when>
 			<xsl:otherwise>
-				<xsl:value-of select="concat('articleData', $counter, '.xml')"/>
+				<xsl:value-of select="concat($directory, '/articleData', $counter, '.xml')"/>
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:variable>
