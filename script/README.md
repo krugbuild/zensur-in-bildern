@@ -1,19 +1,19 @@
 # Skripte und Schemata
 
-Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Die XSLT-Schemata folgen dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und können mittels beliebiger XML-Editoren angewendet werden.
-
 Direkt zur Dokumentation der einzelnen Skripte und Schemata:
 
 | [BASH-Skripte](#bash-skripte) | [XSLT-Schemata](#xslt-schemata) |
 | - | - |
 | [getHistory.sh](#getHistory) | [history.xsl](#history-xsl) |
 | [getArticles.sh](#getArticles) | [images.xsl](#images-xsl) |
-| [getImages.sh](#getImages) | |
+| [getImages.sh](#getImages) | [combineImages.xsl](#combineimages-xsl) |
 | [getImageTable.sh](#getImageTable) | |
 
 ---
 
 ## BASH-Skripte
+
+Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden.
 
 ### <a name="getHistory">[getHistory.sh (2020-01-27)](getHistory.sh)</a>
 
@@ -81,6 +81,8 @@ Es werden folgende Kommandozeilenprogramme verwendet:
 ---
 
 ## XSLT-Schemata
+
+Die XSLT-Schemata folgen dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und können mittels beliebiger XML-Editoren angewendet werden.
 
 ### <a name="history-xsl">[history.xsl (2020-01-27)](history.xsl)</a>
 
