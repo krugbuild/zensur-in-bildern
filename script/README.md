@@ -138,4 +138,15 @@ Das Schema wird üblicherweise über das Skript `getImages.sh` aufgerufen. Unabh
 xsltproc -v -o ZIELDATEI -param count ANZAHL -stringparam directory VERZEICHNIS images.xsl articeData.xml
 ```
 
-Der Parameter `count` entspricht dabei der Anzahl der *zusätzlichen* articleData.xml-Dateien, also jenen mit einer Ziffer im Dateinamen. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quelldatei im xsltproc-Aufruf aus!)
+Der Parameter `count` entspricht dabei der Anzahl der *zusätzlichen* articleData.xml-Dateien, also jenen mit einer Ziffer im Dateinamen. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
+
+### <a name="combineimages-xsl">[combineImages.xsl (2020-01-27)](combineImages.xsl)</a>
+
+Die Schemadatei dient dem Zusammenführen von imageData.xml-Dateien. Dies ist nötig, wenn bei größeren Quelldatenmengen nur partielle Transformationen via [getImages.sh](#getImages) durchgeführt werden. Die Quelldateien müssen dem Schema `imageData[n].xml` entsprechen. Der Zähler `n` ist dabei eine natürliche Zahl, die erste Datei trägt die Ziffer `1`, alle weiteren sind aufsteigend beziffert.
+Das Schema wird über das Konsolenprogramm `xsltproc` angewendet:
+
+```bash
+xsltproc -v -o ZIELDATEI -param count ANZAHL -stringparam directory VERZEICHNIS combineImages.xsl imageData1.xml
+```
+
+Der Parameter `count` entspricht dabei der Gesamtanzahl der imageData[n].xml-Dateien. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
