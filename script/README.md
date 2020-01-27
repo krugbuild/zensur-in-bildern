@@ -1,6 +1,6 @@
 # Skripte und Schemata
 
-Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Das XSLT-Schema [history.xsl](history.xsl) folgt dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und kann mittels beliebiger XML-Editoren angewendet werden.
+Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie unter GNU/Linux sowie MacOS üblicherweise zum Einsatz kommt. Unter Windows kann diese über die Einrichtung des *Windows-Subsystems für Linux* [nachträglich installiert](https://docs.microsoft.com/de-de/windows/wsl/install-win10) werden. Die XSLT-Schemata folgen dem [XSLT-Standard 1.0](http://www.w3.org/1999/XSL/Transform) und können mittels beliebiger XML-Editoren angewendet werden.
 
 Direkt zur Dokumentation der einzelnen Skripte und Schemata:
 
@@ -75,14 +75,14 @@ sh getImageTable.sh -v VERZEICHNIS -n
 Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Angabe eines Arbeitsverzeichnisses sowie `-n`, um *keine* Transformation der `articleData.xml` durchzuführen. Zur Prüfung der Artikelversionen gegen den Bildbestand werden zunächst alle einzigartigen (unique) Bilder ermittelt, diese werden dabei anhand der URL identifiziert. Anschließend wird die HTML-Tabelle geschrieben, wobei für jede Artikelversion geprüft wird, welche Bilder aus dem Gesamtbestand darin vorkommen. Das Ergebnis wird in eine HTML-Datei (Standard: `imageTable.html`) geschrieben. Die einzelnen Skript-Schritte werden in einem Logfile dokumentiert.
 Es werden folgende Kommandozeilenprogramme verwendet:
 
-- `xsltproc`: [http://xmlsoft.org/XSLT/xsltproc.html]
+- `xsltproc`: http://xmlsoft.org/XSLT/xsltproc.html
 - `xmllint`: http://xmlsoft.org/xmllint.html (ab Version 20909)
 
 ---
 
 ## XSLT-Schemata
 
-### <a name="history-xsl">[history.xsl](history.xsl)</a>
+### <a name="history-xsl">[history.xsl (2020-01-27)](history.xsl)</a>
 
 Die Schemadatei dient dazu, das HTML-Dokument einer Wikipedia-Versionsgeschichte zu zerlegen und in eine auswertbare Struktur zu bringen. Die XML folgt dabei der Form:
 
