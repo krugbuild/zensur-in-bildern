@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<!-- __history.xsl___
-	Stand: 2020-01-20
-	Autor: Stefan Krug
+<!-- 
+## history.xsl
+# Die Schemadatei dient dazu, das HTML-Dokument einer Wikipedia-Versionsgeschichte zu zerlegen und in eine auswertbare Struktur zu bringen.
+# Das Tag <versions/> beinhaltet hierbei die zentrale Liste mit den einzelnen Versionen des zugehörigen Artikels. Der restliche Seiteninhalt wird entsprechend davor und dahinter im Tag <article/> gekapselt.
+# Das Schema zerlegt die dargestellten Datumsangaben in das neutrale Format `YYYYMMDDhhmm` um eine einfache Verarbeitung zu gewährleisten. 
+# Mit Stand 27.01.2020 ist nur die Zerlegung des in der chinesischen Wikipedia benutzten Datumsformat (etwa `2020年1月4日 (六) 10:20`) implementiert.
+#
+# Autor: 		Stefan Krug
+# Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:		2020-01-27
 -->
 
 <xsl:template match="/">

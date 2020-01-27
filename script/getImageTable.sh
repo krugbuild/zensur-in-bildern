@@ -20,7 +20,7 @@ echo "\n### getImageTable.sh - Stand 2020-01-24 - Initialisierung.."
 	htmlFile="imageTable.html"		# Zieldatei
 	logFile="imageTable_log.txt"		# Zielpfad für das Log
 	historyXML="historyData.xml"	# Quelldatei für Metainformationen
-	imagesXML="imageData.xml"		# Quelldatei für Auswertung, wird duch XSLT generiert
+	imagesXML="imageData_part1.xml" # Quelldatei für Auswertung, wird duch XSLT generiert
 	stylesheet="true"				# Kennzeichen, ob XSLT durchgeführt werden soll
 	imageList=""					# Variable, um auszuwertende Liste vorzuhalten
 	verzeichnis="false"			# Arbeitsverzeichnis für die zu lesenden und zu erstellenden Dateien, default "false"

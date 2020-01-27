@@ -1,13 +1,19 @@
 #!/bin/bash
 #
+# Das Skript ermittelt aus `articleData.xml`-Dateien sämtliche Bilder und speichert deren Metadaten als XML-Datei.
+# Es können belibig viele Dateien im Format `articleData[n].xml` eingelesen werden, wobei `[n]` eine natürliche Zahl sein muss. 
+# Die erste Datei einer Serie muss stets `articleData.xml` heißen und alle folgenden müssen aufsteigend nummeriert werden.
+# Über den Parameter `-v` kann ein Arbeitsverzeichnis realtiv zum Skriptverzeichnis angegeben werden.
+# Die Ermittlung der auszulesenden Dateien beschränkt sich auf das unmittelbare Arbeitsverzeichnis.
+#
 # Parameter:
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
 #
 # Autor: 		Stefan Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
-# Stand:		2020-01-24
+# Stand:		2020-01-27
 
-echo "\n### getImageTable.sh - Stand 2020-01-24 - Initialisierung.."
+echo "\n### getImageTable.sh - Stand 2020-01-27 - Initialisierung.."
 
 ## Variablendefinition
 	articleXML="articleData.xml" 	# Quelldatei für XSL-Transformation - der Dateiname ist als static zu betrachten

@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0"	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<!-- __images.xsl___
-	Stand: 2020-01-24
-	Autor: Stefan Krug
+<!-- 
+## images.xsl
+# Die Schemadatei dient der Ermittlung von Bild-Elementen aus Wikipediaartikeln. Das HTML der Artikel wird dabei als Inhalt von article/version erwartet.
+# Um eine Stapelverarbeitung zu ermöglichen, simuliert das Schema eine Schleifenstruktur durch einen rekursiven Aufruf. Dabei werden externe Dateien durchiteriert.
+# Die Dateibezeichnungen müssen dem Schema articleData[n].xml folgen.
+# Der Prozess ist bei größeren Quelldaten sehr Speicherintensiv. Auf System mit 8 GB Ram wird eine maximales Quelldatenvolumen von 1,5 GB pro Durchlauf empfohlen.
+#
+#	- count:		Anzahl der zusätzlichen articleData[n].xml-Dateien; 0 = nur ursrüngliche articleData.xml, ohne Ziffer
+#	- directory:	Arbeitsverzeichnis.
+#
+# Autor: 		Stefan Krug
+# Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:		2020-01-27
 -->
 
 <xsl:param name="count"/>

@@ -7,10 +7,11 @@
 #			-u 		(optional) Abzurufende URL. Jede URL ist valide, die Transformation ist jedoch nur auf die Versionsgeschichten der Wikipedia ausgelegt. Bei fehlender Eingabe wird URL zur Laufzeit abgefragt.
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
 #
-# Autor: 	Stefan Krug
-# Stand:	2020-01-17
+# Autor: 		Stefan Krug
+# Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
+# Stand:		2020-01-27
 
-echo "\n### getHistory.sh - Stand 2020-01-17 - Initialisierung.."
+echo "\n### getHistory.sh - Stand 2020-01-27 - Initialisierung.."
 
 ## Variablendefinition
 	stylesheet="history.xsl"		# XSLT, muss für Transformation vorhanden sein
