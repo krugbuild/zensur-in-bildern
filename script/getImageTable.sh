@@ -12,15 +12,15 @@
 #
 # Autor: 		Stefan Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
-# Stand:		2020-01-24
+# Stand:		2020-01-27
 
-echo "\n### getImageTable.sh - Stand 2020-01-24 - Initialisierung.."
+echo "\n### getImageTable.sh - Stand 2020-01-27 - Initialisierung.."
 
 ## Variablendefinition
 	htmlFile="imageTable.html"		# Zieldatei
 	logFile="imageTable_log.txt"		# Zielpfad für das Log
 	historyXML="historyData.xml"	# Quelldatei für Metainformationen
-	imagesXML="imageData_part1.xml" # Quelldatei für Auswertung, wird duch XSLT generiert
+	imagesXML="imageData.xml" 		# Quelldatei für Auswertung, wird duch XSLT generiert
 	stylesheet="true"				# Kennzeichen, ob XSLT durchgeführt werden soll
 	imageList=""					# Variable, um auszuwertende Liste vorzuhalten
 	verzeichnis="false"			# Arbeitsverzeichnis für die zu lesenden und zu erstellenden Dateien, default "false"
@@ -71,12 +71,12 @@ echo "Ermittelte unique images: "$imageList >> $logFile
 	
 ## Zieldatei schreiben
 ## notwendige HTML-Tags anlegen, Tabellenformat definieren
-	echo "<html><head><style>table, th, td {border: 1px solid black;}</style><body>" >> $htmlFile
+	echo "<html><head><body>" >> $htmlFile
 	
 echo "Zieldatei $htmlFile initiiert." >> $logFile
 	
 ## Table öffnen und Header-Zellen 1 und 2 beschriften lassen
-	echo '<table style="background-color:aliceblue"><tr><th>ID</th><th>Datum</th>' >> $htmlFile
+	echo '<table style="background-color:D9E5E5"><tr><th>ID</th><th>Datum</th>' >> $htmlFile
 	
 ## Bilder und Alternativtext in erste Zeile schreiben
 	for image in $imageList
