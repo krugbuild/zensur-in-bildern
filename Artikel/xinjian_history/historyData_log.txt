@@ -1,0 +1,25 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Di 28. Jan 14:36:13 CET 2020 getHistory.sh - start
+-> Schemadatei history.xsl gefunden.
+-> URL zur Verarbeitung: https://zh.wikipedia.org/w/index.php?title=%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2&offset=&limit=20000&action=history 
+
+--2020-01-28 14:36:13--  https://zh.wikipedia.org/w/index.php?title=%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2&offset=&limit=20000&action=history
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »xinjian_history/historyData.html« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......... .......... 1,63M
+   100K .......... .......... .......... .......... .......... 3,09M
+   150K .......... .......... .......... .......... .......... 3,15M
+   200K .......... .......... .......... .......... .......... 5,19M
+   250K .......... .......... ..                               15,8M=0,1s
+
+2020-01-28 14:36:15 (2,26 MB/s) - »xinjian_history/historyData.html« gespeichert [279085]
+
+-> Schemadatei wird mittels xsltproc angewendet
+-> Auswertung wurde nach xinjian_history/historyData.xml geschrieben.
+Di 28. Jan 14:36:15 CET 2020 getHistory.sh - end
+
