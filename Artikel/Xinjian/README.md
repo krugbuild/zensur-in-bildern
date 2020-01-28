@@ -1,3 +1,0 @@
-- articleData.xml - 195,4 MiB (204.852.997 bytes)
-- articleData1.xml - 187,2 MiB (196.241.833 bytes)
-- historyData.html - 2,6 MiB (2.675.050 bytes)
