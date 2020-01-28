@@ -1,0 +1,18 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 19:40:37 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= xinjian
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach xinjian/imageData.xml geschrieben.
+Mo 27. Jan 19:40:38 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 19:43:47 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= xinjian
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach xinjian/imageData.xml geschrieben.
+Mo 27. Jan 19:44:01 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 19:47:52 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= xinjian
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach xinjian/imageData.xml geschrieben.
+Mo 27. Jan 19:54:53 CET 2020 getImage.sh - end
