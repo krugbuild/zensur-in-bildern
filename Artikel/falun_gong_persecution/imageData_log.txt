@@ -1,0 +1,12 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Di 28. Jan 10:05:42 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= falun_gong_persecution
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach falun_gong_persecution/imageData.xml geschrieben.
+Di 28. Jan 10:05:42 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Di 28. Jan 10:06:20 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= falun_gong_persecution
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach falun_gong_persecution/imageData.xml geschrieben.
+Di 28. Jan 10:06:30 CET 2020 getImage.sh - end

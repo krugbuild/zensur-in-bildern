@@ -1,0 +1,31 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 20:15:38 CET 2020 getHistory.sh - start
+-> Schemadatei history.xsl gefunden.
+-> URL zur Verarbeitung: https://zh.wikipedia.org/w/index.php?title=%E5%B0%8D%E6%B3%95%E8%BC%AA%E5%8A%9F%E7%9A%84%E9%8E%AE%E5%A3%93&offset=&limit=50000&action=history 
+
+--2020-01-27 20:15:38--  https://zh.wikipedia.org/w/index.php?title=%E5%B0%8D%E6%B3%95%E8%BC%AA%E5%8A%9F%E7%9A%84%E9%8E%AE%E5%A3%93&offset=&limit=50000&action=history
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »falun_gong_persecution/historyData.html« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  553K
+    50K .......... .......... .......... .......... .......... 1,71M
+   100K .......... .......... .......... .......... .......... 2,90M
+   150K .......... .......... .......... .......... .......... 3,30M
+   200K .......... .......... .......... .......... .......... 5,32M
+   250K .......... .......... .......... .......... .......... 6,10M
+   300K .......... .......... .......... .......... .......... 6,87M
+   350K .......... .......... .......... .......... .......... 9,19M
+   400K .......... .......... .......... .......... .......... 11,1M
+   450K .......... .......... .......... .......... .......... 11,5M
+   500K .......... .......... .......... .......... .......... 11,4M
+   550K .......... ...                                         13,9M=0,2s
+
+2020-01-27 20:15:41 (2,83 MB/s) - »falun_gong_persecution/historyData.html« gespeichert [576740]
+
+-> Schemadatei wird mittels xsltproc angewendet
+-> Auswertung wurde nach falun_gong_persecution/historyData.xml geschrieben.
+Mo 27. Jan 20:15:42 CET 2020 getHistory.sh - end
+
