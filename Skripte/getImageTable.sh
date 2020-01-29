@@ -12,9 +12,9 @@
 #
 # Autor: 		Stefan Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
-# Stand:		2020-01-27
+# Stand:		2020-01-29
 
-echo "\n### getImageTable.sh - Stand 2020-01-27 - Initialisierung.."
+echo "\n### getImageTable.sh - Stand 2020-01-29 - Initialisierung.."
 
 ## Variablendefinition
 	htmlFile="imageTable.html"		# Zieldatei
@@ -64,8 +64,8 @@ echo "-> definiertes Arbeitsverzeichnis= $verzeichnis" >> $logFile
 
 	fi
 
-## Bild-ID-Liste aus unique Images (prüfung auf Image-URL) erzeugen
-	imageList=$(eval 'xmllint $imagesXML -xpath "article/version/image[not(url = preceding:: url)]/@id"')
+## Bild-URL-Liste aus unique Images (prüfung auf Image-URL) erzeugen
+	imageList=$(eval 'xmllint $imagesXML -xpath "article/version/image[not(url = preceding:: url)]/url/text()"')
 	
 echo "Ermittelte unique images: "$imageList >> $logFile
 	
@@ -76,20 +76,17 @@ echo "Ermittelte unique images: "$imageList >> $logFile
 echo "Zieldatei $htmlFile initiiert." >> $logFile
 	
 ## Table öffnen und Header-Zellen 1 und 2 beschriften lassen
-	echo '<table style="background-color:D9E5E5"><tr><th>ID</th><th>Datum</th>' >> $htmlFile
+	echo '<table style="background-color:linen"><tr><th>ID</th><th>Datum</th>' >> $htmlFile
 	
 ## Bilder und Alternativtext in erste Zeile schreiben
 	for image in $imageList
 	do
-
-		# URL ermitteln, wählt den ersten Eintrag des Ergebnissatzes aus
-		url=$(eval 'xmllint $imagesXML -xpath "(article/version/image[@$image]/url/text())[1]"')		
 		
 		# Alternativtext ermitteln, wählt den ersten Eintrag des Ergebnissatzes aus
-		alt=$(eval 'xmllint $imagesXML -xpath "(article/version/image[@$image]/alt/text())[1]"')
+		alt=$(eval 'xmllint $imagesXML -xpath "(article/version/image[url=\"$image\"]/alt/text())[1]"')
 		
 		# Header-Zelle wird mit einem Bild mit 150 px Breite, Zeilenumbruch und Alternativtext befüllt
-		echo "<th><img width='150' src='https:$url'/><br/><b>$alt</b></th>" >> $htmlFile
+		echo "<th><img width='150' src='https:$image'/><br/><b>$alt</b></th>" >> $htmlFile
 		
 	done 
 		
@@ -122,21 +119,16 @@ echo "Header geschrieben." >> $logFile
 		# Date in zweite Spalte schreiben
 		echo "<td><b>"$(eval "xmllint $historyXML -xpath 'article/versions/version[$version]/date/text()'")  "</b></td>" >> $htmlFile
 		
-		# Prüfung, welche Bild-ID in dieser Version vorkommen - jeweils pro Bild in $imageList
-		for id in $imageList;
+		# Prüfung, welche Bild-URL in dieser Version vorkommen - jeweils pro Bild in $imageList
+		for image in $imageList;
 		do
 		
-			# URL des Vergleichsbildes als uid auslesen (Text des ersten Nodes aus dem Ergebnisset)
-			urlVergleich=$(eval 'xmllint $imagesXML -xpath "(article/version/image[@$id]/url/text())[1]"')
-		
-			echo "- Pruefung Version $version gegen Bild " $urlVergleich >> $logFile
+			echo "- Pruefung Version $version gegen Bild " $image >> $logFile
 			
-			# Prüfung auf Version-ID und Image-ID - bei Erfolg wird ID ausgegeben
-			vorhanden=$(eval 'xmllint $imagesXML -xpath "article/version[@$version]/image[url=\"$urlVergleich\"]/@id"')
-			
-			if  [ ! $(eval 'xmllint $imagesXML -xpath "article/version[@$version]/image[url=\"$urlVergleich\"]/@id"') = "" ]; then
+			# Prüfung, ob in aktueller Version ein Bild mit aktueller URL vorkommt
+			if [ ! $(eval 'xmllint $imagesXML -xpath "article/version[@$version]/image[url=\"$image\"]/@id"') = "" ]; then
 				
-				echo "<td>"$vorhanden"</td>" >> $htmlFile 
+				echo "<td><center>X</center></td>" >> $htmlFile 
 				
 			else
 			
