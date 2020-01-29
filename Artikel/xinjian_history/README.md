@@ -1,4 +1,4 @@
-# [Geschichte von Xinjian - 新疆歷史](https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2)
+# [Geschichte Xinjians - 新疆歷史](https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2)
 
 ## Bemerkenswerte Bilder
 
