@@ -64,7 +64,7 @@ Es können belibig viele Dateien im Format `articleData[n].xml` eingelesen werde
 - `xsltproc`: http://xmlsoft.org/XSLT/xsltproc.html
 - `find`: https://wiki.ubuntuusers.de/find/
 
-### <a name="getImageTable">[getImageTable.sh (2020-01-24)](getImageTable.sh)</a>
+### <a name="getImageTable">[getImageTable.sh (2020-01-29)](getImageTable.sh)</a>
 
 Das Skript legt eine HTML-Tabelle an, in der alle aus der Quelldatei (bzw. den Quelldateien) ermittelten Bilder allen Artikelversionen gegenübergestellt werden. Aus dieser Tabelle lässt sich somit die Entwicklung der Verwendung einzelner Bilder über den definierten Versionsverlauf nachvollziehen.
 
