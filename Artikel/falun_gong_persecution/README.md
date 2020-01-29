@@ -2,9 +2,9 @@
 
 ## Bemerkenswerte Bilder
 
-| Bild | URL | Zeitraum |
-| - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FalunDafa_Burn_tanyongjie.jpg/290px-FalunDafa_Burn_tanyongjie.jpg) | https://zh.wikipedia.org/wiki/File:FalunDafa_Burn_tanyongjie.jpg | ab [2015-02-18 (34357573)] (https://zh.wikipedia.org/w/index.php?oldid=34357573) |
+| Bild | URL | Zeitraum | Kommentar |
+| - | - | - | - |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FalunDafa_Burn_tanyongjie.jpg/290px-FalunDafa_Burn_tanyongjie.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:FalunDafa_Burn_tanyongjie.jpg) | ab [2015-02-18 (34357573)](https://zh.wikipedia.org/w/index.php?oldid=34357573) | Mehrfache Löschungen - betrifft mehrere Bilder des Artikels |
 
 *NB* Das gesamte Sub-Lemma wurde erst 2015 erstellt und weist erwartungsgemäß von Beginn an kritische Bilder auf.
 
@@ -14,7 +14,7 @@ Die Daten wurden am 28. Januar 2020 zwischen 09:51:21 Uhr und 10:02:09 Uhr CET a
 
 ## Bilddaten
 
-Die Datenverarbeitung fand am 28. Januar 2020 von 10:05:43 Uhr bis 10:09:24 Uhr CET statt. Siehe [imageData_log.txt](imageData_log.txt) sowie [imageTable_log.txt](imageTable_log.txt).
+Die Datenverarbeitung fand am 28. Januar 2020 von 10:06:20 Uhr bis 10:06:30 Uhr CET sowie am 29. Januar 2020 von 14:33:02 Uhr bis 14:34:14 Uhr CET statt. Siehe [imageData_log.txt](imageData_log.txt) sowie [imageTable_log.txt](imageTable_log.txt).
 
 Die Ergebnistabelle kann hier eingesehen werden: [imageTable.html](imageTable.html).
 
