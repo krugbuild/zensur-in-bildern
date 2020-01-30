@@ -1,0 +1,3582 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Do 30. Jan 10:51:58 CET 2020 getArticles.sh - start
+-> definiertes Arbeitsverzeichnis= democracy_party
+-> Aufruf von getHistory.sh zur Ermittlung einer ID-Liste
+-> Die IDs werden im Modus 3 im Bereich zwischen 200001010000 und 202001270000 ermittelt.
+Version https://zh.wikipedia.org/w/index.php?oldid=57370776 wird abgerufen.
+--2020-01-30 10:51:58--  https://zh.wikipedia.org/w/index.php?oldid=57370776
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ....                  1,51M=0,07s
+
+2020-01-30 10:51:58 (1,21 MB/s) - auf die Standardausgabe geschrieben [/86484]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=56822678 wird abgerufen.
+--2020-01-30 10:51:59--  https://zh.wikipedia.org/w/index.php?oldid=56822678
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .......... .......... .......... .                     1,45M=0,07s
+
+2020-01-30 10:52:00 (1,20 MB/s) - auf die Standardausgabe geschrieben [/83460]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=56553734 wird abgerufen.
+--2020-01-30 10:52:01--  https://zh.wikipedia.org/w/index.php?oldid=56553734
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .                     1,31M=0,07s
+
+2020-01-30 10:52:02 (1,19 MB/s) - auf die Standardausgabe geschrieben [/83740]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=56491288 wird abgerufen.
+--2020-01-30 10:52:02--  https://zh.wikipedia.org/w/index.php?oldid=56491288
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1023K
+    50K .......... .......... .......... .                     1,45M=0,07s
+
+2020-01-30 10:52:04 (1,14 MB/s) - auf die Standardausgabe geschrieben [/83126]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=55707604 wird abgerufen.
+--2020-01-30 10:52:04--  https://zh.wikipedia.org/w/index.php?oldid=55707604
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... ..........                       1,30M=0,07s
+
+2020-01-30 10:52:05 (1,19 MB/s) - auf die Standardausgabe geschrieben [/82860]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=55707073 wird abgerufen.
+--2020-01-30 10:52:06--  https://zh.wikipedia.org/w/index.php?oldid=55707073
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... ........                         1,25M=0,07s
+
+2020-01-30 10:52:07 (1,16 MB/s) - auf die Standardausgabe geschrieben [/80243]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=55019593 wird abgerufen.
+--2020-01-30 10:52:07--  https://zh.wikipedia.org/w/index.php?oldid=55019593
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ..........                       1,40M=0,07s
+
+2020-01-30 10:52:09 (1,18 MB/s) - auf die Standardausgabe geschrieben [/82126]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=54721263 wird abgerufen.
+--2020-01-30 10:52:09--  https://zh.wikipedia.org/w/index.php?oldid=54721263
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ..........                       1,22M=0,07s
+
+2020-01-30 10:52:10 (1,16 MB/s) - auf die Standardausgabe geschrieben [/82392]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=54351054 wird abgerufen.
+--2020-01-30 10:52:11--  https://zh.wikipedia.org/w/index.php?oldid=54351054
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  562K
+    50K .......... .......... ..........                       2,90M=0,1s
+
+2020-01-30 10:52:12 (809 KB/s) - auf die Standardausgabe geschrieben [/82232]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=53951204 wird abgerufen.
+--2020-01-30 10:52:12--  https://zh.wikipedia.org/w/index.php?oldid=53951204
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ..........                       1,39M=0,07s
+
+2020-01-30 10:52:14 (1,17 MB/s) - auf die Standardausgabe geschrieben [/82153]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=53025640 wird abgerufen.
+--2020-01-30 10:52:14--  https://zh.wikipedia.org/w/index.php?oldid=53025640
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  579K
+    50K .......... .......... .......... .......               1,44M=0,1s
+
+2020-01-30 10:52:16 (785 KB/s) - auf die Standardausgabe geschrieben [/90070]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=52259694 wird abgerufen.
+--2020-01-30 10:52:16--  https://zh.wikipedia.org/w/index.php?oldid=52259694
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ......                1,41M=0,07s
+
+2020-01-30 10:52:17 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88896]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=50481868 wird abgerufen.
+--2020-01-30 10:52:18--  https://zh.wikipedia.org/w/index.php?oldid=50481868
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......               1,47M=0,07s
+
+2020-01-30 10:52:19 (1,24 MB/s) - auf die Standardausgabe geschrieben [/89256]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=50310705 wird abgerufen.
+--2020-01-30 10:52:19--  https://zh.wikipedia.org/w/index.php?oldid=50310705
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,05M
+    50K .......... .......... .......... ......                1,45M=0,07s
+
+2020-01-30 10:52:21 (1,19 MB/s) - auf die Standardausgabe geschrieben [/89084]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=50310652 wird abgerufen.
+--2020-01-30 10:52:21--  https://zh.wikipedia.org/w/index.php?oldid=50310652
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......               1,55M=0,07s
+
+2020-01-30 10:52:22 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89115]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=50265893 wird abgerufen.
+--2020-01-30 10:52:23--  https://zh.wikipedia.org/w/index.php?oldid=50265893
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .......               1,41M=0,07s
+
+2020-01-30 10:52:24 (1,24 MB/s) - auf die Standardausgabe geschrieben [/89110]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=50265791 wird abgerufen.
+--2020-01-30 10:52:25--  https://zh.wikipedia.org/w/index.php?oldid=50265791
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... ......                1,54M=0,07s
+
+2020-01-30 10:52:26 (1,22 MB/s) - auf die Standardausgabe geschrieben [/89061]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=48434683 wird abgerufen.
+--2020-01-30 10:52:26--  https://zh.wikipedia.org/w/index.php?oldid=48434683
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,51M=0,07s
+
+2020-01-30 10:52:28 (1,22 MB/s) - auf die Standardausgabe geschrieben [/88866]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=47856321 wird abgerufen.
+--2020-01-30 10:52:28--  https://zh.wikipedia.org/w/index.php?oldid=47856321
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .......... .......... .......... ......                1,33M=0,07s
+
+2020-01-30 10:52:29 (1,18 MB/s) - auf die Standardausgabe geschrieben [/88860]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=47240851 wird abgerufen.
+--2020-01-30 10:52:30--  https://zh.wikipedia.org/w/index.php?oldid=47240851
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,54M=0,07s
+
+2020-01-30 10:52:31 (1,22 MB/s) - auf die Standardausgabe geschrieben [/88809]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=46996089 wird abgerufen.
+--2020-01-30 10:52:32--  https://zh.wikipedia.org/w/index.php?oldid=46996089
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,49M=0,07s
+
+2020-01-30 10:52:33 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87993]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=46109284 wird abgerufen.
+--2020-01-30 10:52:33--  https://zh.wikipedia.org/w/index.php?oldid=46109284
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .......... .......... .......... .....                 1,57M=0,07s
+
+2020-01-30 10:52:34 (1,24 MB/s) - auf die Standardausgabe geschrieben [/87174]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45954392 wird abgerufen.
+--2020-01-30 10:52:35--  https://zh.wikipedia.org/w/index.php?oldid=45954392
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,53M=0,07s
+
+2020-01-30 10:52:36 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87399]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45954384 wird abgerufen.
+--2020-01-30 10:52:37--  https://zh.wikipedia.org/w/index.php?oldid=45954384
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... ....                  1,40M=0,07s
+
+2020-01-30 10:52:38 (1,22 MB/s) - auf die Standardausgabe geschrieben [/86569]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45859774 wird abgerufen.
+--2020-01-30 10:52:38--  https://zh.wikipedia.org/w/index.php?oldid=45859774
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ....                  1,27M=0,07s
+
+2020-01-30 10:52:39 (1,18 MB/s) - auf die Standardausgabe geschrieben [/86371]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45841904 wird abgerufen.
+--2020-01-30 10:52:40--  https://zh.wikipedia.org/w/index.php?oldid=45841904
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ....                  1,28M=0,07s
+
+2020-01-30 10:52:41 (1,18 MB/s) - auf die Standardausgabe geschrieben [/86708]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45559348 wird abgerufen.
+--2020-01-30 10:52:42--  https://zh.wikipedia.org/w/index.php?oldid=45559348
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ....                  1,50M=0,07s
+
+2020-01-30 10:52:43 (1,21 MB/s) - auf die Standardausgabe geschrieben [/86982]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45164006 wird abgerufen.
+--2020-01-30 10:52:44--  https://zh.wikipedia.org/w/index.php?oldid=45164006
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,60M=0,07s
+
+2020-01-30 10:52:45 (1,24 MB/s) - auf die Standardausgabe geschrieben [/87702]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163529 wird abgerufen.
+--2020-01-30 10:52:45--  https://zh.wikipedia.org/w/index.php?oldid=45163529
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,59M=0,07s
+
+2020-01-30 10:52:47 (1,24 MB/s) - auf die Standardausgabe geschrieben [/87756]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163397 wird abgerufen.
+--2020-01-30 10:52:47--  https://zh.wikipedia.org/w/index.php?oldid=45163397
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .....                 1,38M=0,07s
+
+2020-01-30 10:52:48 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87874]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163327 wird abgerufen.
+--2020-01-30 10:52:49--  https://zh.wikipedia.org/w/index.php?oldid=45163327
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,53M=0,07s
+
+2020-01-30 10:52:50 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87762]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163326 wird abgerufen.
+--2020-01-30 10:52:50--  https://zh.wikipedia.org/w/index.php?oldid=45163326
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  553K
+    50K .......... .......... .......... .....                 1,67M=0,1s
+
+2020-01-30 10:52:51 (771 KB/s) - auf die Standardausgabe geschrieben [/87810]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163312 wird abgerufen.
+--2020-01-30 10:52:52--  https://zh.wikipedia.org/w/index.php?oldid=45163312
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... .....                 1,44M=0,07s
+
+2020-01-30 10:52:53 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87762]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163309 wird abgerufen.
+--2020-01-30 10:52:54--  https://zh.wikipedia.org/w/index.php?oldid=45163309
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,55M=0,07s
+
+2020-01-30 10:52:55 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87654]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163251 wird abgerufen.
+--2020-01-30 10:52:55--  https://zh.wikipedia.org/w/index.php?oldid=45163251
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,55M=0,07s
+
+2020-01-30 10:52:56 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87762]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163245 wird abgerufen.
+--2020-01-30 10:52:57--  https://zh.wikipedia.org/w/index.php?oldid=45163245
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,00M
+    50K .......... .......... .......... .....                 1,56M=0,07s
+
+2020-01-30 10:52:58 (1,18 MB/s) - auf die Standardausgabe geschrieben [/87774]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45163212 wird abgerufen.
+--2020-01-30 10:52:58--  https://zh.wikipedia.org/w/index.php?oldid=45163212
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,35M=0,07s
+
+2020-01-30 10:52:59 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87258]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45160855 wird abgerufen.
+--2020-01-30 10:53:00--  https://zh.wikipedia.org/w/index.php?oldid=45160855
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,53M=0,07s
+
+2020-01-30 10:53:01 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87744]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=45159583 wird abgerufen.
+--2020-01-30 10:53:02--  https://zh.wikipedia.org/w/index.php?oldid=45159583
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,36M=0,07s
+
+2020-01-30 10:53:03 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87249]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=44993692 wird abgerufen.
+--2020-01-30 10:53:03--  https://zh.wikipedia.org/w/index.php?oldid=44993692
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,35M=0,07s
+
+2020-01-30 10:53:04 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87918]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=44723370 wird abgerufen.
+--2020-01-30 10:53:05--  https://zh.wikipedia.org/w/index.php?oldid=44723370
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,57M=0,07s
+
+2020-01-30 10:53:06 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87496]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764926 wird abgerufen.
+--2020-01-30 10:53:06--  https://zh.wikipedia.org/w/index.php?oldid=43764926
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,58M=0,07s
+
+2020-01-30 10:53:08 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87563]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764901 wird abgerufen.
+--2020-01-30 10:53:08--  https://zh.wikipedia.org/w/index.php?oldid=43764901
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,38M=0,07s
+
+2020-01-30 10:53:09 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87617]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764892 wird abgerufen.
+--2020-01-30 10:53:10--  https://zh.wikipedia.org/w/index.php?oldid=43764892
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,42M=0,07s
+
+2020-01-30 10:53:11 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87597]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764843 wird abgerufen.
+--2020-01-30 10:53:12--  https://zh.wikipedia.org/w/index.php?oldid=43764843
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,44M=0,07s
+
+2020-01-30 10:53:13 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87514]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764789 wird abgerufen.
+--2020-01-30 10:53:13--  https://zh.wikipedia.org/w/index.php?oldid=43764789
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,05M
+    50K .......... .......... .......... .....                 1,58M=0,07s
+
+2020-01-30 10:53:15 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87504]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=43764621 wird abgerufen.
+--2020-01-30 10:53:15--  https://zh.wikipedia.org/w/index.php?oldid=43764621
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,53M=0,07s
+
+2020-01-30 10:53:16 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87317]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40856017 wird abgerufen.
+--2020-01-30 10:53:17--  https://zh.wikipedia.org/w/index.php?oldid=40856017
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... .....                 1,39M=0,07s
+
+2020-01-30 10:53:18 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87753]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848801 wird abgerufen.
+--2020-01-30 10:53:18--  https://zh.wikipedia.org/w/index.php?oldid=40848801
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  845K
+    50K .......... .......... .......... ....                  2,92M=0,07s
+
+2020-01-30 10:53:19 (1,17 MB/s) - auf die Standardausgabe geschrieben [/86932]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848503 wird abgerufen.
+--2020-01-30 10:53:20--  https://zh.wikipedia.org/w/index.php?oldid=40848503
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ....                  1,37M=0,07s
+
+2020-01-30 10:53:21 (1,21 MB/s) - auf die Standardausgabe geschrieben [/86919]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848364 wird abgerufen.
+--2020-01-30 10:53:21--  https://zh.wikipedia.org/w/index.php?oldid=40848364
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  956K
+    50K .......... .......... .......... .....                 1,74M=0,07s
+
+2020-01-30 10:53:23 (1,15 MB/s) - auf die Standardausgabe geschrieben [/87114]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848333 wird abgerufen.
+--2020-01-30 10:53:23--  https://zh.wikipedia.org/w/index.php?oldid=40848333
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,37M=0,07s
+
+2020-01-30 10:53:24 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87148]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848230 wird abgerufen.
+--2020-01-30 10:53:25--  https://zh.wikipedia.org/w/index.php?oldid=40848230
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1023K
+    50K .......... .......... .......... .......               1,52M=0,07s
+
+2020-01-30 10:53:26 (1,17 MB/s) - auf die Standardausgabe geschrieben [/89643]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40848068 wird abgerufen.
+--2020-01-30 10:53:27--  https://zh.wikipedia.org/w/index.php?oldid=40848068
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......               1,57M=0,07s
+
+2020-01-30 10:53:28 (1,24 MB/s) - auf die Standardausgabe geschrieben [/89376]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40847743 wird abgerufen.
+--2020-01-30 10:53:28--  https://zh.wikipedia.org/w/index.php?oldid=40847743
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......               1,55M=0,07s
+
+2020-01-30 10:53:30 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89171]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=40847607 wird abgerufen.
+--2020-01-30 10:53:30--  https://zh.wikipedia.org/w/index.php?oldid=40847607
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,34M=0,07s
+
+2020-01-30 10:53:31 (1,20 MB/s) - auf die Standardausgabe geschrieben [/87301]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=38954382 wird abgerufen.
+--2020-01-30 10:53:32--  https://zh.wikipedia.org/w/index.php?oldid=38954382
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,56M=0,07s
+
+2020-01-30 10:53:33 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87105]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=38791832 wird abgerufen.
+--2020-01-30 10:53:34--  https://zh.wikipedia.org/w/index.php?oldid=38791832
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,00M
+    50K .......... .......... .......... ...                   1,53M=0,07s
+
+2020-01-30 10:53:35 (1,16 MB/s) - auf die Standardausgabe geschrieben [/85788]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=36911654 wird abgerufen.
+--2020-01-30 10:53:35--  https://zh.wikipedia.org/w/index.php?oldid=36911654
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ...                   1,26M=0,07s
+
+2020-01-30 10:53:36 (1,18 MB/s) - auf die Standardausgabe geschrieben [/85326]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=36723880 wird abgerufen.
+--2020-01-30 10:53:37--  https://zh.wikipedia.org/w/index.php?oldid=36723880
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,14M
+    50K .......... .......... .......... ...                   1,22M=0,07s
+
+2020-01-30 10:53:38 (1,17 MB/s) - auf die Standardausgabe geschrieben [/85612]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=36723876 wird abgerufen.
+--2020-01-30 10:53:38--  https://zh.wikipedia.org/w/index.php?oldid=36723876
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1022K
+    50K .......... .......... .......... ...                   1,49M=0,07s
+
+2020-01-30 10:53:39 (1,15 MB/s) - auf die Standardausgabe geschrieben [/85703]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=36070335 wird abgerufen.
+--2020-01-30 10:53:40--  https://zh.wikipedia.org/w/index.php?oldid=36070335
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ...                   1,26M=0,07s
+
+2020-01-30 10:53:41 (1,17 MB/s) - auf die Standardausgabe geschrieben [/85678]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=35534367 wird abgerufen.
+--2020-01-30 10:53:42--  https://zh.wikipedia.org/w/index.php?oldid=35534367
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... ...                   1,46M=0,07s
+
+2020-01-30 10:53:43 (1,19 MB/s) - auf die Standardausgabe geschrieben [/85759]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=35531793 wird abgerufen.
+--2020-01-30 10:53:44--  https://zh.wikipedia.org/w/index.php?oldid=35531793
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... ....                  1,29M=0,07s
+
+2020-01-30 10:53:45 (1,17 MB/s) - auf die Standardausgabe geschrieben [/86035]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=35531766 wird abgerufen.
+--2020-01-30 10:53:45--  https://zh.wikipedia.org/w/index.php?oldid=35531766
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ....                  1,38M=0,07s
+
+2020-01-30 10:53:46 (1,22 MB/s) - auf die Standardausgabe geschrieben [/86725]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=34142733 wird abgerufen.
+--2020-01-30 10:53:47--  https://zh.wikipedia.org/w/index.php?oldid=34142733
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,38M=0,07s
+
+2020-01-30 10:53:48 (1,22 MB/s) - auf die Standardausgabe geschrieben [/87069]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=33839988 wird abgerufen.
+--2020-01-30 10:53:49--  https://zh.wikipedia.org/w/index.php?oldid=33839988
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ....                  1,50M=0,07s
+
+2020-01-30 10:53:50 (1,21 MB/s) - auf die Standardausgabe geschrieben [/86793]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=33294835 wird abgerufen.
+--2020-01-30 10:53:50--  https://zh.wikipedia.org/w/index.php?oldid=33294835
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .....                 1,42M=0,07s
+
+2020-01-30 10:53:51 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87228]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=32626798 wird abgerufen.
+--2020-01-30 10:53:52--  https://zh.wikipedia.org/w/index.php?oldid=32626798
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ......                1,44M=0,07s
+
+2020-01-30 10:53:53 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88551]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=31085889 wird abgerufen.
+--2020-01-30 10:53:53--  https://zh.wikipedia.org/w/index.php?oldid=31085889
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,48M=0,07s
+
+2020-01-30 10:53:54 (1,21 MB/s) - auf die Standardausgabe geschrieben [/88407]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=31085859 wird abgerufen.
+--2020-01-30 10:53:55--  https://zh.wikipedia.org/w/index.php?oldid=31085859
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  841K
+    50K .......... .......... .......... ......                2,73M=0,07s
+
+2020-01-30 10:53:56 (1,16 MB/s) - auf die Standardausgabe geschrieben [/88270]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=31081514 wird abgerufen.
+--2020-01-30 10:53:56--  https://zh.wikipedia.org/w/index.php?oldid=31081514
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ......                1,37M=0,07s
+
+2020-01-30 10:53:58 (1,22 MB/s) - auf die Standardausgabe geschrieben [/88775]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=31066198 wird abgerufen.
+--2020-01-30 10:53:58--  https://zh.wikipedia.org/w/index.php?oldid=31066198
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .....                 1,35M=0,07s
+
+2020-01-30 10:53:59 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87907]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=31009615 wird abgerufen.
+--2020-01-30 10:54:00--  https://zh.wikipedia.org/w/index.php?oldid=31009615
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ......                1,40M=0,07s
+
+2020-01-30 10:54:01 (1,22 MB/s) - auf die Standardausgabe geschrieben [/88597]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=30894666 wird abgerufen.
+--2020-01-30 10:54:01--  https://zh.wikipedia.org/w/index.php?oldid=30894666
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .......... .......... .......... .....                 1,47M=0,07s
+
+2020-01-30 10:54:02 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87927]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=30871403 wird abgerufen.
+--2020-01-30 10:54:03--  https://zh.wikipedia.org/w/index.php?oldid=30871403
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .....                 1,54M=0,07s
+
+2020-01-30 10:54:04 (1,23 MB/s) - auf die Standardausgabe geschrieben [/87775]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=30630934 wird abgerufen.
+--2020-01-30 10:54:04--  https://zh.wikipedia.org/w/index.php?oldid=30630934
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,37M=0,07s
+
+2020-01-30 10:54:05 (1,17 MB/s) - auf die Standardausgabe geschrieben [/87822]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=30630818 wird abgerufen.
+--2020-01-30 10:54:06--  https://zh.wikipedia.org/w/index.php?oldid=30630818
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ......                1,33M=0,07s
+
+2020-01-30 10:54:07 (1,20 MB/s) - auf die Standardausgabe geschrieben [/88814]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=30158689 wird abgerufen.
+--2020-01-30 10:54:08--  https://zh.wikipedia.org/w/index.php?oldid=30158689
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .....                 1,52M=0,07s
+
+2020-01-30 10:54:09 (1,21 MB/s) - auf die Standardausgabe geschrieben [/87665]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=29180120 wird abgerufen.
+--2020-01-30 10:54:09--  https://zh.wikipedia.org/w/index.php?oldid=29180120
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... ......                1,36M=0,07s
+
+2020-01-30 10:54:10 (1,21 MB/s) - auf die Standardausgabe geschrieben [/88955]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=28931083 wird abgerufen.
+--2020-01-30 10:54:11--  https://zh.wikipedia.org/w/index.php?oldid=28931083
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,52M=0,07s
+
+2020-01-30 10:54:12 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88965]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=28625081 wird abgerufen.
+--2020-01-30 10:54:12--  https://zh.wikipedia.org/w/index.php?oldid=28625081
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... .......               1,36M=0,07s
+
+2020-01-30 10:54:14 (1,20 MB/s) - auf die Standardausgabe geschrieben [/89355]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=28625053 wird abgerufen.
+--2020-01-30 10:54:14--  https://zh.wikipedia.org/w/index.php?oldid=28625053
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... ......                1,55M=0,07s
+
+2020-01-30 10:54:15 (1,22 MB/s) - auf die Standardausgabe geschrieben [/89047]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=28618155 wird abgerufen.
+--2020-01-30 10:54:16--  https://zh.wikipedia.org/w/index.php?oldid=28618155
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,53M=0,07s
+
+2020-01-30 10:54:17 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88704]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=28618141 wird abgerufen.
+--2020-01-30 10:54:17--  https://zh.wikipedia.org/w/index.php?oldid=28618141
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,55M=0,07s
+
+2020-01-30 10:54:19 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88724]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26433151 wird abgerufen.
+--2020-01-30 10:54:19--  https://zh.wikipedia.org/w/index.php?oldid=26433151
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ......                1,53M=0,07s
+
+2020-01-30 10:54:20 (1,23 MB/s) - auf die Standardausgabe geschrieben [/88571]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26386304 wird abgerufen.
+--2020-01-30 10:54:21--  https://zh.wikipedia.org/w/index.php?oldid=26386304
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......               1,43M=0,07s
+
+2020-01-30 10:54:22 (1,24 MB/s) - auf die Standardausgabe geschrieben [/89403]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26386294 wird abgerufen.
+--2020-01-30 10:54:23--  https://zh.wikipedia.org/w/index.php?oldid=26386294
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......               1,62M=0,07s
+
+2020-01-30 10:54:24 (1,25 MB/s) - auf die Standardausgabe geschrieben [/89420]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26383957 wird abgerufen.
+--2020-01-30 10:54:24--  https://zh.wikipedia.org/w/index.php?oldid=26383957
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......               1,56M=0,07s
+
+2020-01-30 10:54:25 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89436]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26242357 wird abgerufen.
+--2020-01-30 10:54:26--  https://zh.wikipedia.org/w/index.php?oldid=26242357
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  883K
+    50K .......... .......... .......... .......               1,42M=0,08s
+
+2020-01-30 10:54:27 (1,04 MB/s) - auf die Standardausgabe geschrieben [/89878]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=26050060 wird abgerufen.
+--2020-01-30 10:54:27--  https://zh.wikipedia.org/w/index.php?oldid=26050060
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: 91102 (89K) [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 56% 1,08M 0s
+    50K .......... .......... .......... ........             100% 1,61M=0,07s
+
+2020-01-30 10:54:28 (1,26 MB/s) - auf die Standardausgabe geschrieben [91102/91102]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=25966294 wird abgerufen.
+--2020-01-30 10:54:29--  https://zh.wikipedia.org/w/index.php?oldid=25966294
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... ........              1,62M=0,07s
+
+2020-01-30 10:54:30 (1,25 MB/s) - auf die Standardausgabe geschrieben [/90526]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=25965487 wird abgerufen.
+--2020-01-30 10:54:30--  https://zh.wikipedia.org/w/index.php?oldid=25965487
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ........              1,51M=0,07s
+
+2020-01-30 10:54:31 (1,26 MB/s) - auf die Standardausgabe geschrieben [/90527]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=25447667 wird abgerufen.
+--2020-01-30 10:54:32--  https://zh.wikipedia.org/w/index.php?oldid=25447667
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......               1,53M=0,07s
+
+2020-01-30 10:54:33 (1,22 MB/s) - auf die Standardausgabe geschrieben [/89538]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=25146258 wird abgerufen.
+--2020-01-30 10:54:33--  https://zh.wikipedia.org/w/index.php?oldid=25146258
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......               1,57M=0,07s
+
+2020-01-30 10:54:35 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89204]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=25146224 wird abgerufen.
+--2020-01-30 10:54:35--  https://zh.wikipedia.org/w/index.php?oldid=25146224
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......               1,54M=0,07s
+
+2020-01-30 10:54:36 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89200]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24086083 wird abgerufen.
+--2020-01-30 10:54:37--  https://zh.wikipedia.org/w/index.php?oldid=24086083
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1022K
+    50K .......... .......... .......... .......               1,57M=0,07s
+
+2020-01-30 10:54:38 (1,18 MB/s) - auf die Standardausgabe geschrieben [/89851]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048636 wird abgerufen.
+--2020-01-30 10:54:38--  https://zh.wikipedia.org/w/index.php?oldid=24048636
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... ........              1,48M=0,07s
+
+2020-01-30 10:54:39 (1,26 MB/s) - auf die Standardausgabe geschrieben [/90443]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048578 wird abgerufen.
+--2020-01-30 10:54:40--  https://zh.wikipedia.org/w/index.php?oldid=24048578
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... ........              1,60M=0,07s
+
+2020-01-30 10:54:41 (1,25 MB/s) - auf die Standardausgabe geschrieben [/90443]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048545 wird abgerufen.
+--2020-01-30 10:54:41--  https://zh.wikipedia.org/w/index.php?oldid=24048545
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......               1,23M=0,07s
+
+2020-01-30 10:54:43 (1,16 MB/s) - auf die Standardausgabe geschrieben [/89257]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048421 wird abgerufen.
+--2020-01-30 10:54:43--  https://zh.wikipedia.org/w/index.php?oldid=24048421
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,16M
+    50K .......... .......... .......... .....                 1,38M=0,07s
+
+2020-01-30 10:54:44 (1,24 MB/s) - auf die Standardausgabe geschrieben [/87294]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048354 wird abgerufen.
+--2020-01-30 10:54:45--  https://zh.wikipedia.org/w/index.php?oldid=24048354
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......               1,42M=0,07s
+
+2020-01-30 10:54:46 (1,23 MB/s) - auf die Standardausgabe geschrieben [/89263]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24048330 wird abgerufen.
+--2020-01-30 10:54:46--  https://zh.wikipedia.org/w/index.php?oldid=24048330
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......... ...        1,54M=0,07s
+
+2020-01-30 10:54:47 (1,28 MB/s) - auf die Standardausgabe geschrieben [/95892]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047368 wird abgerufen.
+--2020-01-30 10:54:48--  https://zh.wikipedia.org/w/index.php?oldid=24047368
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......... ......     1,66M=0,07s
+
+2020-01-30 10:54:49 (1,29 MB/s) - auf die Standardausgabe geschrieben [/98558]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047297 wird abgerufen.
+--2020-01-30 10:54:50--  https://zh.wikipedia.org/w/index.php?oldid=24047297
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,00M
+    50K .......... .......... .......... .......... .....      1,64M=0,08s
+
+2020-01-30 10:54:51 (1,23 MB/s) - auf die Standardausgabe geschrieben [/97574]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047287 wird abgerufen.
+--2020-01-30 10:54:51--  https://zh.wikipedia.org/w/index.php?oldid=24047287
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  909K
+    50K .......... .......... .......... .......... .....      1,51M=0,08s
+
+2020-01-30 10:54:52 (1,10 MB/s) - auf die Standardausgabe geschrieben [/97538]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047213 wird abgerufen.
+--2020-01-30 10:54:53--  https://zh.wikipedia.org/w/index.php?oldid=24047213
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......... .....      1,69M=0,07s
+
+2020-01-30 10:54:54 (1,29 MB/s) - auf die Standardausgabe geschrieben [/97438]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047175 wird abgerufen.
+--2020-01-30 10:54:54--  https://zh.wikipedia.org/w/index.php?oldid=24047175
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .......... .....      1,54M=0,07s
+
+2020-01-30 10:54:55 (1,30 MB/s) - auf die Standardausgabe geschrieben [/97342]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047165 wird abgerufen.
+--2020-01-30 10:54:56--  https://zh.wikipedia.org/w/index.php?oldid=24047165
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......... .....      1,68M=0,07s
+
+2020-01-30 10:54:57 (1,29 MB/s) - auf die Standardausgabe geschrieben [/97338]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047102 wird abgerufen.
+--2020-01-30 10:54:58--  https://zh.wikipedia.org/w/index.php?oldid=24047102
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .......... .......... ....       1,52M=0,07s
+
+2020-01-30 10:54:59 (1,29 MB/s) - auf die Standardausgabe geschrieben [/97055]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24047078 wird abgerufen.
+--2020-01-30 10:54:59--  https://zh.wikipedia.org/w/index.php?oldid=24047078
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......... ....       1,67M=0,07s
+
+2020-01-30 10:55:00 (1,28 MB/s) - auf die Standardausgabe geschrieben [/97055]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044788 wird abgerufen.
+--2020-01-30 10:55:01--  https://zh.wikipedia.org/w/index.php?oldid=24044788
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1022K
+    50K .......... .......... .......... .......... .......    1,56M=0,08s
+
+2020-01-30 10:55:02 (1,21 MB/s) - auf die Standardausgabe geschrieben [/99421]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044742 wird abgerufen.
+--2020-01-30 10:55:02--  https://zh.wikipedia.org/w/index.php?oldid=24044742
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  844K
+    50K .......... .......... .......... .......... ....       2,02M=0,08s
+
+2020-01-30 10:55:03 (1,14 MB/s) - auf die Standardausgabe geschrieben [/96754]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044593 wird abgerufen.
+--2020-01-30 10:55:04--  https://zh.wikipedia.org/w/index.php?oldid=24044593
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......... ..         1,52M=0,07s
+
+2020-01-30 10:55:05 (1,27 MB/s) - auf die Standardausgabe geschrieben [/94358]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044477 wird abgerufen.
+--2020-01-30 10:55:06--  https://zh.wikipedia.org/w/index.php?oldid=24044477
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......... .          1,52M=0,07s
+
+2020-01-30 10:55:07 (1,27 MB/s) - auf die Standardausgabe geschrieben [/93191]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044429 wird abgerufen.
+--2020-01-30 10:55:07--  https://zh.wikipedia.org/w/index.php?oldid=24044429
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .......... .          1,66M=0,07s
+
+2020-01-30 10:55:08 (1,28 MB/s) - auf die Standardausgabe geschrieben [/93186]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044273 wird abgerufen.
+--2020-01-30 10:55:09--  https://zh.wikipedia.org/w/index.php?oldid=24044273
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .......... .........             1,56M=0,07s
+
+2020-01-30 10:55:10 (1,24 MB/s) - auf die Standardausgabe geschrieben [/91935]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24044056 wird abgerufen.
+--2020-01-30 10:55:10--  https://zh.wikipedia.org/w/index.php?oldid=24044056
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .......... .......... ......                1,37M=0,07s
+
+2020-01-30 10:55:11 (1,20 MB/s) - auf die Standardausgabe geschrieben [/88089]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24043303 wird abgerufen.
+--2020-01-30 10:55:12--  https://zh.wikipedia.org/w/index.php?oldid=24043303
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... ...                   1,28M=0,07s
+
+2020-01-30 10:55:13 (1,18 MB/s) - auf die Standardausgabe geschrieben [/85621]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=24043029 wird abgerufen.
+--2020-01-30 10:55:14--  https://zh.wikipedia.org/w/index.php?oldid=24043029
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  836K
+    50K .......... .......... .......... ..                    2,71M=0,07s
+
+2020-01-30 10:55:14 (1,12 MB/s) - auf die Standardausgabe geschrieben [/84167]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=23698615 wird abgerufen.
+--2020-01-30 10:55:15--  https://zh.wikipedia.org/w/index.php?oldid=23698615
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .                     1,29M=0,07s
+
+2020-01-30 10:55:16 (1,18 MB/s) - auf die Standardausgabe geschrieben [/83963]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=23146975 wird abgerufen.
+--2020-01-30 10:55:17--  https://zh.wikipedia.org/w/index.php?oldid=23146975
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ........                         1,37M=0,07s
+
+2020-01-30 10:55:17 (1,16 MB/s) - auf die Standardausgabe geschrieben [/79919]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=22872218 wird abgerufen.
+--2020-01-30 10:55:18--  https://zh.wikipedia.org/w/index.php?oldid=22872218
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ...                              1,10M=0,06s
+
+2020-01-30 10:55:19 (1,11 MB/s) - auf die Standardausgabe geschrieben [/75020]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=21703891 wird abgerufen.
+--2020-01-30 10:55:19--  https://zh.wikipedia.org/w/index.php?oldid=21703891
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ...                              1,31M=0,06s
+
+2020-01-30 10:55:20 (1,13 MB/s) - auf die Standardausgabe geschrieben [/75090]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=21235647 wird abgerufen.
+--2020-01-30 10:55:21--  https://zh.wikipedia.org/w/index.php?oldid=21235647
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ...                              1,25M=0,06s
+
+2020-01-30 10:55:22 (1,12 MB/s) - auf die Standardausgabe geschrieben [/75274]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=20839500 wird abgerufen.
+--2020-01-30 10:55:22--  https://zh.wikipedia.org/w/index.php?oldid=20839500
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ....                             1,32M=0,06s
+
+2020-01-30 10:55:23 (1,13 MB/s) - auf die Standardausgabe geschrieben [/75935]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=20783094 wird abgerufen.
+--2020-01-30 10:55:24--  https://zh.wikipedia.org/w/index.php?oldid=20783094
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ....                             1,11M=0,07s
+
+2020-01-30 10:55:25 (1,11 MB/s) - auf die Standardausgabe geschrieben [/76219]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=20782133 wird abgerufen.
+--2020-01-30 10:55:25--  https://zh.wikipedia.org/w/index.php?oldid=20782133
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  972K
+    50K .......... .......... ....                             1,93M=0,06s
+
+2020-01-30 10:55:26 (1,14 MB/s) - auf die Standardausgabe geschrieben [/75933]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=19477940 wird abgerufen.
+--2020-01-30 10:55:27--  https://zh.wikipedia.org/w/index.php?oldid=19477940
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ....                             1,37M=0,06s
+
+2020-01-30 10:55:28 (1,15 MB/s) - auf die Standardausgabe geschrieben [/76044]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=19477919 wird abgerufen.
+--2020-01-30 10:55:28--  https://zh.wikipedia.org/w/index.php?oldid=19477919
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ....                             1,18M=0,06s
+
+2020-01-30 10:55:29 (1,14 MB/s) - auf die Standardausgabe geschrieben [/76225]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=19425779 wird abgerufen.
+--2020-01-30 10:55:29--  https://zh.wikipedia.org/w/index.php?oldid=19425779
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ....                             1,14M=0,06s
+
+2020-01-30 10:55:30 (1,13 MB/s) - auf die Standardausgabe geschrieben [/75882]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=19425765 wird abgerufen.
+--2020-01-30 10:55:31--  https://zh.wikipedia.org/w/index.php?oldid=19425765
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,05M
+    50K .......... .......... ....                             1,35M=0,06s
+
+2020-01-30 10:55:32 (1,13 MB/s) - auf die Standardausgabe geschrieben [/75860]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=19397349 wird abgerufen.
+--2020-01-30 10:55:32--  https://zh.wikipedia.org/w/index.php?oldid=19397349
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ...                              1,17M=0,06s
+
+2020-01-30 10:55:33 (1,14 MB/s) - auf die Standardausgabe geschrieben [/75478]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=18740219 wird abgerufen.
+--2020-01-30 10:55:34--  https://zh.wikipedia.org/w/index.php?oldid=18740219
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,01M
+    50K .......... .......... ...                              1,42M=0,06s
+
+2020-01-30 10:55:35 (1,11 MB/s) - auf die Standardausgabe geschrieben [/75324]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=17574672 wird abgerufen.
+--2020-01-30 10:55:35--  https://zh.wikipedia.org/w/index.php?oldid=17574672
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......... .......... 1,65M
+   100K .......... .......... .......... .......... .......    3,07M=0,09s
+
+2020-01-30 10:55:36 (1,59 MB/s) - auf die Standardausgabe geschrieben [/151434]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=17317365 wird abgerufen.
+--2020-01-30 10:55:37--  https://zh.wikipedia.org/w/index.php?oldid=17317365
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .......... .......... .......... 1,45M
+   100K .......... .......... .......... .......... .......... 3,07M
+   150K .                                                      42,4M=0,09s
+
+2020-01-30 10:55:38 (1,59 MB/s) - auf die Standardausgabe geschrieben [/155165]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=17095173 wird abgerufen.
+--2020-01-30 10:55:39--  https://zh.wikipedia.org/w/index.php?oldid=17095173
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .......... .......... .......... 1,62M
+   100K .......... .......... .......... .......... .......... 3,10M
+   150K                                                        26,0M=0,09s
+
+2020-01-30 10:55:40 (1,61 MB/s) - auf die Standardausgabe geschrieben [/154553]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=17095167 wird abgerufen.
+--2020-01-30 10:55:40--  https://zh.wikipedia.org/w/index.php?oldid=17095167
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ......                           1,24M=0,06s
+
+2020-01-30 10:55:42 (1,16 MB/s) - auf die Standardausgabe geschrieben [/78162]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16870343 wird abgerufen.
+--2020-01-30 10:55:42--  https://zh.wikipedia.org/w/index.php?oldid=16870343
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .....                            1,19M=0,06s
+
+2020-01-30 10:55:43 (1,14 MB/s) - auf die Standardausgabe geschrieben [/77703]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16803743 wird abgerufen.
+--2020-01-30 10:55:43--  https://zh.wikipedia.org/w/index.php?oldid=16803743
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ......                           1,37M=0,06s
+
+2020-01-30 10:55:44 (1,16 MB/s) - auf die Standardausgabe geschrieben [/78230]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16803739 wird abgerufen.
+--2020-01-30 10:55:45--  https://zh.wikipedia.org/w/index.php?oldid=16803739
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  964K
+    50K .......... .......... ......                           1,89M=0,07s
+
+2020-01-30 10:55:46 (1,14 MB/s) - auf die Standardausgabe geschrieben [/78237]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16672963 wird abgerufen.
+--2020-01-30 10:55:46--  https://zh.wikipedia.org/w/index.php?oldid=16672963
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ......                           1,35M=0,06s
+
+2020-01-30 10:55:47 (1,15 MB/s) - auf die Standardausgabe geschrieben [/78169]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16517220 wird abgerufen.
+--2020-01-30 10:55:48--  https://zh.wikipedia.org/w/index.php?oldid=16517220
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,10M
+    50K .......... .......... ......                           1,19M=0,07s
+
+2020-01-30 10:55:49 (1,13 MB/s) - auf die Standardausgabe geschrieben [/77949]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16517195 wird abgerufen.
+--2020-01-30 10:55:49--  https://zh.wikipedia.org/w/index.php?oldid=16517195
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  825K
+    50K .......... .......... ......                           3,14M=0,07s
+
+2020-01-30 10:55:50 (1,09 MB/s) - auf die Standardausgabe geschrieben [/78679]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466630 wird abgerufen.
+--2020-01-30 10:55:51--  https://zh.wikipedia.org/w/index.php?oldid=16466630
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ......                           1,39M=0,06s
+
+2020-01-30 10:55:52 (1,16 MB/s) - auf die Standardausgabe geschrieben [/78579]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466603 wird abgerufen.
+--2020-01-30 10:55:52--  https://zh.wikipedia.org/w/index.php?oldid=16466603
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ......                           1,31M=0,07s
+
+2020-01-30 10:55:53 (1,14 MB/s) - auf die Standardausgabe geschrieben [/78553]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466439 wird abgerufen.
+--2020-01-30 10:55:54--  https://zh.wikipedia.org/w/index.php?oldid=16466439
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ......                           1,33M=0,07s
+
+2020-01-30 10:55:55 (1,14 MB/s) - auf die Standardausgabe geschrieben [/78425]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466432 wird abgerufen.
+--2020-01-30 10:55:55--  https://zh.wikipedia.org/w/index.php?oldid=16466432
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ......                           1,41M=0,06s
+
+2020-01-30 10:55:57 (1,17 MB/s) - auf die Standardausgabe geschrieben [/78426]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466421 wird abgerufen.
+--2020-01-30 10:55:57--  https://zh.wikipedia.org/w/index.php?oldid=16466421
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  961K
+    50K .......... .......... ......                           1,65M=0,07s
+
+2020-01-30 10:55:58 (1,10 MB/s) - auf die Standardausgabe geschrieben [/78428]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466171 wird abgerufen.
+--2020-01-30 10:55:59--  https://zh.wikipedia.org/w/index.php?oldid=16466171
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .....                            1,30M=0,07s
+
+2020-01-30 10:56:00 (1,13 MB/s) - auf die Standardausgabe geschrieben [/77597]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466143 wird abgerufen.
+--2020-01-30 10:56:00--  https://zh.wikipedia.org/w/index.php?oldid=16466143
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... .....                            1,15M=0,06s
+
+2020-01-30 10:56:01 (1,14 MB/s) - auf die Standardausgabe geschrieben [/77186]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16466062 wird abgerufen.
+--2020-01-30 10:56:02--  https://zh.wikipedia.org/w/index.php?oldid=16466062
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .....                            1,17M=0,06s
+
+2020-01-30 10:56:03 (1,14 MB/s) - auf die Standardausgabe geschrieben [/77154]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16292572 wird abgerufen.
+--2020-01-30 10:56:03--  https://zh.wikipedia.org/w/index.php?oldid=16292572
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ....                             1,26M=0,07s
+
+2020-01-30 10:56:04 (1,12 MB/s) - auf die Standardausgabe geschrieben [/76464]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=16060861 wird abgerufen.
+--2020-01-30 10:56:05--  https://zh.wikipedia.org/w/index.php?oldid=16060861
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... ....                             1,14M=0,06s
+
+2020-01-30 10:56:06 (1,13 MB/s) - auf die Standardausgabe geschrieben [/76632]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15983746 wird abgerufen.
+--2020-01-30 10:56:06--  https://zh.wikipedia.org/w/index.php?oldid=15983746
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ....                             1,16M=0,06s
+
+2020-01-30 10:56:07 (1,13 MB/s) - auf die Standardausgabe geschrieben [/76548]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15983704 wird abgerufen.
+--2020-01-30 10:56:08--  https://zh.wikipedia.org/w/index.php?oldid=15983704
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ...                              1,32M=0,06s
+
+2020-01-30 10:56:09 (1,14 MB/s) - auf die Standardausgabe geschrieben [/75437]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15882250 wird abgerufen.
+--2020-01-30 10:56:09--  https://zh.wikipedia.org/w/index.php?oldid=15882250
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ...                              1,16M=0,06s
+
+2020-01-30 10:56:10 (1,13 MB/s) - auf die Standardausgabe geschrieben [/75256]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15790206 wird abgerufen.
+--2020-01-30 10:56:11--  https://zh.wikipedia.org/w/index.php?oldid=15790206
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ..                               1,28M=0,06s
+
+2020-01-30 10:56:12 (1,13 MB/s) - auf die Standardausgabe geschrieben [/74480]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15491954 wird abgerufen.
+--2020-01-30 10:56:12--  https://zh.wikipedia.org/w/index.php?oldid=15491954
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ..                               1,25M=0,06s
+
+2020-01-30 10:56:13 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74569]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15453427 wird abgerufen.
+--2020-01-30 10:56:14--  https://zh.wikipedia.org/w/index.php?oldid=15453427
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .......... .......... ..                               1,22M=0,06s
+
+2020-01-30 10:56:15 (1,12 MB/s) - auf die Standardausgabe geschrieben [/74524]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15453239 wird abgerufen.
+--2020-01-30 10:56:15--  https://zh.wikipedia.org/w/index.php?oldid=15453239
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  961K
+    50K .......... .......... ..                               1,81M=0,06s
+
+2020-01-30 10:56:16 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74525]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15453091 wird abgerufen.
+--2020-01-30 10:56:17--  https://zh.wikipedia.org/w/index.php?oldid=15453091
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ..                               1,08M=0,06s
+
+2020-01-30 10:56:17 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74244]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15451335 wird abgerufen.
+--2020-01-30 10:56:18--  https://zh.wikipedia.org/w/index.php?oldid=15451335
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ..                               1,22M=0,06s
+
+2020-01-30 10:56:19 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74070]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15441539 wird abgerufen.
+--2020-01-30 10:56:19--  https://zh.wikipedia.org/w/index.php?oldid=15441539
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ..                               1,18M=0,06s
+
+2020-01-30 10:56:20 (1,09 MB/s) - auf die Standardausgabe geschrieben [/74032]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15441507 wird abgerufen.
+--2020-01-30 10:56:21--  https://zh.wikipedia.org/w/index.php?oldid=15441507
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  961K
+    50K .......... .......... ..                               1,74M=0,06s
+
+2020-01-30 10:56:22 (1,09 MB/s) - auf die Standardausgabe geschrieben [/74035]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=15385321 wird abgerufen.
+--2020-01-30 10:56:22--  https://zh.wikipedia.org/w/index.php?oldid=15385321
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .                                1,18M=0,06s
+
+2020-01-30 10:56:24 (1,10 MB/s) - auf die Standardausgabe geschrieben [/73366]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13384087 wird abgerufen.
+--2020-01-30 10:56:24--  https://zh.wikipedia.org/w/index.php?oldid=13384087
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .......... ..                               1,09M=0,06s
+
+2020-01-30 10:56:25 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74202]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13380777 wird abgerufen.
+--2020-01-30 10:56:25--  https://zh.wikipedia.org/w/index.php?oldid=13380777
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .                                1,03M=0,06s
+
+2020-01-30 10:56:27 (1,09 MB/s) - auf die Standardausgabe geschrieben [/73414]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13279683 wird abgerufen.
+--2020-01-30 10:56:27--  https://zh.wikipedia.org/w/index.php?oldid=13279683
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ..                               1,22M=0,06s
+
+2020-01-30 10:56:28 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74115]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13279678 wird abgerufen.
+--2020-01-30 10:56:29--  https://zh.wikipedia.org/w/index.php?oldid=13279678
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... ..                               1,22M=0,06s
+
+2020-01-30 10:56:29 (1,11 MB/s) - auf die Standardausgabe geschrieben [/74037]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13279671 wird abgerufen.
+--2020-01-30 10:56:30--  https://zh.wikipedia.org/w/index.php?oldid=13279671
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... ..                               1,22M=0,06s
+
+2020-01-30 10:56:31 (1,10 MB/s) - auf die Standardausgabe geschrieben [/74081]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13279667 wird abgerufen.
+--2020-01-30 10:56:31--  https://zh.wikipedia.org/w/index.php?oldid=13279667
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... ..                               1,05M=0,06s
+
+2020-01-30 10:56:32 (1,10 MB/s) - auf die Standardausgabe geschrieben [/73806]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13279653 wird abgerufen.
+--2020-01-30 10:56:33--  https://zh.wikipedia.org/w/index.php?oldid=13279653
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... .......... .                                1,20M=0,06s
+
+2020-01-30 10:56:34 (1,11 MB/s) - auf die Standardausgabe geschrieben [/73371]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271880 wird abgerufen.
+--2020-01-30 10:56:34--  https://zh.wikipedia.org/w/index.php?oldid=13271880
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  583K
+    50K .......... .......... .                                3,03M=0,09s
+
+2020-01-30 10:56:35 (768 KB/s) - auf die Standardausgabe geschrieben [/72885]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271814 wird abgerufen.
+--2020-01-30 10:56:36--  https://zh.wikipedia.org/w/index.php?oldid=13271814
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .                                1,07M=0,06s
+
+2020-01-30 10:56:37 (1,11 MB/s) - auf die Standardausgabe geschrieben [/72853]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271801 wird abgerufen.
+--2020-01-30 10:56:37--  https://zh.wikipedia.org/w/index.php?oldid=13271801
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  965K
+    50K .......... ..........                                  1,79M=0,06s
+
+2020-01-30 10:56:38 (1,09 MB/s) - auf die Standardausgabe geschrieben [/72550]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271792 wird abgerufen.
+--2020-01-30 10:56:39--  https://zh.wikipedia.org/w/index.php?oldid=13271792
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... ..........                                  1,24M=0,06s
+
+2020-01-30 10:56:40 (1,11 MB/s) - auf die Standardausgabe geschrieben [/72657]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271772 wird abgerufen.
+--2020-01-30 10:56:40--  https://zh.wikipedia.org/w/index.php?oldid=13271772
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... .......... .                                1,27M=0,06s
+
+2020-01-30 10:56:41 (1,12 MB/s) - auf die Standardausgabe geschrieben [/72808]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271759 wird abgerufen.
+--2020-01-30 10:56:41--  https://zh.wikipedia.org/w/index.php?oldid=13271759
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .                                1,10M=0,06s
+
+2020-01-30 10:56:42 (1,11 MB/s) - auf die Standardausgabe geschrieben [/72868]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=13271744 wird abgerufen.
+--2020-01-30 10:56:43--  https://zh.wikipedia.org/w/index.php?oldid=13271744
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... .......... .                                1,02M=0,06s
+
+2020-01-30 10:56:44 (1,09 MB/s) - auf die Standardausgabe geschrieben [/72727]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12783925 wird abgerufen.
+--2020-01-30 10:56:44--  https://zh.wikipedia.org/w/index.php?oldid=12783925
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... ..........                                  1,20M=0,06s
+
+2020-01-30 10:56:45 (1,10 MB/s) - auf die Standardausgabe geschrieben [/71930]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12783910 wird abgerufen.
+--2020-01-30 10:56:46--  https://zh.wikipedia.org/w/index.php?oldid=12783910
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... ..........                                  1,22M=0,06s
+
+2020-01-30 10:56:47 (1,10 MB/s) - auf die Standardausgabe geschrieben [/71957]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12783812 wird abgerufen.
+--2020-01-30 10:56:47--  https://zh.wikipedia.org/w/index.php?oldid=12783812
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... ..........                                  1,18M=0,06s
+
+2020-01-30 10:56:48 (1,10 MB/s) - auf die Standardausgabe geschrieben [/72123]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12783794 wird abgerufen.
+--2020-01-30 10:56:49--  https://zh.wikipedia.org/w/index.php?oldid=12783794
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... ..........                                  1,06M=0,06s
+
+2020-01-30 10:56:49 (1,10 MB/s) - auf die Standardausgabe geschrieben [/72041]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12766616 wird abgerufen.
+--2020-01-30 10:56:50--  https://zh.wikipedia.org/w/index.php?oldid=12766616
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... ........                                    1,13M=0,06s
+
+2020-01-30 10:56:51 (1,08 MB/s) - auf die Standardausgabe geschrieben [/69783]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12766332 wird abgerufen.
+--2020-01-30 10:56:51--  https://zh.wikipedia.org/w/index.php?oldid=12766332
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K .......... ..                                           794K=0,06s
+
+2020-01-30 10:56:52 (1,03 MB/s) - auf die Standardausgabe geschrieben [/63624]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12766294 wird abgerufen.
+--2020-01-30 10:56:53--  https://zh.wikipedia.org/w/index.php?oldid=12766294
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,11M
+    50K .......... .                                            783K=0,06s
+
+2020-01-30 10:56:54 (1,02 MB/s) - auf die Standardausgabe geschrieben [/63120]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12766290 wird abgerufen.
+--2020-01-30 10:56:54--  https://zh.wikipedia.org/w/index.php?oldid=12766290
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... ...                                          888K=0,06s
+
+2020-01-30 10:56:55 (1,02 MB/s) - auf die Standardausgabe geschrieben [/65480]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12499850 wird abgerufen.
+--2020-01-30 10:56:56--  https://zh.wikipedia.org/w/index.php?oldid=12499850
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .......... ....                                         997K=0,06s
+
+2020-01-30 10:56:57 (1,05 MB/s) - auf die Standardausgabe geschrieben [/65660]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12499776 wird abgerufen.
+--2020-01-30 10:56:57--  https://zh.wikipedia.org/w/index.php?oldid=12499776
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .......... ..                                           976K=0,06s
+
+2020-01-30 10:56:58 (1,04 MB/s) - auf die Standardausgabe geschrieben [/64200]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12499656 wird abgerufen.
+--2020-01-30 10:56:59--  https://zh.wikipedia.org/w/index.php?oldid=12499656
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,13M
+    50K .......... .                                            728K=0,06s
+
+2020-01-30 10:56:59 (1,02 MB/s) - auf die Standardausgabe geschrieben [/62749]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12499592 wird abgerufen.
+--2020-01-30 10:57:00--  https://zh.wikipedia.org/w/index.php?oldid=12499592
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,07M
+    50K .........                                               807K=0,06s
+
+2020-01-30 10:57:01 (1,01 MB/s) - auf die Standardausgabe geschrieben [/61331]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12496878 wird abgerufen.
+--2020-01-30 10:57:01--  https://zh.wikipedia.org/w/index.php?oldid=12496878
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,12M
+    50K ......                                                  275M=0,04s
+
+2020-01-30 10:57:02 (1,27 MB/s) - auf die Standardausgabe geschrieben [/57893]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12496862 wird abgerufen.
+--2020-01-30 10:57:03--  https://zh.wikipedia.org/w/index.php?oldid=12496862
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  968K
+    50K ......                                                  130M=0,05s
+
+2020-01-30 10:57:03 (1,07 MB/s) - auf die Standardausgabe geschrieben [/57879]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12275127 wird abgerufen.
+--2020-01-30 10:57:04--  https://zh.wikipedia.org/w/index.php?oldid=12275127
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,06M
+    50K .....                                                   157M=0,05s
+
+2020-01-30 10:57:05 (1,19 MB/s) - auf die Standardausgabe geschrieben [/57329]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12058105 wird abgerufen.
+--2020-01-30 10:57:05--  https://zh.wikipedia.org/w/index.php?oldid=12058105
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,08M
+    50K .....                                                  86,7M=0,05s
+
+2020-01-30 10:57:06 (1,20 MB/s) - auf die Standardausgabe geschrieben [/56966]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12025907 wird abgerufen.
+--2020-01-30 10:57:07--  https://zh.wikipedia.org/w/index.php?oldid=12025907
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,15M
+    50K ...                                                    6162G=0,04s
+
+2020-01-30 10:57:07 (1,23 MB/s) - auf die Standardausgabe geschrieben [/54508]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=12025884 wird abgerufen.
+--2020-01-30 10:57:08--  https://zh.wikipedia.org/w/index.php?oldid=12025884
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .........  1,17M=0,04s
+
+2020-01-30 10:57:09 (1,17 MB/s) - auf die Standardausgabe geschrieben [/50368]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11469704 wird abgerufen.
+--2020-01-30 10:57:09--  https://zh.wikipedia.org/w/index.php?oldid=11469704
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .........  1,15M=0,04s
+
+2020-01-30 10:57:10 (1,15 MB/s) - auf die Standardausgabe geschrieben [/50554]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11455189 wird abgerufen.
+--2020-01-30 10:57:10--  https://zh.wikipedia.org/w/index.php?oldid=11455189
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .........  1,20M=0,04s
+
+2020-01-30 10:57:11 (1,20 MB/s) - auf die Standardausgabe geschrieben [/50417]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11455141 wird abgerufen.
+--2020-01-30 10:57:12--  https://zh.wikipedia.org/w/index.php?oldid=11455141
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,18M=0,04s
+
+2020-01-30 10:57:13 (1,18 MB/s) - auf die Standardausgabe geschrieben [/50015]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11455121 wird abgerufen.
+--2020-01-30 10:57:13--  https://zh.wikipedia.org/w/index.php?oldid=11455121
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,24M=0,04s
+
+2020-01-30 10:57:14 (1,24 MB/s) - auf die Standardausgabe geschrieben [/49943]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11455028 wird abgerufen.
+--2020-01-30 10:57:14--  https://zh.wikipedia.org/w/index.php?oldid=11455028
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,20M=0,04s
+
+2020-01-30 10:57:15 (1,20 MB/s) - auf die Standardausgabe geschrieben [/49640]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11454957 wird abgerufen.
+--2020-01-30 10:57:16--  https://zh.wikipedia.org/w/index.php?oldid=11454957
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,19M=0,04s
+
+2020-01-30 10:57:16 (1,19 MB/s) - auf die Standardausgabe geschrieben [/48767]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11291066 wird abgerufen.
+--2020-01-30 10:57:17--  https://zh.wikipedia.org/w/index.php?oldid=11291066
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,00M=0,05s
+
+2020-01-30 10:57:17 (1,00 MB/s) - auf die Standardausgabe geschrieben [/48289]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11124257 wird abgerufen.
+--2020-01-30 10:57:18--  https://zh.wikipedia.org/w/index.php?oldid=11124257
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,04M=0,04s
+
+2020-01-30 10:57:19 (1,04 MB/s) - auf die Standardausgabe geschrieben [/47890]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11120749 wird abgerufen.
+--2020-01-30 10:57:19--  https://zh.wikipedia.org/w/index.php?oldid=11120749
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,19M=0,04s
+
+2020-01-30 10:57:20 (1,19 MB/s) - auf die Standardausgabe geschrieben [/48174]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=11098490 wird abgerufen.
+--2020-01-30 10:57:21--  https://zh.wikipedia.org/w/index.php?oldid=11098490
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,13M=0,04s
+
+2020-01-30 10:57:21 (1,13 MB/s) - auf die Standardausgabe geschrieben [/48464]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=10619128 wird abgerufen.
+--2020-01-30 10:57:22--  https://zh.wikipedia.org/w/index.php?oldid=10619128
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,15M=0,04s
+
+2020-01-30 10:57:23 (1,15 MB/s) - auf die Standardausgabe geschrieben [/48660]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=10619097 wird abgerufen.
+--2020-01-30 10:57:23--  https://zh.wikipedia.org/w/index.php?oldid=10619097
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,13M=0,04s
+
+2020-01-30 10:57:24 (1,13 MB/s) - auf die Standardausgabe geschrieben [/48145]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=10619076 wird abgerufen.
+--2020-01-30 10:57:24--  https://zh.wikipedia.org/w/index.php?oldid=10619076
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,16M=0,04s
+
+2020-01-30 10:57:25 (1,16 MB/s) - auf die Standardausgabe geschrieben [/48406]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=10619047 wird abgerufen.
+--2020-01-30 10:57:26--  https://zh.wikipedia.org/w/index.php?oldid=10619047
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,14M=0,04s
+
+2020-01-30 10:57:26 (1,14 MB/s) - auf die Standardausgabe geschrieben [/48378]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9507974 wird abgerufen.
+--2020-01-30 10:57:27--  https://zh.wikipedia.org/w/index.php?oldid=9507974
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,13M=0,04s
+
+2020-01-30 10:57:28 (1,13 MB/s) - auf die Standardausgabe geschrieben [/47955]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9507946 wird abgerufen.
+--2020-01-30 10:57:28--  https://zh.wikipedia.org/w/index.php?oldid=9507946
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,15M=0,04s
+
+2020-01-30 10:57:29 (1,15 MB/s) - auf die Standardausgabe geschrieben [/48537]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9462125 wird abgerufen.
+--2020-01-30 10:57:29--  https://zh.wikipedia.org/w/index.php?oldid=9462125
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,13M=0,04s
+
+2020-01-30 10:57:30 (1,13 MB/s) - auf die Standardausgabe geschrieben [/47609]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9360968 wird abgerufen.
+--2020-01-30 10:57:30--  https://zh.wikipedia.org/w/index.php?oldid=9360968
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,20M=0,04s
+
+2020-01-30 10:57:31 (1,20 MB/s) - auf die Standardausgabe geschrieben [/46837]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9228384 wird abgerufen.
+--2020-01-30 10:57:32--  https://zh.wikipedia.org/w/index.php?oldid=9228384
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:57:33 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46803]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9200037 wird abgerufen.
+--2020-01-30 10:57:33--  https://zh.wikipedia.org/w/index.php?oldid=9200037
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,18M=0,04s
+
+2020-01-30 10:57:34 (1,18 MB/s) - auf die Standardausgabe geschrieben [/47003]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=9145303 wird abgerufen.
+--2020-01-30 10:57:34--  https://zh.wikipedia.org/w/index.php?oldid=9145303
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:57:35 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46792]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8611721 wird abgerufen.
+--2020-01-30 10:57:35--  https://zh.wikipedia.org/w/index.php?oldid=8611721
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......      984K=0,05s
+
+2020-01-30 10:57:36 (984 KB/s) - auf die Standardausgabe geschrieben [/47450]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8611568 wird abgerufen.
+--2020-01-30 10:57:37--  https://zh.wikipedia.org/w/index.php?oldid=8611568
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:57:37 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46656]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8591778 wird abgerufen.
+--2020-01-30 10:57:38--  https://zh.wikipedia.org/w/index.php?oldid=8591778
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,18M=0,04s
+
+2020-01-30 10:57:38 (1,18 MB/s) - auf die Standardausgabe geschrieben [/46666]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8590247 wird abgerufen.
+--2020-01-30 10:57:39--  https://zh.wikipedia.org/w/index.php?oldid=8590247
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:57:40 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46432]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8590122 wird abgerufen.
+--2020-01-30 10:57:40--  https://zh.wikipedia.org/w/index.php?oldid=8590122
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,17M=0,04s
+
+2020-01-30 10:57:41 (1,17 MB/s) - auf die Standardausgabe geschrieben [/47503]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=8571278 wird abgerufen.
+--2020-01-30 10:57:42--  https://zh.wikipedia.org/w/index.php?oldid=8571278
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,16M=0,04s
+
+2020-01-30 10:57:42 (1,16 MB/s) - auf die Standardausgabe geschrieben [/46920]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=7776885 wird abgerufen.
+--2020-01-30 10:57:43--  https://zh.wikipedia.org/w/index.php?oldid=7776885
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:57:44 (1,15 MB/s) - auf die Standardausgabe geschrieben [/47024]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=7776853 wird abgerufen.
+--2020-01-30 10:57:44--  https://zh.wikipedia.org/w/index.php?oldid=7776853
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,21M=0,04s
+
+2020-01-30 10:57:45 (1,21 MB/s) - auf die Standardausgabe geschrieben [/46900]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=7702873 wird abgerufen.
+--2020-01-30 10:57:45--  https://zh.wikipedia.org/w/index.php?oldid=7702873
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,21M=0,04s
+
+2020-01-30 10:57:46 (1,21 MB/s) - auf die Standardausgabe geschrieben [/46900]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=7685994 wird abgerufen.
+--2020-01-30 10:57:47--  https://zh.wikipedia.org/w/index.php?oldid=7685994
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,14M=0,04s
+
+2020-01-30 10:57:47 (1,14 MB/s) - auf die Standardausgabe geschrieben [/46774]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6884398 wird abgerufen.
+--2020-01-30 10:57:48--  https://zh.wikipedia.org/w/index.php?oldid=6884398
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,17M=0,04s
+
+2020-01-30 10:57:48 (1,17 MB/s) - auf die Standardausgabe geschrieben [/49817]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6882148 wird abgerufen.
+--2020-01-30 10:57:49--  https://zh.wikipedia.org/w/index.php?oldid=6882148
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,17M
+    50K ....                                                   7728G=0,04s
+
+2020-01-30 10:57:50 (1,27 MB/s) - auf die Standardausgabe geschrieben [/55349]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6882082 wird abgerufen.
+--2020-01-30 10:57:50--  https://zh.wikipedia.org/w/index.php?oldid=6882082
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......... 1,15M
+    50K                                                        1853G=0,04s
+
+2020-01-30 10:57:52 (1,18 MB/s) - auf die Standardausgabe geschrieben [/52195]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6743316 wird abgerufen.
+--2020-01-30 10:57:53--  https://zh.wikipedia.org/w/index.php?oldid=6743316
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,17M=0,04s
+
+2020-01-30 10:57:54 (1,17 MB/s) - auf die Standardausgabe geschrieben [/49375]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6731272 wird abgerufen.
+--2020-01-30 10:57:54--  https://zh.wikipedia.org/w/index.php?oldid=6731272
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,16M=0,04s
+
+2020-01-30 10:57:55 (1,16 MB/s) - auf die Standardausgabe geschrieben [/48897]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6730321 wird abgerufen.
+--2020-01-30 10:57:55--  https://zh.wikipedia.org/w/index.php?oldid=6730321
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,15M=0,04s
+
+2020-01-30 10:57:56 (1,15 MB/s) - auf die Standardausgabe geschrieben [/48907]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6716852 wird abgerufen.
+--2020-01-30 10:57:57--  https://zh.wikipedia.org/w/index.php?oldid=6716852
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,19M=0,04s
+
+2020-01-30 10:57:57 (1,19 MB/s) - auf die Standardausgabe geschrieben [/48988]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6558122 wird abgerufen.
+--2020-01-30 10:57:58--  https://zh.wikipedia.org/w/index.php?oldid=6558122
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,21M=0,04s
+
+2020-01-30 10:57:58 (1,21 MB/s) - auf die Standardausgabe geschrieben [/49323]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6542048 wird abgerufen.
+--2020-01-30 10:57:59--  https://zh.wikipedia.org/w/index.php?oldid=6542048
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,17M=0,04s
+
+2020-01-30 10:58:00 (1,17 MB/s) - auf die Standardausgabe geschrieben [/49334]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6333236 wird abgerufen.
+--2020-01-30 10:58:00--  https://zh.wikipedia.org/w/index.php?oldid=6333236
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ........   1,17M=0,04s
+
+2020-01-30 10:58:01 (1,17 MB/s) - auf die Standardausgabe geschrieben [/49538]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6300673 wird abgerufen.
+--2020-01-30 10:58:01--  https://zh.wikipedia.org/w/index.php?oldid=6300673
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,20M=0,04s
+
+2020-01-30 10:58:02 (1,20 MB/s) - auf die Standardausgabe geschrieben [/48752]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6300670 wird abgerufen.
+--2020-01-30 10:58:03--  https://zh.wikipedia.org/w/index.php?oldid=6300670
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,15M=0,04s
+
+2020-01-30 10:58:03 (1,15 MB/s) - auf die Standardausgabe geschrieben [/48465]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6130218 wird abgerufen.
+--2020-01-30 10:58:04--  https://zh.wikipedia.org/w/index.php?oldid=6130218
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .......    1,13M=0,04s
+
+2020-01-30 10:58:05 (1,13 MB/s) - auf die Standardausgabe geschrieben [/48293]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=6035205 wird abgerufen.
+--2020-01-30 10:58:05--  https://zh.wikipedia.org/w/index.php?oldid=6035205
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,02M=0,04s
+
+2020-01-30 10:58:06 (1,02 MB/s) - auf die Standardausgabe geschrieben [/47441]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5874357 wird abgerufen.
+--2020-01-30 10:58:06--  https://zh.wikipedia.org/w/index.php?oldid=5874357
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,23M=0,04s
+
+2020-01-30 10:58:07 (1,23 MB/s) - auf die Standardausgabe geschrieben [/48049]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5357863 wird abgerufen.
+--2020-01-30 10:58:07--  https://zh.wikipedia.org/w/index.php?oldid=5357863
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,12M=0,04s
+
+2020-01-30 10:58:08 (1,12 MB/s) - auf die Standardausgabe geschrieben [/47389]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5357856 wird abgerufen.
+--2020-01-30 10:58:09--  https://zh.wikipedia.org/w/index.php?oldid=5357856
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,14M=0,04s
+
+2020-01-30 10:58:10 (1,14 MB/s) - auf die Standardausgabe geschrieben [/46450]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5286509 wird abgerufen.
+--2020-01-30 10:58:10--  https://zh.wikipedia.org/w/index.php?oldid=5286509
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,12M=0,04s
+
+2020-01-30 10:58:11 (1,12 MB/s) - auf die Standardausgabe geschrieben [/46399]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5168098 wird abgerufen.
+--2020-01-30 10:58:11--  https://zh.wikipedia.org/w/index.php?oldid=5168098
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:58:12 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46266]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=5003400 wird abgerufen.
+--2020-01-30 10:58:12--  https://zh.wikipedia.org/w/index.php?oldid=5003400
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1009K=0,04s
+
+2020-01-30 10:58:13 (1009 KB/s) - auf die Standardausgabe geschrieben [/45910]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4928593 wird abgerufen.
+--2020-01-30 10:58:14--  https://zh.wikipedia.org/w/index.php?oldid=4928593
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,03M=0,04s
+
+2020-01-30 10:58:14 (1,03 MB/s) - auf die Standardausgabe geschrieben [/45846]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4928589 wird abgerufen.
+--2020-01-30 10:58:15--  https://zh.wikipedia.org/w/index.php?oldid=4928589
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,18M=0,04s
+
+2020-01-30 10:58:16 (1,18 MB/s) - auf die Standardausgabe geschrieben [/46034]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4906856 wird abgerufen.
+--2020-01-30 10:58:16--  https://zh.wikipedia.org/w/index.php?oldid=4906856
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,14M=0,04s
+
+2020-01-30 10:58:17 (1,14 MB/s) - auf die Standardausgabe geschrieben [/46100]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4906854 wird abgerufen.
+--2020-01-30 10:58:17--  https://zh.wikipedia.org/w/index.php?oldid=4906854
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,15M=0,04s
+
+2020-01-30 10:58:18 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46052]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4904538 wird abgerufen.
+--2020-01-30 10:58:18--  https://zh.wikipedia.org/w/index.php?oldid=4904538
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,14M=0,04s
+
+2020-01-30 10:58:19 (1,14 MB/s) - auf die Standardausgabe geschrieben [/46010]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4814810 wird abgerufen.
+--2020-01-30 10:58:20--  https://zh.wikipedia.org/w/index.php?oldid=4814810
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,19M=0,04s
+
+2020-01-30 10:58:20 (1,19 MB/s) - auf die Standardausgabe geschrieben [/46062]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4772536 wird abgerufen.
+--2020-01-30 10:58:21--  https://zh.wikipedia.org/w/index.php?oldid=4772536
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,12M=0,04s
+
+2020-01-30 10:58:22 (1,12 MB/s) - auf die Standardausgabe geschrieben [/45244]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4772523 wird abgerufen.
+--2020-01-30 10:58:22--  https://zh.wikipedia.org/w/index.php?oldid=4772523
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,17M=0,04s
+
+2020-01-30 10:58:23 (1,17 MB/s) - auf die Standardausgabe geschrieben [/46014]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4746847 wird abgerufen.
+--2020-01-30 10:58:23--  https://zh.wikipedia.org/w/index.php?oldid=4746847
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,13M=0,04s
+
+2020-01-30 10:58:24 (1,13 MB/s) - auf die Standardausgabe geschrieben [/45558]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4734564 wird abgerufen.
+--2020-01-30 10:58:25--  https://zh.wikipedia.org/w/index.php?oldid=4734564
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,18M=0,04s
+
+2020-01-30 10:58:26 (1,18 MB/s) - auf die Standardausgabe geschrieben [/47615]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615567 wird abgerufen.
+--2020-01-30 10:58:26--  https://zh.wikipedia.org/w/index.php?oldid=4615567
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,16M=0,04s
+
+2020-01-30 10:58:27 (1,16 MB/s) - auf die Standardausgabe geschrieben [/47320]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615560 wird abgerufen.
+--2020-01-30 10:58:28--  https://zh.wikipedia.org/w/index.php?oldid=4615560
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,22M=0,04s
+
+2020-01-30 10:58:28 (1,22 MB/s) - auf die Standardausgabe geschrieben [/47324]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615523 wird abgerufen.
+--2020-01-30 10:58:29--  https://zh.wikipedia.org/w/index.php?oldid=4615523
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,16M=0,04s
+
+2020-01-30 10:58:30 (1,16 MB/s) - auf die Standardausgabe geschrieben [/46933]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615508 wird abgerufen.
+--2020-01-30 10:58:30--  https://zh.wikipedia.org/w/index.php?oldid=4615508
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,17M=0,04s
+
+2020-01-30 10:58:31 (1,17 MB/s) - auf die Standardausgabe geschrieben [/46560]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615505 wird abgerufen.
+--2020-01-30 10:58:32--  https://zh.wikipedia.org/w/index.php?oldid=4615505
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,20M=0,04s
+
+2020-01-30 10:58:32 (1,20 MB/s) - auf die Standardausgabe geschrieben [/46569]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615496 wird abgerufen.
+--2020-01-30 10:58:33--  https://zh.wikipedia.org/w/index.php?oldid=4615496
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,16M=0,04s
+
+2020-01-30 10:58:33 (1,16 MB/s) - auf die Standardausgabe geschrieben [/46560]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615491 wird abgerufen.
+--2020-01-30 10:58:34--  https://zh.wikipedia.org/w/index.php?oldid=4615491
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,18M=0,04s
+
+2020-01-30 10:58:35 (1,18 MB/s) - auf die Standardausgabe geschrieben [/46460]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615485 wird abgerufen.
+--2020-01-30 10:58:35--  https://zh.wikipedia.org/w/index.php?oldid=4615485
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,12M=0,04s
+
+2020-01-30 10:58:36 (1,12 MB/s) - auf die Standardausgabe geschrieben [/45969]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4615475 wird abgerufen.
+--2020-01-30 10:58:36--  https://zh.wikipedia.org/w/index.php?oldid=4615475
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ......     1,16M=0,04s
+
+2020-01-30 10:58:37 (1,16 MB/s) - auf die Standardausgabe geschrieben [/47172]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4496231 wird abgerufen.
+--2020-01-30 10:58:38--  https://zh.wikipedia.org/w/index.php?oldid=4496231
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,14M=0,04s
+
+2020-01-30 10:58:38 (1,14 MB/s) - auf die Standardausgabe geschrieben [/46299]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4440900 wird abgerufen.
+--2020-01-30 10:58:39--  https://zh.wikipedia.org/w/index.php?oldid=4440900
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:58:40 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46413]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4430860 wird abgerufen.
+--2020-01-30 10:58:40--  https://zh.wikipedia.org/w/index.php?oldid=4430860
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,15M=0,04s
+
+2020-01-30 10:58:41 (1,15 MB/s) - auf die Standardausgabe geschrieben [/46179]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4399849 wird abgerufen.
+--2020-01-30 10:58:41--  https://zh.wikipedia.org/w/index.php?oldid=4399849
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,11M=0,04s
+
+2020-01-30 10:58:42 (1,11 MB/s) - auf die Standardausgabe geschrieben [/45532]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4296701 wird abgerufen.
+--2020-01-30 10:58:43--  https://zh.wikipedia.org/w/index.php?oldid=4296701
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,14M=0,04s
+
+2020-01-30 10:58:44 (1,14 MB/s) - auf die Standardausgabe geschrieben [/45510]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4296687 wird abgerufen.
+--2020-01-30 10:58:44--  https://zh.wikipedia.org/w/index.php?oldid=4296687
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....        993K=0,04s
+
+2020-01-30 10:58:45 (993 KB/s) - auf die Standardausgabe geschrieben [/45444]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=4173531 wird abgerufen.
+--2020-01-30 10:58:45--  https://zh.wikipedia.org/w/index.php?oldid=4173531
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,18M=0,04s
+
+2020-01-30 10:58:46 (1,18 MB/s) - auf die Standardausgabe geschrieben [/45624]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3943804 wird abgerufen.
+--2020-01-30 10:58:46--  https://zh.wikipedia.org/w/index.php?oldid=3943804
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,13M=0,04s
+
+2020-01-30 10:58:47 (1,13 MB/s) - auf die Standardausgabe geschrieben [/45444]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3934708 wird abgerufen.
+--2020-01-30 10:58:48--  https://zh.wikipedia.org/w/index.php?oldid=3934708
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,18M=0,04s
+
+2020-01-30 10:58:48 (1,18 MB/s) - auf die Standardausgabe geschrieben [/45691]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3934706 wird abgerufen.
+--2020-01-30 10:58:49--  https://zh.wikipedia.org/w/index.php?oldid=3934706
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,17M=0,04s
+
+2020-01-30 10:58:50 (1,17 MB/s) - auf die Standardausgabe geschrieben [/45665]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3917363 wird abgerufen.
+--2020-01-30 10:58:50--  https://zh.wikipedia.org/w/index.php?oldid=3917363
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,17M=0,04s
+
+2020-01-30 10:58:51 (1,17 MB/s) - auf die Standardausgabe geschrieben [/45358]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3917348 wird abgerufen.
+--2020-01-30 10:58:51--  https://zh.wikipedia.org/w/index.php?oldid=3917348
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... .....      1,16M=0,04s
+
+2020-01-30 10:58:52 (1,16 MB/s) - auf die Standardausgabe geschrieben [/46849]
+
+Version https://zh.wikipedia.org/w/index.php?oldid=3916838 wird abgerufen.
+--2020-01-30 10:58:53--  https://zh.wikipedia.org/w/index.php?oldid=3916838
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »STDOUT« gespeichert.
+
+     0K .......... .......... .......... .......... ....       1,10M=0,04s
+
+2020-01-30 10:58:53 (1,10 MB/s) - auf die Standardausgabe geschrieben [/45228]
+
+Do 30. Jan 10:58:54 CET 2020 getArticles.sh - end

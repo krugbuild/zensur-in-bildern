@@ -1,0 +1,34 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Do 30. Jan 10:03:25 CET 2020 getHistory.sh - start
+-> Schemadatei history.xsl gefunden.
+-> URL zur Verarbeitung: https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E6%B8%85%E5%9C%BA&offset=&limit=20000&action=history 
+
+--2020-01-30 10:03:25--  https://zh.wikipedia.org/w/index.php?title=%E5%85%AD%E5%9B%9B%E6%B8%85%E5%9C%BA&offset=&limit=20000&action=history
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »tiananmen_army/historyData.html« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  940K
+    50K .......... .......... .......... .......... .......... 1,32M
+   100K .......... .......... .......... .......... .......... 2,81M
+   150K .......... .......... .......... .......... .......... 2,94M
+   200K .......... .......... .......... .......... .......... 4,47M
+   250K .......... .......... .......... .......... .......... 6,43M
+   300K .......... .......... .......... .......... .......... 8,22M
+   350K .......... .......... .......... .......... .......... 10,3M
+   400K .......... .......... .......... .......... .......... 10,1M
+   450K .......... .......... .......... .......... .......... 10,6M
+   500K .......... .......... .......... .......... .......... 10,3M
+   550K .......... .......... .......... .......... .......... 9,47M
+   600K .......... .......... .......... .......... .......... 17,4M
+   650K .......... .......... .......... .......... .......... 14,3M
+   700K .......... .......... .......... .......... ..         20,3M=0,2s
+
+2020-01-30 10:03:28 (4,00 MB/s) - »tiananmen_army/historyData.html« gespeichert [759858]
+
+-> Schemadatei wird mittels xsltproc angewendet
+-> Auswertung wurde nach tiananmen_army/historyData.xml geschrieben.
+Do 30. Jan 10:03:29 CET 2020 getHistory.sh - end
+
