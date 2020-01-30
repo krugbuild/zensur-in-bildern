@@ -4,8 +4,7 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg) | [Artikel zum Bild](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) | ab [2004-03-28 (83348)](https://zh.wikipedia.org/w/index.php?oldid=83348) | War in wechselnden Auflösungen stets Bestandteil des Artikels |
-
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Umbrella_Revolution_Harcourt_Road_View_20141028.jpg/220px-Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [2014-12-16 (33624154)](https://zh.wikipedia.org/w/index.php?oldid=33624154) | Ab erster Artikelversion Bestandteil. Möglicherweise ein Auslöser für Zensur der zh ab etwa 2015. |
 
 ## Artikeldaten
 
