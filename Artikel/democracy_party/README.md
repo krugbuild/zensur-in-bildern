@@ -4,8 +4,9 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg) | [Artikel zum Bild](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) | ab [2004-03-28 (83348)](https://zh.wikipedia.org/w/index.php?oldid=83348) | War in wechselnden Auflösungen stets Bestandteil des Artikels |
+| ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg) | in verschiedenen Versionen ab [2012-12-10 (24044788)](https://zh.wikipedia.org/w/index.php?oldid=24044788) | Zeitgleich tauchen gleichartige Fotos auf und sind seitdem Bestandteil des Artikels. |
 
+Hervorhebenswert ist die aktive und aggressive Assoziation mit amerikanischen Wahrzeichen. Die unbestrittene Gegenwart dieser Bilder (einer verbotenen Partei) in der zh kann als Indiz für den Einsatz von *deep packet inspection* gesehen werden.
 
 ## Artikeldaten
 
