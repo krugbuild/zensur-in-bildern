@@ -7,5 +7,6 @@ In den Unterordnern werden finden sich die Forschungsdaten zu den untersuchten A
 | [/tankman](./tankman) | [Tankman - 坦克人](https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA) |
 | [/tiananmen_army](./tiananmen_army) | [Volksbefreiungsarmee während der Tiananmenplatzproteste - 六四清场](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%9B%9B%E6%B8%85%E5%9C%BA) |
 | [/tibet](./tibet/) | [Autonomes Gebiet Tibet - 西藏自治区](https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA) |
+| [/umbrella_movement](./umbrella_movement) | [Umbrella Movement - 雨傘運動佔領區](https://zh.wikipedia.org/wiki/%E9%9B%A8%E5%82%98%E9%81%8B%E5%8B%95%E4%BD%94%E9%A0%98%E5%8D%80) |
 | [/xinjian](./xinjian) | [Autonomes Gebiet Xinjiang - 新疆维吾尔自治区](https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E7%BB%B4%E5%90%BE%E5%B0%94%E8%87%AA%E6%B2%BB%E5%8C%BA) |
 | [/xinjian_history](./xinjian_history) | [Geschichte Xinjians - 新疆歷史](https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2) |

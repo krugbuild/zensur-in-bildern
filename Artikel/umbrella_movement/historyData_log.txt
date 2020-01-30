@@ -1,0 +1,32 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Do 30. Jan 10:07:59 CET 2020 getHistory.sh - start
+-> Schemadatei history.xsl gefunden.
+-> URL zur Verarbeitung: https://zh.wikipedia.org/w/index.php?title=%E9%9B%A8%E5%82%98%E9%81%8B%E5%8B%95%E4%BD%94%E9%A0%98%E5%8D%80&offset=&limit=20000&action=history 
+
+--2020-01-30 10:07:59--  https://zh.wikipedia.org/w/index.php?title=%E9%9B%A8%E5%82%98%E9%81%8B%E5%8B%95%E4%BD%94%E9%A0%98%E5%8D%80&offset=&limit=20000&action=history
+Auflösen des Hostnamens zh.wikipedia.org (zh.wikipedia.org) … 91.198.174.192, 2620:0:862:ed1a::1
+Verbindungsaufbau zu zh.wikipedia.org (zh.wikipedia.org)|91.198.174.192|:443 … verbunden.
+HTTP-Anforderung gesendet, auf Antwort wird gewartet … 200 OK
+Länge: nicht spezifiziert [text/html]
+Wird in »umbrella_movement/historyData.html« gespeichert.
+
+     0K .......... .......... .......... .......... ..........  549K
+    50K .......... .......... .......... .......... .......... 1,73M
+   100K .......... .......... .......... .......... .......... 2,75M
+   150K .......... .......... .......... .......... .......... 3,44M
+   200K .......... .......... .......... .......... .......... 5,50M
+   250K .......... .......... .......... .......... .......... 5,69M
+   300K .......... .......... .......... .......... .......... 7,32M
+   350K .......... .......... .......... .......... .......... 9,35M
+   400K .......... .......... .......... .......... .......... 10,7M
+   450K .......... .......... .......... .......... .......... 13,7M
+   500K .......... .......... .......... .......... .......... 12,9M
+   550K .......... .......... .......... .......... .......... 10,2M
+   600K .......... .......... .......... .........             20,8M=0,2s
+
+2020-01-30 10:08:01 (3,14 MB/s) - »umbrella_movement/historyData.html« gespeichert [655110]
+
+-> Schemadatei wird mittels xsltproc angewendet
+-> Auswertung wurde nach umbrella_movement/historyData.xml geschrieben.
+Do 30. Jan 10:08:02 CET 2020 getHistory.sh - end
+
