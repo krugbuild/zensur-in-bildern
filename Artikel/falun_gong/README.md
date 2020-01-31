@@ -4,7 +4,9 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kokbayraq_flag.svg/200px-Kokbayraq_flag.svg.png) | [Artikel zum Bild](https://zh.wikipedia.org/w/index.php?oldid=10688341#/media/File:Kokbayraq_flag.svg) | [2009-07-16 (10608859)](https://zh.wikipedia.org/w/index.php?oldid=10608859) bis [2009-07-29 (10733479 k)](https://zh.wikipedia.org/w/index.php?oldid=10733479) | TODO User anschauen |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg/300px-Falun_Gong_Shuangcheng_practice_1.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg) | mit vereinzelten Unterbrechungen ab [2014-12-22 (33683747)](https://zh.wikipedia.org/w/index.php?oldid=33683747) | Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999. Foto online ab 2007. |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg/270px-Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg) | mit vereinzelten Unterbrechungen ab [2015-02-18 (34358838)](https://zh.wikipedia.org/w/index.php?oldid=34358838) | Zerstörung von Falun Gong Büchern, 1999. Hochgeladen 2014. |
+
 
 
 ## Artikeldaten
