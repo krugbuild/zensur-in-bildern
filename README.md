@@ -11,4 +11,10 @@ Status: in Arbeit.
 
 ---
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/"><img alt="Creative Commons Lizenzvertrag" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png" /></a><br />Dieses Werk ist lizenziert unter einer <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/de/">Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz</a>.
+Die untersuchten Wikipediaartikel sowie die zugehörige Dokumentation befindet sich im Unterordner [Artikel](./Artikel).
+Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
+Der Unterordner [Dokumente](./Dokumente) dient der Sammlung aller periphären Schriften.
+
+---
+
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizensiert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Der Autor folgt hierbei der CC BY-SA-Lizensierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.
