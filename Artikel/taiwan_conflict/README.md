@@ -4,8 +4,8 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg) | [Artikel zum Bild](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) | ab [2004-03-28 (83348)](https://zh.wikipedia.org/w/index.php?oldid=83348) | War in wechselnden Auflösungen stets Bestandteil des Artikels |
-
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/TaiwanadsforUN.JPG/250px-TaiwanadsforUN.JPG) | [Artikel zum Bild](https://commons.wikimedia.org/wiki/File:TaiwanadsforUN.JPG) | ab [2014-03-16 (30709549)](https://zh.wikipedia.org/w/index.php?oldid=30709549), [2014-03-16 (30709543)](https://zh.wikipedia.org/w/index.php?oldid=30709543) - [2006-01-07 (1372386)](https://zh.wikipedia.org/w/index.php?oldid=1372386), (protestlücke?), [2006-01-07 (1372363)](https://zh.wikipedia.org/w/index.php?oldid=1372363) - [2005-07-12 (810138)](https://zh.wikipedia.org/w/index.php?oldid=810138) |  |
+|  ![National Emblem of the Republic of China.svg](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/National_Emblem_of_the_Republic_of_China.svg/100px-National_Emblem_of_the_Republic_of_China.svg.png) | [Artikel zum Bild](https://commons.wikimedia.org/wiki/File:National_Emblem_of_the_Republic_of_China.svg) | ab [2020-01-09 (57625597)](https://zh.wikipedia.org/w/index.php?oldid=57625597), [2018-04-16 (49177555)](https://zh.wikipedia.org/w/index.php?oldid=49177555) - [2018-03-30 (48897289)](https://zh.wikipedia.org/w/index.php?oldid=48897289), [2014-03-16 (30709534)](https://zh.wikipedia.org/w/index.php?oldid=30709534) - [2006-05-21 (1962218)](https://zh.wikipedia.org/w/index.php?oldid=1962218) | |
 
 ## Artikeldaten
 

@@ -1,0 +1,12 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Di 28. Jan 09:50:40 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= falun_gong
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach falun_gong/imageData.xml geschrieben.
+Di 28. Jan 09:51:08 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Di 28. Jan 09:52:06 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= falun_gong
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach falun_gong/imageData.xml geschrieben.
+Di 28. Jan 09:52:55 CET 2020 getImage.sh - end
