@@ -1,0 +1,18 @@
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 14:33:53 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= tiananmen
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach tiananmen/imageData.xml geschrieben.
+Mo 27. Jan 15:06:07 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 15:25:42 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= tiananmen
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach tiananmen/imageData.xml geschrieben.
+Mo 27. Jan 15:48:27 CET 2020 getImage.sh - end
+Linux 5.0.0-32-generic #34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019 x86_64
+Mo 27. Jan 15:52:36 CET 2020 getImage.sh - start
+-> definiertes Arbeitsverzeichnis= tiananmen
+-> Schemadatei images.xsl wird angewendet
+-> Auswertung wurde nach tiananmen/imageData.xml geschrieben.
+Mo 27. Jan 16:05:49 CET 2020 getImage.sh - end
