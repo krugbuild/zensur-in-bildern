@@ -11,6 +11,8 @@ Status: in Arbeit.
 
 ---
 
+**[[Zur Leseansicht](https://krugbuild.github.io/zensur-in-bildern/)]**
+
 Die untersuchten Wikipediaartikel sowie die zugehörige Dokumentation befindet sich im Unterordner [Artikel](./Artikel).
 Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
 Der Unterordner [Dokumente](./Dokumente) dient der Sammlung aller periphären Schriften.
