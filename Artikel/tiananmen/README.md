@@ -4,10 +4,19 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| TODO | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg) | mit vereinzelten Unterbrechungen ab [2014-12-22 (33683747)](https://zh.wikipedia.org/w/index.php?oldid=33683747) | Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999. Foto online ab 2007. |
+| ![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) | Zeiträume ohne: vor 2007-08-29; 2008-11-27 bis 2009-06-04; 2011-05-14 bis 2012-06-29; 2012-09-22 bis 2014-01-05; ab 2014-02-10 (Auftreten siehe unten) | kein Gegenstand des Artikels zw. 2012-09 und 2014-01 sowie ab 2014-02. Dateiname ist thematisch zuzuordnen |
 
-
-
+### Zeiträume - Tankman *small*
+[2014-02-10 (30132360)](https://zh.wikipedia.org/w/index.php?oldid=30132360) bis [2014-02-01 (30026967)](https://zh.wikipedia.org/w/index.php?oldid=30026967),  
+[2014-01-30 (30006261)](https://zh.wikipedia.org/w/index.php?oldid=30006261) bis [2014-01-05 (29743619)](https://zh.wikipedia.org/w/index.php?oldid=29743619),  
+[2012-09-22 (22888791)](https://zh.wikipedia.org/w/index.php?oldid=22888791) bis [2012-06-29 (21756753)](https://zh.wikipedia.org/w/index.php?oldid=21756753),  
+[2011-05-14 (16502111)](https://zh.wikipedia.org/w/index.php?oldid=16502111) bis [2009-06-19 (10359279)](https://zh.wikipedia.org/w/index.php?oldid=10359279),   
+[2011-02-14 (15751804)](https://zh.wikipedia.org/w/index.php?oldid=15751804) bis [2011-02-01 (15619053 k)](https://zh.wikipedia.org/w/index.php?oldid=15619053),  
+[2011-03-07 (15924559 k)](https://zh.wikipedia.org/w/index.php?oldid=15924559) bis [2011-02-15 (15753111)](https://zh.wikipedia.org/w/index.php?oldid=15753111),  
+[2011-02-01 (15618930 k)](https://zh.wikipedia.org/w/index.php?oldid=15618930) bis [2010-05-17 (13161083)](https://zh.wikipedia.org/w/index.php?oldid=13161083),  
+[2009-06-22 (10386552)](https://zh.wikipedia.org/w/index.php?oldid=10386552) bis [2009-06-16 (10330543)](https://zh.wikipedia.org/w/index.php?oldid=10330543),  
+[2009-06-15 (10325296)](https://zh.wikipedia.org/w/index.php?oldid=10325296) bis [2009-06-04 (10230111)](https://zh.wikipedia.org/w/index.php?oldid=10230111),  
+[2008-11-27 (8646996)](https://zh.wikipedia.org/w/index.php?oldid=8646996) bis [2007-08-29 (5009873)](https://zh.wikipedia.org/w/index.php?oldid=5009873) | |
 
 ## Artikeldaten
 

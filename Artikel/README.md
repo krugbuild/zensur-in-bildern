@@ -1,12 +1,13 @@
 In den Unterordnern werden finden sich die Forschungsdaten zu den untersuchten Artikeln. Die Ordnernamen folgen dabei den technischen Bezeichnungen, die zur Laufzeit der Skripte vergeben wurden.
 
-| Verzeichnis | Artikel |
+| lokales Verzeichnis | zugehöriger Artikel auf zh.wikipedia.org |
 | - | - |
 | [/democracy_party](./democracy_party) | [Demokratische Partei Chinas - 中国民主党](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%B0%91%E4%B8%BB%E5%85%9A) |
 | [/falun_gong](./falun_gong) | [Falun Gong - 法轮功](https://zh.wikipedia.org/wiki/%E6%B3%95%E8%BD%AE%E5%8A%9F) |
 | [/falun_gong_persecution](./falun_gong_persecution) | [Verfolgung von Falun Gong - 對法輪功的鎮壓](https://zh.wikipedia.org/wiki/%E5%B0%8D%E6%B3%95%E8%BC%AA%E5%8A%9F%E7%9A%84%E9%8E%AE%E5%A3%93)|
 | [/taiwan_conflict](./taiwan_conflict) | [Taiwan Konflikt - 臺灣問題](https://zh.wikipedia.org/wiki/%E8%87%BA%E7%81%A3%E5%95%8F%E9%A1%8C) |
 | [/tankman](./tankman) | [Tankman - 坦克人](https://zh.wikipedia.org/wiki/%E5%9D%A6%E5%85%8B%E4%BA%BA) |
+| [/tiananmen](./tiananmen) | [Tiananmen Zwischenfall - 六四事件](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6) |
 | [/tiananmen_army](./tiananmen_army) | [Volksbefreiungsarmee während der Tiananmenplatzproteste - 六四清场](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%9B%9B%E6%B8%85%E5%9C%BA) |
 | [/tibet](./tibet/) | [Autonomes Gebiet Tibet - 西藏自治区](https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA) |
 | [/umbrella_movement](./umbrella_movement) | [Umbrella Movement - 雨傘運動佔領區](https://zh.wikipedia.org/wiki/%E9%9B%A8%E5%82%98%E9%81%8B%E5%8B%95%E4%BD%94%E9%A0%98%E5%8D%80) |
