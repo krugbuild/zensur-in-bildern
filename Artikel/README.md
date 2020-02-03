@@ -26,6 +26,6 @@ Die Unterordner beinhalten regelmäßig folgende Dateien. In Einzelfällen werde
 | `historyData_log.txt` | Protokoll zum Abruf und Transformation der Artikelhistorie. |
 | `imageData.xml` | Bilddaten der Artikelhistorie im XML-Format. |
 | `imageData_log.txt` | Protokoll zur Transformation der Bilddaten der Artikelhistorie. |
-| `imageTable.html` | Auswertungsmatrix der Bilder der Artikelhistorie. |
+| `imageTable.html` | Auswertungsmatrix der Bilder der Artikelhistorie. Aufgerufen aus der [Leseansicht](https://krugbuild.github.io/zensur-in-bildern/Artikel) wird die Datei im Browser gerendert. Aus der Repositoriumsansicht heraus wird der Quelltext der Datei geöffnet. |
 | `imageTable_log.txt` | Protokoll zur Auswertungsmatrix der Bilder der Artikelhistorie. |
 | `README.md` | Dokumentation der Quellenauswertung sowie Quellenerhebung. |
