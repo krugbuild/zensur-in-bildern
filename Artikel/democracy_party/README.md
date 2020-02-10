@@ -1,12 +1,10 @@
 # [Demokratische Partei Chinas - 中国民主党](https://zh.wikipedia.org/wiki/%E4%B8%AD%E5%9B%BD%E6%B0%91%E4%B8%BB%E5%85%9A)
 
-## Bemerkenswerte Bilder
+## Auffällige Bilder
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg) | in verschiedenen Versionen ab [2012-12-10 (24044788)](https://zh.wikipedia.org/w/index.php?oldid=24044788) | Zeitgleich tauchen gleichartige Fotos auf und sind seitdem Bestandteil des Artikels. |
-
-Hervorhebenswert ist die aktive und aggressive Assoziation mit amerikanischen Wahrzeichen. Die unbestrittene Gegenwart dieser Bilder (einer verbotenen Partei) in der zh kann als Indiz für den Einsatz von *deep packet inspection* gesehen werden.
+| ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg) | in verschiedenen Versionen ab [2012-12-10 (24044788)](https://zh.wikipedia.org/w/index.php?oldid=24044788) | Zeitgleich tauchen gleichartige Fotos auf und sind seitdem Bestandteil des Artikels. Bemerkenswert ist die aktive und das Bild dominierende Inszenierung amerikanischer Wahrzeichen.<br/>Der Dateiname beinhaltet die Begriffe: `china` `democracy` `party` |
 
 ## Artikeldaten
 

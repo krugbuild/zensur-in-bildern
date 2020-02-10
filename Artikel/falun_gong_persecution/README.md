@@ -4,7 +4,7 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FalunDafa_Burn_tanyongjie.jpg/290px-FalunDafa_Burn_tanyongjie.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:FalunDafa_Burn_tanyongjie.jpg) | ab [2015-02-18 (34357573)](https://zh.wikipedia.org/w/index.php?oldid=34357573) | Mehrfache Löschungen - betrifft mehrere Bilder des Artikels |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/FalunDafa_Burn_tanyongjie.jpg/290px-FalunDafa_Burn_tanyongjie.jpg) | [Artikel zum Foto](https://commons.wikimedia.org/wiki/File:FalunDafa_Burn_tanyongjie.jpg) | ab [2015-02-18 (34357573)](https://zh.wikipedia.org/w/index.php?oldid=34357573) | Mehrfache Löschungen - betrifft mehrere Bilder des Artikels. Verfügbar seit spätestens 24.08.2008, aufgenommen voraussichtlich am 30.07.2001. |
 
 *NB* Das gesamte Sub-Lemma wurde erst 2015 erstellt und weist erwartungsgemäß von Beginn an kritische Bilder auf.
 

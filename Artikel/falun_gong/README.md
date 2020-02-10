@@ -1,13 +1,11 @@
 # [Falun Gong - 法轮功](https://zh.wikipedia.org/wiki/%E6%B3%95%E8%BD%AE%E5%8A%9F)
 
-## Bemerkenswerte Bilder
+## Auffällige Bilder
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg/300px-Falun_Gong_Shuangcheng_practice_1.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg) | mit vereinzelten Unterbrechungen ab [2014-12-22 (33683747)](https://zh.wikipedia.org/w/index.php?oldid=33683747) | Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999. Foto online ab 2007. |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg/300px-Falun_Gong_Shuangcheng_practice_1.jpg) | [Artikel zum Foto](https://commons.wikimedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg) | mit vereinzelten Unterbrechungen ab [2014-12-22 (33683747)](https://zh.wikipedia.org/w/index.php?oldid=33683747) | Falun Gong Gruppenübung in Shuangcheng, in der Provinz Heilongjiang, China, 1999. Foto online ab 2007. |
 | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg/270px-Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Destruction_d%27ouvrages_du_Falun_Gong_lors_de_la_r%C3%A9pression_de_1999_en_Chine.jpg) | mit vereinzelten Unterbrechungen ab [2015-02-18 (34358838)](https://zh.wikipedia.org/w/index.php?oldid=34358838) | Zerstörung von Falun Gong Büchern, 1999. Hochgeladen 2014. |
-
-
 
 ## Artikeldaten
 
