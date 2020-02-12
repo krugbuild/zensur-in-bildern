@@ -4,11 +4,8 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kokbayraq_flag.svg/200px-Kokbayraq_flag.svg.png) | [Artikel zum Bild](https://zh.wikipedia.org/w/index.php?oldid=10688341#/media/File:Kokbayraq_flag.svg) | [2009-07-16 (10608859)](https://zh.wikipedia.org/w/index.php?oldid=10608859) bis [2009-07-29 (10733479 k)](https://zh.wikipedia.org/w/index.php?oldid=10733479) | TODO User anschauen |
-| ![Xinjiang prfc map2.png](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Oil_well_in_Tsaidam.jpg/220px-Oil_well_in_Tsaidam.jpg) | | ab [2015-01-30 (34148230 k)](https://zh.wikipedia.org/w/index.php?oldid=34148230) | |
-| ![Xinjiang prfc map2.png](https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Xinjiang_prfc_map2.png/550px-Xinjiang_prfc_map2.png) | | ab [2015-02-04 (34203717)](https://zh.wikipedia.org/w/index.php?oldid=34203717) | |
-| ![铁木真](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Couple_selling_jade_in_Charklik._2011.jpg/220px-Couple_selling_jade_in_Charklik._2011.jpg) | | ab [2015-01-30(34148230 k)](https://zh.wikipedia.org/w/index.php?oldid=34148230) | |
-| ![新疆歷史](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mogao_Cave_61%2C_painting_of_Mount_Wutai_monasteries.jpg/180px-Mogao_Cave_61%2C_painting_of_Mount_Wutai_monasteries.jpg) | | [2010-04-26 (12979393)](https://zh.wikipedia.org/w/index.php?oldid=12979393) bis [2019-02-18 (53244297)](https://zh.wikipedia.org/w/index.php?oldid=53244297) | |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Kokbayraq_flag.svg/200px-Kokbayraq_flag.svg.png) | [Artikel zum Bild](https://zh.wikipedia.org/w/index.php?oldid=10688341#/media/File:Kokbayraq_flag.svg) | [2009-07-16 (10608859)](https://zh.wikipedia.org/w/index.php?oldid=10608859) bis [2009-07-29 (10733479 k)](https://zh.wikipedia.org/w/index.php?oldid=10733479) | Das Bild der Kokbayraq-Flagge, als Symbol der Unabhängigskeitsbewegung Ost-Turkmenistan, war nur für dreizehn Tage Bestandteil des Artikels.<br/>Der Dateiname beinhaltet die Begriffe: `flag` `kokbayraq` |
+| ![铁木真](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Genghis_khan.jpg/100px-Genghis_khan.jpg) | [Artikel zum Bild](https://zh.wikipedia.org/wiki/File:Genghis_khan.jpg) | ab [2016-05-13 (40096856)](https://zh.wikipedia.org/w/index.php?oldid=40096856) | Bild von Genghis Khan. Wird im Artikel als Symbolbild für die Geschichte der Mongolei verwendet. |					
 
 
 ## Artikeldaten

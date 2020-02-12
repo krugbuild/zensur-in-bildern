@@ -4,7 +4,9 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Umbrella_Revolution_Harcourt_Road_View_20141028.jpg/220px-Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [2014-12-16 (33624154)](https://zh.wikipedia.org/w/index.php?oldid=33624154) | Ab erster Artikelversion Bestandteil. Möglicherweise ein Auslöser für Zensur der zh ab etwa 2015. |
+| ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Umbrella_Revolution_Harcourt_Road_View_20141028.jpg/220px-Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [2014-12-16 (33624154)](https://zh.wikipedia.org/w/index.php?oldid=33624154) | Ab erster Artikelversion Bestandteil.<br/>Der Dateiname beinhaltet die Begriffe: `umbrella` `revolution` |
+
+*NB* Korrelation zwischen Aufkommen der *Umbrella Movement* und der Blockade der chinesischen Wikipedia ab etwa 2015.
 
 ## Artikeldaten
 
