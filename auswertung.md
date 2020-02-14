@@ -1,36 +1,52 @@
-# Entwurf Auswertung
+# Informationsfreiheit durch Zugangssperrung?
+
+[In Arbeit]
+
+- Im Rahmen der Studierendenproteste 1989 wurde das Mao-Portrait am Tiananmenplatz mit Farbe beworfen.
+- Respektlosigkeit ggü. Mao wird im KPC geführten China nicht toleriert (hier Beleg)
+- Das ist auch fotografisch im Wikiartikel zu den Tiananmenplatz-Protesten belegt
+
+![](https://upload.wikimedia.org/wikipedia/zh/5/5f/Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_%281989%29.jpg)
+
+> "Defacement of Mao Zedong's Portrait on the Tiananmen (1989)", 23.05.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_(1989).jpg&oldid=57366417), Lizenz: unfrei, Stand: 14.02.2020.
+
+Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Im Torbogen selbst ... #Bildbeschreibung
+
+Nach der Erstellung des Artikels zu den Tiananmenplatz Protesten in der chinesischen Wikipedia am [29. August 2007](https://zh.wikipedia.org/w/index.php?oldid=5009873) sollte es jedoch noch fast acht Jahre dauern, bis das Foto am [01. März 2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) erstmals mit in den Artikel aufgenommen wurde. Dieses (Ver-)Zögern lässt sich jedoch nicht mit mangelndem Zugang zum Digitalisat erklären, da dieses spätestens seit 2007[zur Verfügung](https://hk.news.appledaily.com/international/daily/article/20070513/7096562) stand. Vielmehr ist davon auszugehen, dass die Gegenwart des Fotos ab 2015 eine direkte Folge der Sperrung der chinesischen Wikipedia in der Volksrepublik Republik China ist.
+
+Die Erreichbarkeit beliebiger Internetseiten aus China kann über das Protal von [greatfire.org](en.greatfire.org) geprüft werden, wobei Abfragen protokolliert und anschließend in einer Kalenderansicht veröffentlicht werden. Mit Hilfe dieser [Darstellung](https://en.greatfire.org/zh.wikipedia.org) lässt sich leicht nachvollziehen, dass die chinesische Wikipedia ([zh.wikipedia.org](zh.wikipedia.org)) bis Ende 2014 von China aus erreichbar war. Vor 2015 war es chinesischen Bürgern also nicht nur möglich, auf das freie und von Freiwilligen gepflegte Lexikon Wikipedia zuzugreifen, sondern sie konnten diese aktiv mitgestalten.
+
+Gleichwohl führte dies, entgegen der Ideale der Wikipedia (TODO), nicht zu einer Demokratisierung des Wissens und foglich zu einer neutralen Informationsbasis für alle. Insbesondere von der KPC verfolgte oder für illegal erklärte Gruppen verschwanden aus der öffentlichen Darstellung.
+
+![Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg)
+
+> "Falun Gong Shuangcheng practice 1", 1999. Online: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg), Lizenz: minghui.org, Stand: 14.02.2020.
+
+
+Aufgenommen 1999, auf Wikipedia verfügbar seit 04.03.2007, im Artikel verlinkt ab 22.12.2014.
+
+
+---
+
+Bilder wie *tank man* oder Aufnahmen der Proteste in Hong Kong prägen nachhaltig unsere Vorstellung von Chinas Umgang mit Dissidenten. Ein Auflehnen gegen die Staatsführung wird nicht toleriert und die KPC sorgt mit orwellschen Methoden dafür, dass Widerspruch in der Bevölkerung garnicht erst aufkommt. So in etwa sieht die Vorstellung des chinesischen Umgangs mit Meinungsfreiheit aus. 
+
+Überhaupt sei das Internet, unser Hort der selbstbestimmten Informationsrecherche, in China ja geblockt - durch die sogenannte *Great Firewall of China*. Da erscheint es umso bemerkenswerter, dass über Jahre eine chinesische Sprachversion der Wikipedia frei im Internet zugänglich war
+
+
+Fraglich ist nun, wie sich dieser Wandel des Zugriffs auf die chinesische Wikipedia selbst ausgewirkt hat. Wie Becker in seinem Buch schreibt, kann das Internet für die meisten Chinesen als digitales Panoptikum der Selbstzensur verstanden werden. Er verweist damit auf das Zusammenspiel verschiedener sozialen Zensurmechanismen, die zu einer Selbstzensur durch das Gefühl der steten Überwachung führen. 
+
+> TODO: Textstruktur Auflockern
 
 These: Nach der Sperrung der zh.wikipedia.org in China ist die Qualität der Darstellung historischer Fakten gestiegen, da der allgemein angepeilte NPOV erreicht werden kann. Vor der Sperrung müsste der Inhalt folglich KPC-konform gewesen sein.
 Deckt sich diese These mit den Daten?
 
+These: partizipatorische Panoptikum der Selbstzensur als Triebmotor der Web 2.0 Zensur, sowie 50-cent-Armee
+
 > Eine experimentelle Untersuchung zu den Möglichkeiten von Metadaten und Quelltexten für die digitalhistorische Forschung.
 
-Zwischenerkenntnis als Aufhänger: es gab eine Parallelexistenz von KPC-kritischen Bildern, die auf den ersten Blick irritert. -> das kann nur verstanden werden, wenn der digitale Raum der Nutzergruppe völlig verstanden wird. (Paket-Inspection)
-
+Zwischenerkenntnis als Aufhänger: es gab eine Parallelexistenz von KPC-kritischen Bildern, die auf den ersten Blick irritert. -> das kann nur verstanden werden, wenn der digitale Raum der Nutzergruppe völlig verstanden wird. -> Teilung in soziale Zensur und technische Zensur
 
 ## 1. soziale Zensur im Web 2.0 (partizipatorisches Panoptikum der Selbstzensur)
-
-Die folgenden Bilder wurden während der Zeit des festlandchinesischen Zugriffs auf die chinesische Wikipedia nicht referenziert, sondern wurden erst nach der Blockade zum festen Bestandteil der zh. Wikipedia.
-
----
-
-[![Portrait of Mao Zedong damaged by paint, May 23, 1989](https://upload.wikimedia.org/wikipedia/zh/5/5f/Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_%281989%29.jpg)](./Artikel/tiananmen/README.md)
-
-Aufgenommen am 23.05.1989, auf Wikipedia verfügbar seit spätestens 16.01.2014, Digitalisat stammt vermutlich aus dem Artikel [Near June 4th, the 
-Tiananmen Mao statue was destroyed by a fire bomb](https://hk.news.appledaily.com/international/daily/article/20070513/7096562) vom 13.05.2007 der in Hong Kong ansässigen Newsseite Apple Daily.
-Tritt erst ab [01.03.2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) im Artikel zum [Tiananmen *Zwischenfall*](./Artikel/tiananmen/README.md) auf.
-
-Ressource auf zh.wikipedia.org
-
--> erneuter Vorfall auf Newsseite dokumentiert. eindeutiger Angriff auf die KPC
-
----
-
-[![Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg)](./Artikel/falun_gong/README.md)
-
-Aufgenommen 1999, auf Wikipedia verfügbar seit 04.03.2007, im Artikel verlinkt ab 22.12.2014.
-
-Öffentliche Darstellung der ... Religionspraxis?
 
 ---
 
@@ -46,11 +62,7 @@ Zuerst im Artikel [Tortured Falun Gong Practitioner Heals In Houston Hospital](h
 
 Während die bisherigen Beispiele sich insb. dadurch auszeichnen, dass kritische Bilder erst mit Abwesenheit der festlandchinesischen User überhaupt in Artikel aufgenommen wurden, zeigen die folgenden Beispiele die Mechanismen der sozialen Korrektur an Beispielen von *digitalem Ungehorsam*.
 
----
-
 Flagge: Tibet
-
----
 
 Flagge: Xinjian
 

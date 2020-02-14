@@ -26,4 +26,4 @@ Aus Gründen der Datensparsamkeit wurden folgende Prozessdaten nicht mit ins Rep
 - articleData.xml - 100,0 MiB (104.857.600 bytes)
 - historyData.html - 1,1 MiB (1.132.721 bytes)
 
-Diese Dateien enthielten nur die abgerufenen HTML-Korpora der Artikel und der Versionsgeschichte.
+  Diese Dateien enthielten nur die abgerufenen HTML-Korpora der Artikel und der Versionsgeschichte.
