@@ -75,9 +75,17 @@ Während die bisherigen Beispiele sich insb. dadurch auszeichnen, dass kritische
 
 Zwischenerkenntnis als Aufhänger: es gab eine Parallelexistenz von KPC-kritischen Bildern, die auf den ersten Blick irritert. -> das kann nur verstanden werden, wenn der digitale Raum der Nutzergruppe völlig verstanden wird. -> Teilung in soziale Zensur und technische Zensur
 
+Verbotene Gruppierungen:
+
 ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg)
 
-Bildbeschreibung.
+> "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Lizenz: CC-BY SA "CDP2006" , Stand: 18.02.2020.
+
+Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist gut die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches stark an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind verschiedene Kontaktdaten abgebildet.  
+Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von einer ... ??? Die Demokratische Partei Chinas gilt als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig geblockt werden. [vgl Becker 102 f] assoziation mit amerika -> entspricht der pro-amerikanischen, marktwirtschaftlichen ausrichtung
+
+
+
 
 Bemerkenswert: ist seit [10. Dezember 2012](https://zh.wikipedia.org/w/index.php?oldid=24044788) Bestandteil des Artikels zur *Demokratischen Partei Chinas*, die von der KPC verboten wurde. [BELEG]
 
