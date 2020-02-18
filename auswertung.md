@@ -80,7 +80,8 @@ Verbotene Gruppierungen:
 ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg)
 
 > "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Urheber: CDP2006 (CC-BY SA), Stand: 18.02.2020.  
-[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md).
+>
+> [[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md).]
 
 Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist deutlich die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind die Kontaktdaten der Partei abgebildet. Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von der politischen wie philosophischen Nähe zu den USA, zumindest in der Außendarstellung. Die Demokratische Partei Chinas gilt in China als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig zensiert werden. [^vgl Becker 102 f] 
 
