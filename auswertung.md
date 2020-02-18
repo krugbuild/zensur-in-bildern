@@ -10,7 +10,7 @@
 
 ![](https://upload.wikimedia.org/wikipedia/zh/5/5f/Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_%281989%29.jpg)
 
-> "Defacement of Mao Zedong's Portrait on the Tiananmen (1989)", 23.05.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_(1989).jpg&oldid=57366417), Lizenz: unfrei, Stand: 14.02.2020.
+> "Defacement of Mao Zedong's Portrait on the Tiananmen (1989)", 23.05.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_(1989).jpg&oldid=57366417), Urheber: unbekannt, Stand: 14.02.2020.
 
 Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Im Torbogen selbst ... #Bildbeschreibung
 
@@ -29,7 +29,7 @@ Gleichwohl führte dies, entgegen der Ideale der Wikipedia (TODO), nicht zu eine
 
 ![Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg)
 
-> "Falun Gong Shuangcheng practice 1", 1999. Online: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg), Lizenz: minghui.org, Stand: 14.02.2020.
+> "Falun Gong Shuangcheng practice 1", 1999. Online: [commons.wikimedia.org](https://commons.wikimedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg), Urheber: minghui.org, Stand: 14.02.2020.
 
 Aufgenommen 1999, auf Wikipedia verfügbar seit 04.03.2007, im Artikel verlinkt ab 22.12.2014.
 
@@ -79,24 +79,15 @@ Verbotene Gruppierungen:
 
 ![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg)
 
-> "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Lizenz: CC-BY SA "CDP2006" , Stand: 18.02.2020.
+> "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Urheber: CDP2006 (CC-BY SA), Stand: 18.02.2020.  
+[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md).
 
-Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist gut die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches stark an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind verschiedene Kontaktdaten abgebildet.  
-Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von einer ... ??? Die Demokratische Partei Chinas gilt als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig geblockt werden. [vgl Becker 102 f] assoziation mit amerika -> entspricht der pro-amerikanischen, marktwirtschaftlichen ausrichtung
+Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist deutlich die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind die Kontaktdaten der Partei abgebildet. Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von der politischen wie philosophischen Nähe zu den USA, zumindest in der Außendarstellung. Die Demokratische Partei Chinas gilt in China als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig zensiert werden. [^vgl Becker 102 f] 
 
+Bemerkenswert ist, dass dieses Foto seit [10. Dezember 2012](https://zh.wikipedia.org/w/index.php?oldid=24044788) fester Bestandteil des Artikels zur Demokratischen Partei Chinas ist. Entgegen der oben dargelegten These zur Selbstzensur der User wurde dieses Foto trotz des offenkundig pro-amerikanischen Sujets nicht gelöscht. Das "partizipatorische Panoptikum" [^vgl Goldenstein 119f ] reicht also nicht zur Erklärung der Phänomene aus. Stattdessen greifen hier vermutlich andere Mechanismen. Während die gegenseitige Kontrolle der Nutzer als Konsequenz einer Abschreckungsstrategie verstanden werden kann, ist für eine effektive Zensur im Internet die technische Zugangsbeschränkung ein weiterer Baustein. So war die chinesische Wikipedia selbst vor 2015 durchaus zugänglich, Teile derselben unterlagen jedoch weiterhin einer technischen Zensur.
 
-
-
-Bemerkenswert: ist seit [10. Dezember 2012](https://zh.wikipedia.org/w/index.php?oldid=24044788) Bestandteil des Artikels zur *Demokratischen Partei Chinas*, die von der KPC verboten wurde. [BELEG]
-
-Die bloße, offenbar unumstrittene Gegenwart des Fotos kann als Beweis gesehen werden, dass die chinesische Wikipedia selbst zwar zugänglich war, gleichzeitig aber Teile derselben weiterhin einer technischen Zensur unterzogen wurden. Unklar ist, ob es sich hier um einen **Filter auf Paket-Ebene**, oder um die Sperrung eines Artikels handelt.
-
-Ein Filter würde Anfragen, in deren Adressen gewisse Codewörter enthalten sind, ablehnen. Dem User würde die angefragte Seite oder Teile davon nicht angezeigt werden. Diese Mechanik würde auch bei diesem Bild greifen, da im Dateinamen die Begriffe `china`, `democracy` und `party` enthalten sind. Eine Identifizierung als illegal wäre unproblematisch.
-
-Alternativ ist es ebenfalls vorstellbar, dass von offizieller Seite der Artikel der Demokratischen Partei Chinas direkt geblockt wurde. Wikipedia-Artikel werden, wie alle anderen Webseiten auch, über Ihre URL aufgerufen. Die feingliederige Sperrung einzelner Artikel bei gleichzeitiger Nutzung der restlichen Plattform wäre somit technisch trivial. Einzig an etwaigen Schnittstellen wie Suchergebnissen oder Querverweisen könnten Benutzer auf *tote Links* stoßen.
-
-[[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md)]
-
-- Taiwan-Conflict
+Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, dass eine soziale Zensur durch Löschung des Bildes nicht erfolgte. Vermutlich kommen jedoch nur zwei Techniken in Frage: die **Filterung** von Internetressourcen auf Paketebene oder die **Sperrung** einzelner Adressen.  
+Bei der Filterung würden sämtliche Anfragen auf Codewörter in der Adresse überprüft und bei positivem Befund abgelehnt werden. Dies funktioniert sowohl bei kompletten Webseiten, als auch bei einzelnen Elementen. Somit würde der Browser statt der Seite eine Fehlermeldung anzeigen, bzw. würden auf einer Seite gefilterte Elemente wie Bilder einfach nicht angezeigt werden. [BELEGE] Diese Mechanik würde problemlos bei der diskutierten Fotografie greifen, da diese im Dateinamen die Begriffe `china`, `democracy` und `party` trägt. Eine Identifizierung als unerwünscht wäre somit trivial.  
+Die Blockierung bestimmter Seiten über Sperrlisten wäre eine naheliegende Alternative zur Filterung. Hierbei würde der Provider die Anfrage zunächst mit einer Sperrliste abgleichen und bei positivem Befund eine simple Fehlerseite oder gar eine Warnung anzeigen. [BELEG] Beide Methoden sind geeignet den Zugriff sowohl nur auf die Fotografie als auch auf den ganzen zugehörigen Artikel zu unterbinden und somit der Selbstkontrolle durch chinesische Bürger zu entziehen. Andere Methoden wie *deep packet inspection* sind ebenfalls vorstellbar, jedoch bei so klar adressierten Inhalten nicht notwendig.
 
 ---
