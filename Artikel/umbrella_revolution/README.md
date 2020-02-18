@@ -4,7 +4,7 @@
 
 | Bild | URL | Zeitraum | Kommentar |
 | - | - | - | - |
-| todo | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Umbrella_Revolution_Harcourt_Road_View_20141028.jpg) | [2014-12-16 (33624154)](https://zh.wikipedia.org/w/index.php?oldid=33624154) |  |
+| analog Umbrella Movement |
 
 ## Artikeldaten
 
