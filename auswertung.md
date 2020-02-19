@@ -6,6 +6,14 @@
 
 > Eine experimentelle Untersuchung zu den Möglichkeiten von Metadaten und Quelltexten für die digitalhistorische Forschung.
 
+---
+
+- sagbares definieren -> becker?
+
+---
+
+
+
 - Im Rahmen der Studierendenproteste 1989 wurde das Mao-Portrait am Tiananmenplatz mit Farbe beworfen.
 - Respektlosigkeit ggü. Mao wird im KPC geführten China nicht toleriert (hier Beleg)
 - Das ist auch fotografisch im Wikiartikel zu den Tiananmenplatz-Protesten belegt
@@ -61,21 +69,16 @@ Die Auswirkungen der partizipatorischen Selbstzensur lassen sich in der Versions
 
 Der völkerrechtliche Status Tibets ist als umstritten zu betrachten, da die tibetische Exilregierung seit den 1950er Jahren sich für die Unabhängigkeit Tibets einsetzt, während die VR China seit 1951 den Kontrollanspruch über die Region hält, die 1965 als Autonome Region Tibet in die Volksrepublik aufgenommen wurde. Trotz der postulierten Berücksichtigung der besonderen lokalen Gegebenheiten kam es in den 1980er Jahren sowie ab März 2008 vermehrt zu Demonstrationen für die Unabhängikeit Tibets. Zentrale Themen in diesem Konflikt sind eine mögliche Benachteiligung junger Tibeter gegenüber der angesiedelten Han-Chinesen, sowie die Furcht eines Autonomieverlustes durch eine direkte Anbindung an Peking durch die Qinghai-Bahn. [Vgl. Noesselt 45 f.]
 
-Ausschließlich zwischen März und August 2008 finden sich einzelne Versionen des Artikels zum Autonomen Gebiet Tibet, in denen Abbildungen der tibetischen Flagge verlinkt wurden. Diese vier Versionen wurden jeweils von anonymen Benutzern angelegt, von denen folglich nur die IP-Adresse gespeichert wurde. Dass die verwendeten IP-Adressen nach heutiger Auflösung in Polen adressiert wurden, deutet auf die Verwendung eines VPN oder Proxys zur Maskierung der eigenen Identität hin. [^siehe [Bildquellenauswertung des Artikels "Verfolgung von Falun Gong"](./Artikel/tibet/README.md)] 
+Ausschließlich zwischen März und August 2008 finden sich einzelne Versionen des Artikels zum Autonomen Gebiet Tibet, in denen Abbildungen der tibetischen Flagge verlinkt wurden. Diese vier Versionen wurden jeweils von anonymen Benutzern angelegt, von denen folglich nur die IP-Adresse gespeichert wurde. Dass die verwendeten IP-Adressen nach heutiger Auflösung in Polen adressiert wurden, deutet auf die Verwendung eines VPN oder Proxys zur Maskierung der eigenen Identität hin. [siehe [Zur Bildquellenauswertung des Artikels "Tibet"](./Artikel/tibet/README.md)]
+-> becker verweis?
 
-- Es kann also beobachtet werden, dass KPC-kritische Inhalte erst nach der Sperrung der chinesisschen Wikipedia in derselben veröffentlicht werden
-- vereinzelt wurden jedoch entsprechende Inhalte schon vor 2015 dort eingetragen, nur um direkt wieder gelöscht zu werden
+### Xinjian
 
-- Solche Muster finden sich zum Beispiel bei den Flaggen von Tibet und Ost-Turkmenistan.
-- - die Tibetische Flagge wurde nur in vier Versionen zwischen März und August 2008 gepostet
-- - jeweils zeitnah gelöscht
-- - gepostet wurde sie von nicht-angemeldeten Benutzern
+Das *neue Grenzgebiet* Xinjian ist für China insbesondere aus wirtschaftlichen Gründen von großer Bedeutung. Mit den Vorkommen an Erdöl, Erdgas und Kohle ist es für die nationale Wirtschaft ebenso wertvoll wie als internationaler Handeslplatz. Seit den 1950er Jahren verfolgt die KPC eine intensive Ansiedelung von Han-Chinesen, sodass deren Zahl mittlerweile in etwa der der größten lokalen Minderheit entspricht, der Uiguren. Neben den Uiguren gibt es noch weitere, häufig ebenfalls muslimische Minderheiten in Xinjian. Sie alle eint das wiederkehrende Konfliktthema der Benachteiligung gegenüber der angesiedelten Han-Chinesen. Trotz einer intensiven und direkten Förderung von Angehörigen von Minderheiten sind die Uiguren im Alltag häufig schlechter gestellt. Das äußert sich weiterhin in einer mangelnden Gewinnbeteiligung der Bevölkerung an der Ausbeutung der lokalen Ressourcen. Entsprechend wird Xinjian als Problemregion gesehen, was sich unter anderem in Separationsbestrebungen hin zu einem geeinten Ostturkmenistan mit den angrenzenden Turkstaaten äußert. Insbesondere in den 1980er Jahren sowie 2007 schlug dieser anhaltende Konflikt in offene Konfrontation aus. [Vgl. Noesselt 46 f. zu religiös motivierten separationsbewegungen Vgl. Hongyi in Governing, 182]
 
-[[Zur Bildquellenauswertung des Artikels "Tibet"](./Artikel/tibet/README.md)]
+Die Ausschreitungen in Urumtschi, der Hauptstadt des Autonomen Gebietes Xinjiang, im Juli 2009 wurden vermutlich durch unzureichende Untersuchungen von Übergriffen auf Uiguren ausgelöst. Infolgedessen kam es zur Eskalation und zum Einschreiten der Polizei. Um die Verbreitung von Nachrichten bzw. Gerüchten zu unterbinden, wurde ab dem 08. Juli der Zugang zu Telekommunikation und Internet gesperrt, später der Zugang zu Social Media Landesweit unterbunden. Erst ab dem 28. Juli wurden zunächst als wirtschaftlich relevant eingestufte Online-Dienste wieder zur Verfügung gestellt, andere Internetangebote erst später. [Vgl. China Unruhen in Xinjiang S 1 & 4]
 
-- Ähnliches Phänomen bei der Kokbayraq-Flagge, die als Symbol der Unabhängigkeitsbewegung Ost-Turkmentistan verstanden wird -> Provinz Xinjian
-
-[[Zur Bildquellenauswertung des Artikels "Autonomes Gebiet Xinjian"](./Artikel/xinjian/README.md)]
+Seit dem 16. Juli 2009, also nach Beginn der Internetsperre aufgrund der Ausschreitungen in Urmutschi, wurde ein Bild der Kokbayraq-Flagge, einem Symbol der Unabhängigkeitsbewegung Ostturkmenistans,  dem Artikel zum Autonomen Gebiet Xinjian hinzugefügt. Die verantwortliche Person identifiziert sich auf ihrer [User-Seite](https://zh.wikipedia.org/wiki/User:KEIM) als aus Nordamerika stammend und spricht sich unter Anderem für ein unabhängiges Ostturkmenistan aus. Gelöscht wurde das Bild erst am 29. Juli 2009, also kurze Zeit nach der Lockerung der Internetsperrung, von einem User mit chinesischer IP-Adresse. [siehe [Zur Bildquellenauswertung des Artikels "Autonomes Gebiet Xinjian"](./Artikel/xinjian/README.md)]
 
 ---
 
@@ -96,3 +99,4 @@ Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, da
 ---
 
 - Umbrella Movement als Ende des offenen Zugangs?
+- Tank man als Rückgriff auf Eröffnung?
