@@ -17,9 +17,9 @@ Die untersuchten Wikipediaartikel sowie die zugehörige Dokumentation befindet s
 Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
 Der Unterordner [Dokumente](./Dokumente) dient der Sammlung aller periphären Schriften.
 
-Zur [Auswertung](auswertung.md).
+Zur [Auswertung](Auswertung.md).
 
-Zur [Methodik](methodik.md).
+Zur [Quellenarbeit](Quellenarbeit.md).
 
 ---
 
