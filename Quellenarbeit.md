@@ -1,19 +1,24 @@
 # Quellenarbeit
 
-## Grundlagen
+Um Wikipediaartikel als Quellen in einer historiographischen Analyse zu akzeptieren, muss zunächst deren technische Struktur betrachtet werden. Eine oft wiederholte Kritik an der Eignung als Lexikon ist die Tatsache, dass Artikel von praktisch jeder Person zu jedem Zeitpunkt geändert werden können. Dies impliziert eine Unbeständigkeit des Inhalts, die Abwesenheit von Nachweissystemen und daraus folgend eine Unzuverlässigkeit des Lexikons selbst. Verschiedene Untersuchungen konnten jedoch die inhaltlichen Befürchtungen wiederholt entkräften [Vgl - diverse Artikel] und bezüglich der Nachweissysteme ist sogar das Gegenteil der Fall. Die Wikipedia basiert auf der Software Mediawiki, die als eine der zentralen Funktionen eine Versionsverwaltung für sämtliche Seiten besitzt.
 
-- Versionskontrolle bei mediawiki
+> Ein Beispiel ist auch die Wikipedia, hier erzeugt die Software nach jeder Änderung eines Artikels eine neue Version. Alle Versionen bilden in Wikipedia eine Kette, in der die letzte Version gültig ist; es sind keine Varianten vorgesehen. Da zu jedem Versionswechsel die grundlegenden Angaben wie Verfasser und Uhrzeit festgehalten werden, kann genau nachvollzogen werden, wer wann was geändert hat.
+
+[ Versionsverwaltung, in: Wikipedia, 05.02.2020. Online: <https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=196516773>, Stand: 20.02.2020. ]
+
+Jede Version verfügt zudem über eine einmalige ID, mittels derer sie eindeutig und direkt adressiert werden kann - so wie im Beleg des Zitats geschehen. Da jedoch jede Änderung an einem Artikel eine neue Version generiert, unabhängig vom Ausmaß der Änderung, sind die Unterschiede zwischen benachbarten Versionen erwartungsgemäß gering. Die Herausforderung des Quellenbezugs und der -Aufbereitung liegt somit in der Verwaltung der anfallenden Datenmengen und der Auswahl von relevanten Fragmenten.
 
 ## Methodik
 
-- Bilder als gut zu identifizierende Informationsträger
+Um Veränderungen über größere Zeiträume nachvollziehen zu können, ohne sich auf jeweils winzige sprachliche Veränderungen je Versionssprung beziehen zu müssen, bietet es sich an, die Verwendung von Bildern in Artikeln zu analysieren. Im Gegensatz zum Text eines Artikels, der sich durchaus hochfrequent mit kleinen Änderungen Entwickeln kann, ohne dass sich dabei der Sinngehalt signifikant ändert, sind Bilder relativ stabile Sinnträger. [???] Bilder werden im Mediawiki technisch wie Artikel behandelt, also werden auch bei ihnen sämtliche Änderungen gespeichert - gleichwohl sind diese eher die Ausnahme. Bilder werden im HTML eines Artikels zwangsläufig mittels `<img>`-Tag eingebunden und sind damit über eine simple Mustererkennung zu identifizieren. Die inhaltliche Bewertung wird folglich über die Gegenwart oder Abwesenheit eines bestimmten Bildes in einer bestimmten Version durchgeführt. Diese Annäherung an den Untersuchungsgegenstand über den Quelltext der einzelnen Artikeln ermöglicht es zudem, die Analyse unabhängig von spezialisierten Sprachkenntnissen durchzuführen, da das auszuwertende HTML normiert ist. 
 
-- addressierung technischer Elemente wie Bildern im Mediawiki stets in lateinischen buchstaben bzw durch entsprechende tags
+TODO:
 
-  - dadurch automatisiertes zusammentragen möglich
-  - keine sprachkenntnisse in chinesisch benötigt
+- vorgehen über skripte
+- normalisierung der daten, um diese maschinenlesbar zu machen
+- aufbereitung der ergebnisse in eine menschenlesbare form
 
-## <a name="exemplarischer-ablauf">Exemplarischer Ablauf</a>
+## Exemplarischer Ablauf
 
 Die im Folgenden genannten Skripte finden sich im Unterordner [~/Skripte](./Skripte) und sind in der zugehörigen ReadMe-Datei sowie im Quelltextkommentar ausführlich beschrieben. Weiterhin ist dort der idealtypische Ablauf des Datenabraufs in aller Kürze dargestellt.
 
@@ -65,10 +70,12 @@ Das Ergebnis dieses Prozesses sind die folgenden beiden Dateien:
 
 > Screenshot der Datei imageTable.html (Auszug) des Artikels Autonome Region Tibet, bearbeitet, 20.02.2020.
 
-In den ersten beiden Spalten der Tabelle finden sich die ID der einzelnen Versionen und das Datum der Version. Über die ID kann die Version eindeutig identifiziert und aufgerufen werden. Wenn die Version als *kleine Änderung* vermerkt wurde, ist hinter der ID ein *k* notiert. Es folgen die Spalten für die Bilder des Artikels. Die Anzahl ist je nach Artikel und untersuchtem Zeitraum unterschiedlich. Vermeintliche Dopplungen sind regelmäßig zu beobachten, jedoch handelt es sich dabei technisch um unterschiedliche Bilder. Der Algorithmus unterscheidet die Bilder nach ihrer URL; Sobald also ein Bild durch eine Variation (zum Beispiel durch ein Bild mit reduzierter Größe) des selben Bildes ersetzt wird, werden in der Tabelle beide Bilder angezeigt. Die letzten Spalten zeigen den Zeitpunkt des Eintrages, den verantwortlichen Benutzer bzw. IP-Adresse sowie eventuelle Kommentare zur Version. Wenn ein Bild in einer Version vorkommt, dann ist dies durch ein *x* markiert, zudem ist die betreffende Zelle farblich hinterlegt. Über diese Markierungen lassen sich die Verläufe der Bildzuordnungen über längere Zeiträume nachvollziehen.
+In den ersten beiden Spalten der Tabelle finden sich die ID der einzelnen Versionen und das Datum der Version. Über die ID kann die Version eindeutig identifiziert und aufgerufen werden. Wenn die Version als *kleine Änderung* vermerkt wurde, ist hinter der ID ein *k* notiert. Es folgen die Spalten für die Bilder des Artikels. Die Anzahl ist je nach Artikel und untersuchtem Zeitraum unterschiedlich. Vermeintliche Dopplungen sind regelmäßig zu beobachten, jedoch handelt es sich dabei technisch um unterschiedliche Bilder. Der Algorithmus unterscheidet die Bilder nach ihrer URL; Sobald also ein Bild durch eine Variation (zum Beispiel durch ein Bild mit reduzierter Größe) des selben Bildes ersetzt wird, werden in der Tabelle beide Bilder angezeigt. Die letzten Spalten zeigen den Zeitpunkt des Eintrages, den verantwortlichen Benutzer bzw. IP-Adresse sowie eventuelle Kommentare zur Version. Wenn ein Bild in einer Version vorkommt, dann ist dies durch ein *x* markiert, zudem ist die betreffende Zelle farblich hinterlegt. Über diese Markierungen lassen sich die Verläufe der Bildzuordnungen über längere Zeiträume nachvollziehen.
 
 ## Erläuterung der Quelleneditionen / Artikel-README
 
 - Aufbau
 - Maßstäbe etc.
+```
+
 ```
