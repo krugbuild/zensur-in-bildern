@@ -13,7 +13,7 @@
   - dadurch automatisiertes zusammentragen möglich
   - keine sprachkenntnisse in chinesisch benötigt
 
-## Exemplarischer Ablauf
+## <a name="exemplarischer-ablauf">Exemplarischer Ablauf</a>
 
 Die im Folgenden genannten Skripte finden sich im Unterordner [~/Skripte](./Skripte) und sind in der zugehörigen ReadMe-Datei sowie im Quelltextkommentar ausführlich beschrieben. Weiterhin ist dort der idealtypische Ablauf des Datenabraufs in aller Kürze dargestellt.
 
