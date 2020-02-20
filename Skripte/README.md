@@ -9,7 +9,8 @@ Mit den hier dokumentierten Skripten und Schemata wurden sämtliche Quelldaten d
 | [getImages.sh](#getImages) | [combineImages.xsl](#combineimages-xsl) |
 | [getImageTable.sh](#getImageTable) | |
 
-Zum Abruf der Quelldaten wird zunächst `getArticles.sh` unter Angabe der URL der jeweiligen Artikelversionsgeschichte aufgerufen. Das Skript ermittelt dabei über `getHistory.sh` die Versionsgeschichte des Artikels und liest aus dieser anschließend die IDs aller Artikelversionen aus, um die Volltexte der Versionen schließlich herunterzuladen. Als Nächstes werden über `getImages.sh` sämtliche Bildeinträge aus den zuvor heruntergeladenen Artikelversionen ausgelesen und als XML gespeichert. Mittels `getImageTable.sh` werden diese Bildeinträge schließlich ausgewertet; das Endergebnis ist eine Matrix in Form einer HTML-Tabelle, in der sämtliche Artikelversionen mit sämtlichen Bildeinträgen gegenübergestellt werden.
+Zum Abruf der Quelldaten wird zunächst `getArticles.sh` unter Angabe der URL der jeweiligen Artikelversionsgeschichte aufgerufen. Das Skript ermittelt dabei über `getHistory.sh` die Versionsgeschichte des Artikels und liest aus dieser anschließend die IDs aller Artikelversionen aus, um die Volltexte der Versionen schließlich herunterzuladen. Als Nächstes werden über `getImages.sh` sämtliche Bildeinträge aus den zuvor heruntergeladenen Artikelversionen ausgelesen und als XML gespeichert. Mittels `getImageTable.sh` werden diese Bildeinträge schließlich ausgewertet; das Endergebnis ist eine Matrix in Form einer HTML-Tabelle, in der sämtliche Artikelversionen mit sämtlichen Bildeinträgen gegenübergestellt werden.  
+Eine exemplarische und ausführliche Beschreibung des Prozesses findet sich im Dokument [Quellenarbeit](../Quellenarbeit.md) im Abschnitt [Exemplarischer Ablauf](../Quellenarbeit.md#exemplarischer-ablauf).
 
 ---
 
