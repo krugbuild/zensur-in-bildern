@@ -1,6 +1,6 @@
 # Skripte und Schemata
 
-Direkt zur Dokumentation der einzelnen Skripte und Schemata:
+Mit den hier dokumentierten Skripten und Schemata wurden sämtliche Quelldaten des Projekts erhoben. Im Folgenden wird zunächst kurz der übliche Arbeitsablauf zum Abruf der Quelldaten umrissen und anschließend die Funktion und der Aufruf der jeweiligen Skripte und Schemata erläutert.
 
 | [BASH-Skripte](#bash-skripte) | [XSLT-Schemata](#xslt-schemata) |
 | - | - |
@@ -8,6 +8,8 @@ Direkt zur Dokumentation der einzelnen Skripte und Schemata:
 | [getArticles.sh](#getArticles) | [images.xsl](#images-xsl) |
 | [getImages.sh](#getImages) | [combineImages.xsl](#combineimages-xsl) |
 | [getImageTable.sh](#getImageTable) | |
+
+Zum Abruf der Quelldaten wird zunächst `getArticles.sh` unter Angabe der URL der jeweiligen Artikelversionsgeschichte aufgerufen. Das Skript ermittelt über `getHistory.sh` zunächst die Versionsgeschichte des Artikels und liest aus dieser anschließend die IDs aller Artikelversionen aus, um die Volltexte der Versionen schließlich herunterzuladen. Als Nächstes werden über `getImages.sh` sämtliche Bildeinträge aus den zuvor heruntergeladenen Artikelversionen ausgelesen und als XML gespeichert. Mittels `getImageTable.sh` werden diese Bildeinträge schließlich ausgewertet; das Endergebnis ist eine Matrix, in der sämtliche Artikelversionen mit sämtlichen Bildeinträgen gegenübergestellt werden.
 
 ---
 
@@ -17,7 +19,7 @@ Zur Ausführung der Shell-Skripte ist eine bash-kompatible Shell nötig, wie sie
 
 ### <a name="getHistory">[getHistory.sh (2020-01-27)](getHistory.sh)</a>
 
-Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. ([Siehe unten](#history-xsl)) Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei (i.d.R. [history.xsl](history.xsl)) im Skriptverzeichnis befindet.
+Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML. Für den zweiten Schritt ist es dabei notwendig, dass sich die Transformationsdatei ([Siehe history.xsl](#history-xsl)) im Skriptverzeichnis befindet.
 
 ```bash
 sh getHistory.sh -u URL -v VERZEICHNIS
@@ -39,12 +41,12 @@ Das Skript ruft eine Reihe von Wikipedia-Artikelversionen ab und speichert diese
 </article>
 ```
 
-Der Abruf folgt einer zu definierenden ID-Liste, wobei diese entweder als simples Textfile übergeben werden kann. Alternativ wird über den Aufruf des Skriptes `getHistory.sh` eine ID-Liste erzeugt, die weiterhin auch zeitlich eingeschränkt werden kann. Der Skriptverlauf wird in eine Logfile geschrieben.
+Der Abruf folgt dabei einer ID-Liste, die entweder als CSV- oder XML-Datei vorliegen muss. Die XML muss dabei dem Schema [history.xsl](#history-xsl) entsprechen. Alternativ wird über den Aufruf des Skriptes `getHistory.sh` eine ID-Liste erzeugt, die weiterhin auch zeitlich eingeschränkt werden kann. Der Skriptverlauf wird in eine Logfile geschrieben.
 
 ```bash
 sh getArticles.sh -u URL -v VERZEICHNIS -b BEGINNZEITRAUM -e ENDEZEITRAUM -l
 ```
-Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Angabe eines Arbeitsverzeichnisses sowie `-u` zur Angabe der URL der zugehörigen Versionsgeschichte. Es ist angeraten, die Parameter in Anführungszeichen zu setzen, um eine korrekte Übernahme auch bei komplexeren Zeichenketten (mit Leerzeichen und anderen Sonderzeichen) zu gewährleisten. Wird keine URL angegeben, wird diese zur Laufzeit des Skriptes abgefragt. Sollte kein Arbeitsverzeichnis angegeben sein, werden die Ergebnisdateien im Skriptverzeichnis abgelegt. Über die Parameter `-b` *Beginn*  sowie `-e` *Ende* kann der Zeitraum der abzurufenden Artikel eingegrenzt werden. Die Datumsangaben sind im Format `YYYYMMDDhhmm` anzugeben. Werden Beginn oder Ende nicht gesetzt, kann der abzurufende Zeitraum zur Laufzeit des Skriptes angegeben werden. Mit dem Parameter `-l` kann der Abruf der `historyData.xml` unterbunden werden, das Skript wird lokal ausgeführt. Es werden folgende Kommandozeilenprogramme verwendet:
+Der Aufruf ist optional parametrisiert und akzeptiert die Parameter `-v` zur Angabe eines Arbeitsverzeichnisses sowie `-u` zur Angabe der URL der zugehörigen Versionsgeschichte. Es ist angeraten, die Parameter in Anführungszeichen zu setzen, um eine korrekte Übernahme auch bei komplexeren Zeichenketten (mit Leerzeichen und anderen Sonderzeichen) zu gewährleisten. Wird keine URL angegeben, wird diese zur Laufzeit des Skriptes abgefragt. Sollte kein Arbeitsverzeichnis angegeben sein, werden die Ergebnisdateien im Skriptverzeichnis abgelegt. Über die Parameter `-b` *Beginn*  sowie `-e` *Ende* kann der Zeitraum der abzurufenden Artikel eingegrenzt werden. Die Datumsangaben sind im Format `YYYYMMDDhhmm` anzugeben. Werden Beginn oder Ende nicht gesetzt, kann der abzurufende Zeitraum zur Laufzeit des Skriptes angegeben werden. Mit dem Parameter `-l` kann der Abruf der `historyData.xml` unterbunden werden, das Skript wird *lokal* ausgeführt. Die maximale Dateigröße der Zieldatei ist im Standard auf 200 MB gesetzt. Bei Überschreiten dieser Grenze legt das Skript eine weitere Ergebnisdatei an (durch Anfügen eines Zählers an den Dateinamen), in der die Ergebnisse fortgeschrieben werden. Es werden folgende Kommandozeilenprogramme verwendet:
 
 - `xsltproc`: http://xmlsoft.org/XSLT/xsltproc.html
 - `wget`: https://wiki.ubuntuusers.de/wget/
@@ -59,7 +61,7 @@ Das Skript ermittelt aus `articleData.xml`-Dateien sämtliche Bilder und speiche
 sh getImages.sh -v VERZEICHNIS
 ```
 
-Es können belibig viele Dateien im Format `articleData[n].xml` eingelesen werden, wobei `[n]` eine natürliche Zahl sein muss. Die erste Datei einer Serie muss stets `articleData.xml` heißen und alle folgenden müssen aufsteigend nummeriert werden. Über den Parameter `-v` kann ein Arbeitsverzeichnis relativ zum Skriptverzeichnis angegeben werden. Die Ermittlung der auszulesenden Dateien beschränkt sich auf das unmittelbare Arbeitsverzeichnis. Zur Transformation der Daten wird das Schema [images.xsl](#history-xsl) angewandt. Es werden folgende Kommandozeilenprogramme verwendet:
+Es können belibig viele Dateien im Format `articleData[n].xml` eingelesen werden, wobei `[n]` eine natürliche Zahl sein muss. Die erste Datei einer Serie muss stets `articleData.xml` heißen und alle folgenden müssen aufsteigend nummeriert werden. Über den Parameter `-v` kann ein Arbeitsverzeichnis relativ zum Skriptverzeichnis angegeben werden. Die Ermittlung der auszulesenden Dateien beschränkt sich auf das unmittelbare Arbeitsverzeichnis. Zur Transformation der Daten wird das Schema [images.xsl](#images-xsl) angewandt. Es werden folgende Kommandozeilenprogramme verwendet:
 
 - `xsltproc`: http://xmlsoft.org/XSLT/xsltproc.html
 - `find`: https://wiki.ubuntuusers.de/find/
@@ -140,7 +142,7 @@ Das Schema wird üblicherweise über das Skript `getImages.sh` aufgerufen. Unabh
 xsltproc -v -o ZIELDATEI -param count ANZAHL -stringparam directory VERZEICHNIS images.xsl articeData.xml
 ```
 
-Der Parameter `count` entspricht dabei der Anzahl der *zusätzlichen* articleData.xml-Dateien, also jenen mit einer Ziffer im Dateinamen. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
+Der Parameter `count` entspricht dabei der Anzahl der *zusätzlichen* articleData.xml-Dateien, also jenen mit einer Ziffer im Dateinamen. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (NB! Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
 
 ### <a name="combineimages-xsl">[combineImages.xsl (2020-01-27)](combineImages.xsl)</a>
 
@@ -151,4 +153,8 @@ Das Schema wird über das Konsolenprogramm `xsltproc` angewendet:
 xsltproc -v -o ZIELDATEI -param count ANZAHL -stringparam directory VERZEICHNIS combineImages.xsl imageData1.xml
 ```
 
-Der Parameter `count` entspricht dabei der Gesamtanzahl der imageData[n].xml-Dateien. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
+Der Parameter `count` entspricht dabei der Gesamtanzahl der imageData[n].xml-Dateien. Mittels `directory` kann das Arbeitsverzeichnis angegeben werden. (NB! Die Angabe des Arbeitsverzeichnis wirkt sich *nicht* auf die Adressierung der Quell- oder Zieldatei im xsltproc-Aufruf aus!)
+
+---
+
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by/3.0/de/88x31.png)](http://creativecommons.org/licenses/by/3.0/de/) Sämtliche Skripte und Schemata sind lizenziert unter einer [Creative Commons Namensnennung 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by/3.0/de/). Dieser Hinweis findet sich weiterhin in der Quelltextkommentierung der einzelnen Dateien.
