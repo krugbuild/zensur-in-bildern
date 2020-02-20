@@ -1,6 +1,6 @@
 # Skripte und Schemata
 
-Mit den hier dokumentierten Skripten und Schemata wurden sämtliche Quelldaten des Projekts erhoben. Im Folgenden wird zunächst kurz der übliche Arbeitsablauf zum Abruf der Quelldaten umrissen und anschließend die Funktion und der Aufruf der jeweiligen Skripte und Schemata erläutert.
+Mit den hier dokumentierten Skripten und Schemata wurden sämtliche Quelldaten des Projekts erhoben. Im Folgenden wird zunächst kurz der übliche Arbeitsablauf zum Abruf der Quelldaten umrissen und anschließend die Funktion und der Aufruf der jeweiligen Skripte und Schemata erläutert. Folgende Dateien wurden hier dokumentiert:
 
 | [BASH-Skripte](#bash-skripte) | [XSLT-Schemata](#xslt-schemata) |
 | - | - |
