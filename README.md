@@ -22,7 +22,6 @@ Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte si
 
 - In der [Auswertung](Auswertung.md) findet sich die historiografische Analyse sowie das Ergebnis des Projekts.  
 - Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
-
 - Im Unterordner [Artikel](./Artikel) befinden sich die Prozessdaten sowie die kommentierten Quelldaten.
 - Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zugeordnet werden können.
 - Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
