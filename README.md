@@ -3,23 +3,29 @@
 
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
-Stefan Krug, 30.01.2020.
+Stefan Krug, 20.02.2020.
 
 ---
 
 Status: in Arbeit.
 
+**[[Zur Leseansicht](https://krugbuild.github.io/zensur-in-bildern/)]**  
+(Die Nutzung der Leseansicht sei hiermit ausdrücklich empfohlen, da nur so Fußnoten auf gewohnte Art und Weise aufgelöst werden. Zudem entspricht das Textbild eher dem gewohnter Publikationsformen.)
+
 ---
 
-**[[Zur Leseansicht](https://krugbuild.github.io/zensur-in-bildern/)]**
+### Abstract
 
-Die untersuchten Wikipediaartikel sowie die zugehörige Dokumentation befindet sich im Unterordner [Artikel](./Artikel).
-Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
-Der Unterordner [Dokumente](./Dokumente) dient der Sammlung aller periphären Schriften.
+Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte sich der Kreis der möglichen Autoren. In dieser Arbeit wird an ausgewählten Wikipediaartikeln untersucht, inwiefern sich diese Änderung auf die in den Artikeln verwendeten Bilder auswirkt. Der Autor folgt dabei der These, dass in den Artikelversionen vor 2015 eine systematische Zensur der Bilder nachgewiesen werden kann. Eine besondere Berücksichtigung erfährt die Analyse der verschiedenen Zensurmethoden. Die Erhebung und Auswertung der Artikeldaten wird durch digitalhistorische Methoden ermöglicht.
 
-Zur [Auswertung](Auswertung.md).
+### Projektstruktur
 
-Zur [Quellenarbeit](Quellenarbeit.md).
+- In der [Auswertung](Auswertung.md) findet sich die historiografische Analyse sowie das Ergebnis des Projekts.  
+- Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
+
+- Im Unterordner [Artikel](./Artikel) befinden sich die Prozessdaten sowie die kommentierten Quelldaten.
+- Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zugeordnet werden können.
+- Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
 
 ---
 

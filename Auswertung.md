@@ -4,15 +4,9 @@
 
 [In Arbeit]
 
-> Eine experimentelle Untersuchung zu den Möglichkeiten von Metadaten und Quelltexten für die digitalhistorische Forschung.
+Um die Zensurpraxis in einem partizipatorischen Medium wie der Wikipedia zu diskutieren, muss zunächst geklärt werden, welche *sensiblen Inhalte* überhaupt in China der Kontrolle unterliegen. Grundsätzlich kann dabei gesagt werden, dass als sensibler Inhalt all das gewertet wird, was die soziale Stabilität des Landes gefährden könnte. In einem Ein-Parteien-System orientiert sich diese Stabilität natürlich stets an der Legitimität der politischen Führung, folglich ist jede **Kritik der KPC** per se als problematisch zu betrachten. Dazu zählen jedoch auch Forderungen nach Demokratie, Gleichheit, Freiheit oder Menschenrechten. Folglich sind auch viele humitäre NGOs sowie individuelle Kritiker Ziel der Zensurbestrebungen, wie *Human Rights Watch*, *Reporter ohne Grenzen*, *Amnesty International* und *Human Rights in China* sowie z.B. der Friedensnobelpreisträger Liu Xiaobo. Nach Becker lassen sich die üblicherweise als sensibel eingestuften Inhalte in vier weitere Kategorien einordnen: Zu den **Territorialkonflikten und ethnische Unruhen** zählen vor allem die Themen Taiwan, Tibet und Xinjian. Die völkerrechtliche Unabhängigkeit der Republik China auf Taiwan wird von der Volksrepublik China und Führung der KPC vehement bestritten. Die KPC versteht Taiwan als festen Bestandteil des eigenen Hoheitsgebiets. Ähnlich verhält es sich mit den Autonomen Regionen Tibet und Xinjian, die jedoch auch de facto Teil der VR China sind. Die buddhistisch und muslimisch geprägten Regionen waren mit ihren Unabhängigkeitsbestrebungen schon mehrmals Ausgangspunkt von Unruhen. Die Zensur offiziell **verbotener Gruppierungen** erstreckt von religiösen Gruppen wie *Falun Gong* bis hin zu demokratischen Parteien wie der *Demokratischen Partei Chinas*. Ebenfalls problematisch sind sämtliche Inhalte, die sich mit den Vorfällen auf dem **Tiananmenplatz** 1989 beschäftigen. Begriffe wie *Tiananmen-Massaker* oder die gebräuchliche Kennung *sechs-vier* sind häufig Gegenstand von Zensurbemühungen. Zur Abgrenzung zum touristisch hoch frequentierten Platz wird dabei häufig auf Protestkommentare, Jahrestage und direkte Vorwürfe geachtet. Auch **andere Protestbewegungen**, wie die Forderungen nach mehr Demokratie während des *Arabischen Frühlings* können Gegenstand der Zensur werden, wenn diese geeignet sind, sich auf die Bürger in China auszuweiten (*Jasmin Revolution*). Bemerkenswert ist in Anbetracht all dieser sensiblen Themen jedoch, dass es eine gewisse Duldung von Protesten gegen ökonomische Probleme gibt. Dies erklärt sich daraus, dass hier der Kernbereich der Legitimation der KPC berührt ist, nämlich der individuelle wie auch gemeinschaftliche Wohlstand.
 
 ---
-
-- sagbares definieren -> becker?
-
----
-
-
 
 - Im Rahmen der Studierendenproteste 1989 wurde das Mao-Portrait am Tiananmenplatz mit Farbe beworfen.
 - Respektlosigkeit ggü. Mao wird im KPC geführten China nicht toleriert (hier Beleg)
