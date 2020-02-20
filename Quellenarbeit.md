@@ -1,4 +1,4 @@
-# Quellenauswertung
+# Quellenarbeit
 
 ## Grundlagen
 
@@ -71,6 +71,4 @@ In den ersten beiden Spalten der Tabelle finden sich die ID der einzelnen Versio
 
 - Aufbau
 - Maßstäbe etc.
-```
-
 ```
