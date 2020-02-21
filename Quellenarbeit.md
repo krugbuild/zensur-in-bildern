@@ -2,33 +2,29 @@
 
 Um Wikipediaartikel als Quellen in einer historiographischen Analyse zu akzeptieren, muss zunächst deren technische Struktur betrachtet werden. Eine oft wiederholte Kritik an der Eignung als Lexikon ist die Tatsache, dass Artikel von praktisch jeder Person zu jedem Zeitpunkt geändert werden können. Dies impliziert eine Unbeständigkeit des Inhalts, die Abwesenheit von Nachweissystemen und daraus folgend eine Unzuverlässigkeit des Lexikons selbst. Verschiedene Untersuchungen konnten jedoch die inhaltlichen Befürchtungen wiederholt entkräften [Vgl - diverse Artikel] und bezüglich der Nachweissysteme ist sogar das Gegenteil der Fall. Die Wikipedia basiert auf der Software Mediawiki, die als eine der zentralen Funktionen eine Versionsverwaltung für sämtliche Seiten besitzt.
 
-> Ein Beispiel ist auch die Wikipedia, hier erzeugt die Software nach jeder Änderung eines Artikels eine neue Version. Alle Versionen bilden in Wikipedia eine Kette, in der die letzte Version gültig ist; es sind keine Varianten vorgesehen. Da zu jedem Versionswechsel die grundlegenden Angaben wie Verfasser und Uhrzeit festgehalten werden, kann genau nachvollzogen werden, wer wann was geändert hat.
-
-[ Versionsverwaltung, in: Wikipedia, 05.02.2020. Online: <https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=196516773>, Stand: 20.02.2020. ]
+> Ein Beispiel ist auch die Wikipedia, hier erzeugt die Software nach jeder Änderung eines Artikels eine neue Version. Alle Versionen bilden in Wikipedia eine Kette, in der die letzte Version gültig ist; es sind keine Varianten vorgesehen. Da zu jedem Versionswechsel die grundlegenden Angaben wie Verfasser und Uhrzeit festgehalten werden, kann genau nachvollzogen werden, wer wann was geändert hat.[^1] 
 
 Jede Version verfügt zudem über eine einmalige ID, mittels derer sie eindeutig und direkt adressiert werden kann - so wie im Beleg des Zitats geschehen. Da jedoch jede Änderung an einem Artikel eine neue Version generiert, unabhängig vom Ausmaß der Änderung, sind die Unterschiede zwischen benachbarten Versionen erwartungsgemäß gering. Die Herausforderung des Quellenbezugs und der -Aufbereitung liegt somit in der Verwaltung der anfallenden Datenmengen und der Auswahl von relevanten Fragmenten.
 
 ## Methodik
 
-Um Veränderungen über größere Zeiträume nachvollziehen zu können, ohne sich auf jeweils winzige sprachliche Veränderungen je Versionssprung beziehen zu müssen, bietet es sich an, die Verwendung von Bildern in Artikeln zu analysieren. Im Gegensatz zum Text eines Artikels, der sich durchaus hochfrequent mit kleinen Änderungen Entwickeln kann, ohne dass sich dabei der Sinngehalt signifikant ändert, sind Bilder relativ stabile Sinnträger. [???] Bilder werden im Mediawiki technisch wie Artikel behandelt, also werden auch bei ihnen sämtliche Änderungen gespeichert - gleichwohl sind diese eher die Ausnahme. Bilder werden im HTML eines Artikels zwangsläufig mittels `<img>`-Tag eingebunden und sind damit über eine simple Mustererkennung zu identifizieren. Die inhaltliche Bewertung wird folglich über die Gegenwart oder Abwesenheit eines bestimmten Bildes in einer bestimmten Version durchgeführt. Diese Annäherung an den Untersuchungsgegenstand über den Quelltext der einzelnen Artikeln ermöglicht es zudem, die Analyse unabhängig von spezialisierten Sprachkenntnissen durchzuführen, da das auszuwertende HTML normiert ist. 
+Um Veränderungen über größere Zeiträume nachvollziehen zu können, ohne sich auf jeweils winzige sprachliche Veränderungen je Versionssprung beziehen zu müssen, bietet es sich an, die Verwendung von Bildern in Artikeln über die Versionsgeschichte zu analysieren. Im Gegensatz zum Text eines Artikels, der sich durchaus hochfrequent mit kleinen Änderungen Entwickeln kann, ohne dass sich dabei der Sinngehalt signifikant ändert, sind Bilder relativ stabile Sinnträger. [???] Bilder werden im Mediawiki ähnlich wie Artikel behandelt, also werden auch bei ihnen sämtliche Änderungen gespeichert - gleichwohl sind diese eher die Ausnahme. Sie werden im HTML eines Artikels stets (und technisch zwangsläufig) mittels `<img>`-Tag eingebunden und sind damit über eine simple Mustererkennung zu identifizieren. Die inhaltliche Bewertung wird folglich über die Gegenwart oder Abwesenheit eines bestimmten Bildes in einer bestimmten Version durchgeführt. Diese Annäherung an den Untersuchungsgegenstand über den Quelltext der einzelnen Artikel ermöglicht es zudem, die Analyse unabhängig von spezialisierten Sprachkenntnissen durchzuführen, da der auszuwertende Quelltext stets in HTML geschrieben ist.
 
-TODO:
+Da der Quellenbezug und die Quellenaufbereitung hoch repetitive Aufgaben sind, bietet sich die Automatisierung über Skripte an. Als Quellenbezug sei hier das Herunterladen sämtlicher Versionen aller untersuchten Artikel und deren strukturierte Speicherung bezeichnet. Die im HTML-Format vorliegenden Artikelversionen sind ihrer Art nach für eine Anzeige im Browser und somit eine gute Lesbarkeit durch Menschen konzipiert. Für die weitere Verarbeitung gilt es also, die relevanten Informationen auszulesen und in ein strukturiertes Format zu übersetzen. Wegen seiner sprachlichen Nähe zu HTML wurde hier XML als Zielformat gewählt, da die gewünschten Informationen mittels XSLT-Schemata direkt aus dem HTML-Quelltext in eine XML-Struktur überführt werden können. Auf Grundlage dieser Daten kann schließlich eine wiederum menschenlesbare Auswertungsmatrix erstellt werden, in der das Verhältnis aller Bilder einer Artikelhistorie mit allen Versionen einer Artikelhistorie gegenüber gestellt werden, wodurch eine Auswertung des Bildverlaufs je Artikel erst möglich wird. (Eine detaillierte Beschreibung des Prozesses findet sich im folgenden Kapitel.)
 
-- vorgehen über skripte
-- normalisierung der daten, um diese maschinenlesbar zu machen
-- aufbereitung der ergebnisse in eine menschenlesbare form
+Dem Anspruch an eine freie Wissenschaft folgend, wurde bei der Wahl der technischen Mittel stets auf den Einsatz von Open Source geachtet und die Ergebnisse werden unter freien Lizenzen zur Verfügung gestellt. Als Skriptumgebung wurde die [BASH](https://www.gnu.org/software/bash/) gewählt, die dort verwendeten Konsolenprogramme sind über gebräuchliche Repositorien verfügbar und zur Ausführung kamen Systeme auf Basis von GNU/Linux zum Einsatz. Weiterhin sind sämtliche Skripte und Schemata dieses Projekts unter [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/de/) und alle Auswertungen und Ergebnisse unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/de/) lizensiert. 
 
 ## Exemplarischer Ablauf
 
-Die im Folgenden genannten Skripte finden sich im Unterordner [~/Skripte](./Skripte) und sind in der zugehörigen ReadMe-Datei sowie im Quelltextkommentar ausführlich beschrieben. Weiterhin ist dort der idealtypische Ablauf des Datenabraufs in aller Kürze dargestellt.
+Die im Folgenden genannten Skripte finden sich im Unterordner [~/Skripte](./Skripte) und sind in der zugehörigen ReadMe-Datei sowie im Quelltextkommentar ausführlich beschrieben. Weiterhin ist dort der idealtypische Ablauf des Datenabrufs in aller Kürze dargestellt.
 
-Als Beispiel soll der Artikel zur [Autonomen Region Tibet](https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA) dienen. [? Um trotz mangelnder Sprachkenntnisse zumindest einen ersten Überblick zu bekommen und zielgerichteter auf der Seite navigieren zu können, sei die Verwendung des Chrome-Browsers empfohlen, da dieser eine automatische Übersetzung der Seiteninhalte anbietet. Da die tatsächliche Qualität der Übersetzung jedoch nur schwer abzuschätzen ist, sollte diese Übersetzung jedoch nicht für die inhaltliche Auswertung herangezogen werden.] Die [Artikelhistorie](https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA&action=history) zeigt beim ersten Aufruf nur die letzten 50 Versionen. Um die vollständige Versionsgeschichte zu beziehen, muss deshalb der Parameter `limit` auf einen ausreichend hohen Wert gesetzt werden. Da selbst sehr häufig editierte Artikel selten über 10.000 Versionen kommen, ist ein Wert von 50.000 eine sichere Wahl. Die URL sähe dann wie folgt aus:
+Als Beispiel soll der Artikel zur [Autonomen Region Tibet](https://zh.wikipedia.org/wiki/%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA) dienen.[^2] Die [Artikelhistorie](https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA&action=history) zeigt beim ersten Aufruf nur die letzten 50 Versionen. Um die vollständige Versionsgeschichte zu beziehen, muss deshalb der Parameter `limit` auf einen ausreichend hohen Wert gesetzt werden. Da selbst sehr häufig editierte Artikel selten über 10.000 Versionen kommen, ist ein Wert von 50.000 eine sichere Wahl. Die URL sähe dann wie folgt aus:
 
 ```URL
 https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA&limit=50000&action=history
 ```
 
-Mit dieser parametrisierten URL wird nun das Skript `getArticles.sh` aufgerufen. Da URLs Steuerzeichen enthalten können, sollte die URL in Anführungszeichen übergeben werden. Über den Parameter `-v` setzen wir das Arbeitsverzeichnis *tibet* und über die Parameter `-b` und `-e` definieren wir den Zeitraum der abzurufenden Daten. Da der Artikel zur Autonomen Region Tibet im April 2003 angelegt wurde, definieren wir den Zeitraum zwischen 2003 und heute, um alle Artikelversionen mit einzuschließen. Die Notation der Datumsangaben folgt dabei dem Schema `YYYYMMDDhhmm`. Der Aufruf sieht somit wie folgt aus:
+Mit dieser parametrisierten URL wird nun das Skript `getArticles.sh` aufgerufen. Da URLs Steuerzeichen enthalten können, sollte die URL in Anführungszeichen übergeben werden. Über den Parameter `-v` setzen wir das Arbeitsverzeichnis 'tibet' und über die Parameter `-b` und `-e` definieren wir den Zeitraum der abzurufenden Daten. Da der Artikel zur Autonomen Region Tibet im April 2003 angelegt wurde, definieren wir den Zeitraum zwischen 2003 und heute, um alle Artikelversionen mit einzuschließen. Die Notation der Datumsangaben folgt dabei dem Schema `YYYYMMDDhhmm`. Der Aufruf sieht somit wie folgt aus:
 
 ```bash
 sh getArticles.sh -u 'https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E8%97%8F%E8%87%AA%E6%B2%BB%E5%8C%BA&limit=50000&action=history' -v tibet -b 200304010000 -e 202002200000
@@ -36,11 +32,11 @@ sh getArticles.sh -u 'https://zh.wikipedia.org/w/index.php?title=%E8%A5%BF%E8%97
 
 Nachdem das Skript erfolgreich durchgelaufen ist, finden sich im Arbeitsverzeichnis fünf Dateien:
 
-- articleData.xml - Hier sind alle Artikelversionen kumuliert gespeichert. Da die potentielle Datenmenge je nach Artikel sehr groß ist, wird ab 200 MB Dateigröße eine neue Datei mit angehangenem Zähler angelegt.
-- articleData_log.txt - In dieser Logdatei ist der Verlauf des Datenabrufs dokumentiert. Eventuelle Fehlermeldungen werden ebenfalls gespeichert.
-- historyData.html - Dies eine Kopie der über die URL abgefragten Versionsgeschichte-Webseite.
-- historyData.xml - Diese Datei enthält die Versionsinformationen der historyData.html in einem XML-Schema.
-- historyData_log.txt - In dieser Logdatei ist der Abruf und die Transformation der Versionsgeschichte dokumentiert.
+- `articleData.xml` - Hier sind alle Artikelversionen kumuliert gespeichert. Da die potentielle Datenmenge je nach Artikel sehr groß ist, wird ab 200 MB Dateigröße eine neue Datei mit angehangenem Zähler angelegt.
+- `articleData_log.txt` - In dieser Logdatei ist der Verlauf des Datenabrufs dokumentiert. Eventuelle Fehlermeldungen werden ebenfalls gespeichert.
+- `historyData.html` - Dies eine Kopie der über die URL abgefragten Versionsgeschichte-Webseite.
+- `historyData.xml` - Diese Datei enthält die Versionsinformationen der `historyData.html` in einem XML-Schema.
+- `historyData_log.txt` - In dieser Logdatei ist der Abruf und die Transformation der Versionsgeschichte dokumentiert.
 
 Nachdem die Logdateien auf Fehler überprüft wurden, wird als nächstes das Skript `getImages.sh` ausgeführt. Das Skript ermittelt sämtliche Bilder aus allen Versionen des Artikels und schreibt diese strukturiert in eine XML-Datei. Hierzu greift es auf die Daten in articleData.xml zu; sollten mehrere derartige Dateien im Arbeitsverzeichnis liegen, werden diese nacheinander ausgewertet.
 
@@ -50,10 +46,8 @@ sh getImages.sh -v tibet
 
 Nach dem erfolgreichen Durchlauf, finden sich zwei weitere Dateien im Arbeitsverzeichnis:
 
-- imageData.xml - In dieser XML-Datei sind alle Artikelversionen mit allen dort verzeichneten Bildern gespeichert.
-- imageData_log.txt - In dieser Logdatei ist die Auswertung der Artikeldaten dokumentiert.
-
-[ Bei sehr großen Datenmengen kann es nötig sein, die articleData.xml in mehreren Schritten auszuwerten. Die dabei erzeugten imageData.xml können anschließend über das Schema `combineImages.xsl` zusammengefügt werden. Siehe hierzu die [entsprechende Dokumentation](./Skripte/README.md#combineimages-xsl). ]
+- `imageData.xml` - In dieser XML-Datei sind alle Artikelversionen mit allen dort verzeichneten Bildern gespeichert.[^3]
+- `imageData_log.txt` - In dieser Logdatei ist die Auswertung der Artikeldaten dokumentiert.
 
 Schließlich soll diese Aufstellung von Artikeldaten zu Bilddaten in eine menschenlesbare Form gebracht werden. Das Skript `getImageTables.sh` erzeugt aus diesen Daten daher eine HTML-Tabelle, in der in der Kopfzeile alle verwendeten Bilder gezeigt werden und diese allen Artikelversionen gegenübergestellt werden. Der Aufruf ähnelt dem der `getImages.sh`, jedoch wird hier zusätzlich der Parameter `-n` gesetzt, damit keine erneute Transformation der Artikeldaten ausgelöst wird.
 
@@ -63,8 +57,8 @@ sh getImageTable.sh -v tibet -n
 
 Das Ergebnis dieses Prozesses sind die folgenden beiden Dateien:
 
-- imageTable_log.txt - In dieser Logdatei ist die Auswertung der imageData.xml zur imageTable.html dokumentiert.
-- imageTable.html - In dieser HTML-Datei ist die Tabelle zur Quellenauswertung abgelegt.
+- `imageTable_log.txt` - In dieser Logdatei ist die Auswertung der `imageData.xml` zur `imageTable.html` dokumentiert.
+- `imageTable.html` - In dieser HTML-Datei ist die Tabelle zur Quellenauswertung abgelegt.
 
 ![imageTable.html - Tibet](./Dokumente/Screenshot_imageTable_tibet.png)
 
@@ -79,3 +73,9 @@ In den ersten beiden Spalten der Tabelle finden sich die ID der einzelnen Versio
 ```
 
 ```
+
+[^1]: Versionsverwaltung, in: Wikipedia, 05.02.2020. Online: <https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=196516773>, Stand: 20.02.2020.
+
+[^2]: Um trotz mangelnder Sprachkenntnisse zumindest einen ersten Überblick zu bekommen und zielgerichteter auf der Seite navigieren zu können, sei die Verwendung des Chrome-Browsers empfohlen, da dieser eine automatische Übersetzung der Seiteninhalte anbietet. Da die tatsächliche Qualität der Übersetzung jedoch nur schwer abzuschätzen ist, sollte diese Übersetzung dabei nicht für die inhaltliche Auswertung herangezogen werden.
+
+[^3]: Bei sehr großen Datenmengen kann es nötig sein, die `articleData.xml` in mehreren Schritten auszuwerten. Die dabei erzeugten `imageData.xml` können anschließend über das Schema `combineImages.xsl` zusammengefügt werden. Siehe hierzu die [entsprechende Dokumentation](./Skripte/README.md#combineimages-xsl).
