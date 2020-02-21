@@ -60,6 +60,7 @@ Das Ergebnis dieses Prozesses sind die folgenden beiden Dateien:
 - `imageTable_log.txt` - In dieser Logdatei ist die Auswertung der `imageData.xml` zur `imageTable.html` dokumentiert.
 - `imageTable.html` - In dieser HTML-Datei ist die Tabelle zur Quellenauswertung abgelegt.
 
+
 ![imageTable.html - Tibet](./Dokumente/Screenshot_imageTable_tibet.png)
 
 > Screenshot der Datei imageTable.html (Auszug) des Artikels Autonome Region Tibet, bearbeitet, 20.02.2020.

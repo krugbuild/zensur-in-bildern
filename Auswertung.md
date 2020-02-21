@@ -8,26 +8,15 @@ Um die Zensurpraxis in einem partizipatorischen Medium wie der Wikipedia zu disk
 
 ---
 
-- Im Rahmen der Studierendenproteste 1989 wurde das Mao-Portrait am Tiananmenplatz mit Farbe beworfen.
-- Respektlosigkeit ggü. Mao wird im KPC geführten China nicht toleriert (hier Beleg)
-- Das ist auch fotografisch im Wikiartikel zu den Tiananmenplatz-Protesten belegt
-
 ![](https://upload.wikimedia.org/wikipedia/zh/5/5f/Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_%281989%29.jpg)
 
 > "Defacement of Mao Zedong's Portrait on the Tiananmen (1989)", 23.05.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Defacement_of_Mao_Zedong%27s_Portrait_on_the_Tiananmen_(1989).jpg&oldid=57366417), Urheber: unbekannt, Stand: 14.02.2020.
 >
 >  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
 
-Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Im Torbogen selbst ... #Bildbeschreibung
+Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Zu den Seiten des Tores stehen Menschen Spalier, einige blicken in Richtung Kamera, andere sind der Tormitte zugewandt. Im Tor selbst steht eine Menschenmenge, wobei die vordersten Personen Flaggen und ein Transparent tragen. Vermutlich handelt es sich dabei um einen Demonstrationszug, der sich bis in den Bildhintergrund erstreckt. Über dem Tor und der Menschenmenge hängt das Portrait Mao Zedongs, auf dem verschiedenfarbige Flecken zu erkennen sind. Die Verwendung des Begriffs *defacement* im Titel des Bildes beschreibt die Situation sehr treffend. Zwar ist der Umgang der chinesischen Öffentlichkeit und Führung mit dem Andenken Maos keinesfalls unkritisch, doch waren und sind öffentliche Respektlosigkeiten wie diese wohl deutlich außerhalb des in China Tolerierbaren. [vgl noesselt 39 f] Die Gegenüberstellung des verunstalteten Portraits mit der demonstrierenden Menschengruppe, unter völliger Abwesenheit von Ordnungskräften, impliziert zudem eine öffentliche Akzeptanz der Tat. Das Foto kann somit als Symbol der Erosion der sozialen Stabilität verstanden werden - einem Eckpfeiler der KPC-Herrschaft.
 
-Nach der Erstellung des Artikels zu den Tiananmenplatz Protesten in der chinesischen Wikipedia am [29. August 2007](https://zh.wikipedia.org/w/index.php?oldid=5009873) sollte es jedoch noch fast acht Jahre dauern, bis das Foto am [01. März 2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) erstmals mit in den Artikel aufgenommen wurde. Dieses (Ver-)Zögern lässt sich jedoch nicht mit mangelndem Zugang zum Digitalisat erklären, da dieses spätestens seit 2007 zur Verfügung stand.[^1] Vielmehr ist davon auszugehen, dass die Gegenwart des Fotos ab 2015 eine direkte Folge der Sperrung der chinesischen Wikipedia in der Volksrepublik Republik China ist.
-
-Die Erreichbarkeit beliebiger Internetseiten aus China kann über das Portal von [greatfire.org](en.greatfire.org) geprüft werden, wobei Abfragen protokolliert und anschließend in einer Kalenderansicht veröffentlicht werden. Mit Hilfe dieser Darstellung lässt sich leicht nachvollziehen, dass die chinesische Wikipedia ([zh.wikipedia.org](zh.wikipedia.org)) bis Ende 2014 von China aus erreichbar war.[^2] Vor 2015 war es chinesischen Bürgern also nicht nur möglich, auf das freie und von Freiwilligen gepflegte Lexikon Wikipedia zuzugreifen, sondern sie konnten diese aktiv mitgestalten.
-
-Gleichwohl führte dies, entgegen der Ideale der Wikipedia (TODO), nicht zu einer Demokratisierung des Wissens und foglich zu einer neutralen Informationsbasis für alle. *Insbesondere von der KPC verfolgte oder für illegal erklärte Gruppen verschwanden aus der öffentlichen Darstellung. [Problematisch]*
-
-[^1]: 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
-[^2]: GreatFire Analyzer | zh.wikipedia.org is 100% blocked in China, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 10.12.2019.
+Sowohl der [Artikel zu den Tiananmenplatz Protesten](https://zh.wikipedia.org/w/index.php?oldid=5009873), als auch das Digitalisat des Fotos sind seit 2007 online.[^1] Trotz dieser potentiellen Verfügbarkeit und einer geeigneten Plattform wurde das Foto jedoch erst am [01. März 2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) in den Artikel aufgenommen. Diese Verzögerung erklärt sich vermutlich durch die gelebte Zensurpraxis, die vermutlich erst mit der Sperrung der chinesischen Wikipedia für chinesische User gegen Anfang 2015 endete. Die Erreichbarkeit beliebiger Internetseiten aus China kann über das Portal von [greatfire.org](en.greatfire.org) geprüft werden, wobei Abfragen protokolliert und anschließend in einer Kalenderansicht veröffentlicht werden. Mit Hilfe dieser Darstellung lässt sich leicht nachvollziehen, dass die chinesische Wikipedia ([zh.wikipedia.org](zh.wikipedia.org)) bis Ende 2014 von China aus erreichbar war.[^2] Vor 2015 war es chinesischen Bürgern also nicht nur möglich, auf das freie und von Freiwilligen gepflegte Lexikon Wikipedia zuzugreifen, sondern sie konnten diese aktiv mitgestalten. Mit der sich änderten Nutzerbasis haben sich also möglicherweise auch die Ansprüche an die Inhalte der Wikipedia geändert. Zuvor Zensiertes konnte veröffentlicht werden - aus der Zugangssperrung erwuchs Informationsfreiheit.
 
 ## Soziale Zensur
 
@@ -96,3 +85,8 @@ Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, da
 
 - Umbrella Movement als Ende des offenen Zugangs?
 - Tank man als Rückgriff auf Eröffnung?
+
+---
+
+[^1]: Vgl. 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
+[^2]: GreatFire Analyzer | zh.wikipedia.org is 100% blocked in China, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 10.12.2019.
