@@ -1,12 +1,5 @@
 # [Volksbefreiungsarmee während der Tiananmenplatzproteste - 六四清场](https://zh.wikipedia.org/wiki/%E5%85%AD%E5%9B%9B%E6%B8%85%E5%9C%BA)
 
-## Bemerkenswerte Bilder
-
-| Bild | URL | Zeitraum | Kommentar |
-| - | - | - | - |
-|  |||retired generals against martial law|
-
-
 ## Artikeldaten
 
 Die Daten wurden am 30. Januar 2020 zwischen 10:15:01 Uhr und 10:30:27 Uhr CET abgerufen. Es wurde die vollständige Versionsgeschichte zum Zeitpunkt der Untersuchung abgerufen. Siehe [articleData_log.txt](articleData_log.txt) sowie [historyData_log.txt](historyData_log.txt).
