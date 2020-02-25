@@ -7,8 +7,6 @@
 | ![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg) | [Artikel zum Bild](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) | ab [2004-03-28 (83348)](https://zh.wikipedia.org/w/index.php?oldid=83348) | Das Bild war in wechselnden Auflösungen stets Bestandteil des Artikels. Das Foto wurde laut Artikel am 05.06.1989 von Jeff Widener aufgenommen. Die Nutzung dieses Abzuges ist auf den Artikel *Tank man* beschränkt. Auf Wikipedia ist das Bild seit spätestens 29.04.2011 verfügbar.<br/>Der Dateiname beinhaltet die Begriffe: `tiananmen` `square` |
 | ![](https://upload.wikimedia.org/wikipedia/zh/thumb/8/85/Tank_Man_Long_Shot_by_Stuart_Franklin.jpg/250px-Tank_Man_Long_Shot_by_Stuart_Franklin.jpg) | [Artikel zum Foto](https://zh.wikipedia.org/wiki/File:Tank_Man_Long_Shot_by_Stuart_Franklin.jpg) | ab [2014-01-17(29874680)](https://zh.wikipedia.org/w/index.php?oldid=29874680) | Das Foto vom 05.06.1989 von Stuart Franklin wird unter fair-use Regelung zur Dokumentation der Blockade beutzt. Es ist seit spätestens 01.06.2014 auf Wikipedia verfügbar und wurde am 27.02.2017 durch eine verkleinerte Version ersetzt.<br/>Der Dateiname beinhaltet die Begriffe: `tank` `man` |
 
-TODO Einzelne Unterbrechungen, IP auflösen
-
 ## Artikeldaten
 
 Die Daten wurden am 28. Januar 2020 zwischen 20:30:08 Uhr und 20:58:19 Uhr CET abgerufen. Es wurde die vollständige Versionsgeschichte zum Zeitpunkt der Untersuchung abgerufen. Siehe [articleData_log.txt](articleData_log.txt) sowie [historyData_log.txt](historyData_log.txt).
