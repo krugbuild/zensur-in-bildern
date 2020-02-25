@@ -30,7 +30,7 @@ Sowohl der [Artikel zu den Tiananmenplatz Protesten](https://zh.wikipedia.org/w/
 
 ## Soziale Zensur
 
-Nach Goldenstein ist ein wichtiger Baustein der Internetzensurmechanismen die Selbstzensur. Um diese zu fördern, arbeitet das *Ministry of Industry and Information Technology* (MIIT) vor allem mit Abschreckung und Aufklärung der Nutzer. Um die Sensibilität der Öffentlichkeit für verbotene Inhalte zu schärfen, bietet das Ministerium Informationsseiten an, auf denen man sich sowohl zu Gesetzen und Regelungen informieren, als auch praktische Fallbeispiele studieren könne. Zudem werden bei der Suche nach verbotenen Begriffen die Maskottchen der Internetpolizei, die Comic-Cyber-Polizisten Chacha und Jingjing, eingeblendet, die auf das Fehlverhalten hinweisen. Stets parteikonform verhalten sich hingegen die "50-Cent-Blogger", die gegen geringe Aufwandsentschädigung in den Kommentarspalten von Nachrichtenseiten sowie auf Web-2.0-Plattformen KPC-treue Nachrichten verbreiten. Schließlich bieten die Informationsseiten zum *sauberen Internet* auch stets die Möglichkeit, potentielle Verstöße direkt zu melden. Aus dieser Einbindung der Öffentlichkeit in den Zensurapparat ergibt sich eine Art digitales Panoptikum, in dem sich die Betroffenen selbst und gegenseitig Zensieren.[^4+1]
+Nach Goldenstein ist ein wichtiger Baustein der Internetzensurmechanismen die Selbstzensur. Um diese zu fördern, arbeitet das *Ministry of Industry and Information Technology* (MIIT) vor allem mit Abschreckung und Aufklärung der Nutzer. Um die Sensibilität der Öffentlichkeit für verbotene Inhalte zu schärfen, bietet das Ministerium Informationsseiten an, auf denen man sich sowohl zu Gesetzen und Regelungen informieren, als auch praktische Fallbeispiele studieren könne. Zudem werden bei der Suche nach verbotenen Begriffen die Maskottchen der Internetpolizei, die Comic-Cyber-Polizisten Chacha und Jingjing, eingeblendet, die auf das Fehlverhalten hinweisen. Stets parteikonform verhalten sich hingegen die sogenannten "50-Cent-Blogger", die gegen geringe Aufwandsentschädigung in den Kommentarspalten von Nachrichtenseiten sowie auf Web-2.0-Plattformen KPC-treue Nachrichten verbreiten. Schließlich bieten die Informationsseiten zum *sauberen Internet* auch stets die Möglichkeit, potentielle Verstöße direkt zu melden. Aus dieser Einbindung der Öffentlichkeit in den Zensurapparat ergibt sich eine Art digitales Panoptikum, in dem sich die Betroffenen sowohl selbst als auch gegenseitig Zensieren.[^4+1]
 
 ![Falun Gong group practice in the city of Shuangcheng, Heilongjiang province, China, 1999.](https://upload.wikimedia.org/wikipedia/commons/0/0f/Falun_Gong_Shuangcheng_practice_1.jpg)
 
@@ -38,11 +38,9 @@ Nach Goldenstein ist ein wichtiger Baustein der Internetzensurmechanismen die Se
 > 
 > [[Zur Bildquellenauswertung des Artikels "Falun Gong"](./Artikel/falun_gong/README.md)]
 
-Aufgenommen 1999, auf Wikipedia verfügbar seit 04.03.2007, im Artikel verlinkt ab 22.12.2014.
+Der Bildvordergrund wird von einem gelben Transparent mit roter Aufschrift beherrscht. Es trägt das Logo der religiösen Bewegung Falun Gong und trennt einen im Vordergrund verlaufenden Weg von einem großen Platz, der von Hochhäusern gerahmt wird und in dessen Mitte ein Gebäude mit traditionell chinesisch anmutendem Baustil steht. Auf dem Boden vor und neben dem Transparent stehen beschriebene Tafeln. Mittig vor dem Banner befinden sich zwei Fußgänger, von denen eine Person mit Fahrrad dem Platz zugewandt ist, die andere Person blickt hingegen die Straße entlang. Auf dem Platz stehen Menschen ordentlich aufgereiht mit etwa einem Schritt Abstand in ähnlichen Körperhaltungen, die Arme vor sich ausgestreckt. Zwischen den Reihen liegen vereinzelt Kleidungsstücke oder Taschen auf dem Boden. Die Erste Reihe hinter dem Transparent bildet eine Gruppe aus Kindern. Zu beiden Seiten des Platzes verlaufen Straßen, auf denen sich Personen und Fahrzeuge befinden. Das Foto weist insbesondere beidseitig der Bildmitte einige Fehlerstellen in Form von schwarzen Flecken auf. Die Farben wirken übersättigt und die horizontale Bildachse ist außermittig. Es handelt sich also um einen Bildausschnitt, das ursprüngliche Bild war offenbar stärker auf das Transparent ausgerichtet, und wurde vor oder nach der Retrodigitalisierung bearbeitet.
 
-- Eine religiöse Praxis auf Basis von Taoistischen und Buddhistishen Prinzipien. Nach Tang war Falun Gong insbesondere deshalb interessant, da es im Kommunismus an Spirituellen Angeboten mangelte. [^5]
-- 1999 hatte falun gong eine kritische Masse erreicht und wurde schließlich verboten - foto stammt aus dieser Zeit. Falun gong konnte fortan nur als für das chinesische Volk schädlicher Kult diskutiert werden [^6]
-- verbotene religiöse Bewegung *Falun Gong* wird üblw. geblockt / zensiert [^7]
+Falun Gong ist eine religiöse Bewegung auf Basis taoistischer und buddhistischer Prinzipien, deren Kern meditative Übungen sind. Nach Tang war Falun Gong insbesondere deshalb für Chinesen interessant, da es im Kommunismus nach Mao an spirituellen Angeboten mangelte.[^5] Das Foto zeigt die öffentliche Durchführung einer solchen Übung in Shuangcheng im Jahr 1999. Durch die gleichgültigen bis interessierten Reaktionen der den Platz umgebenden Menschen, sowie die Ausübung auf einem so öffentlichen Platz inmitten einer Siedlung, wird eine öffentliche Akzeptanz vermittelt. Zu dieser Zeit überschritt Falun Gong in der Bewertung durch die KPC eine kritische Masse an Praktizierenden und sollte fortan nur noch als für das Volk schädlicher Kult diskutiert werden.[^6] Infolgedessen wurde dieses Thema Gegenstand der Zensurbestrebungen.[^7] In den Wikimedia Commons ist das Foto seit [04. März 2007](https://commons.wikimedia.org/wiki/File:Falun_Gong_Shuangcheng_practice_1.jpg) verfügbar, jedoch wurde es erwartungsgemäß erst ab [22. Dezember 2014](https://zh.wikipedia.org/w/index.php?oldid=33683747), der Übergangszeit der Sperrung, in der chinesischen Wikipedia verwendet.
 
 [^4+1]: Vgl. Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Berlin 2011, S. 114-120.
 
@@ -51,14 +49,6 @@ Aufgenommen 1999, auf Wikipedia verfügbar seit 04.03.2007, im Artikel verlinkt 
 [^6]: Vgl. Ebd. S. 83.
 
 [^7]: Vgl. Becker, Kim-Björn: Internetzensur in China, S. 102.
-
----
-
-[Falun Gong practitioner, tortured by guards in a labor camp in the Boluo Area of China (PRC)](https://upload.wikimedia.org/wikipedia/commons/4/4a/FalunDafa_Burn_tanyongjie.jpg)
-
-[[Zur Bildquellenauswertung des Artikels "Verfolgung von Falun Gong"](./Artikel/falun_gong_persecution/README.md)]
-
-Zuerst im Artikel [Tortured Falun Gong Practitioner Heals In Houston Hospital](http://www.clearwisdom.net/emh/articles/2001/8/3/12718.html) am 03.08.2001 auf http://en.minghui.org/ veröffentlicht. Aufgenommen laut Metadaten am 30.07.2001, auf wikimedia verfügbar spätestens seit 24.08.2008. Im Artikel erst ab 18.02.2015, Artikel selbst erst 2015 eröffnet, in anderen Sprachversionen bereits ab 2003.
 
 ---
 
