@@ -18,7 +18,9 @@ In den Unterordnern befinden sich die Forschungsdaten zu den untersuchten Artike
 | [/xinjian_history](./xinjian_history) | [Geschichte Xinjians - 新疆歷史](https://zh.wikipedia.org/wiki/%E6%96%B0%E7%96%86%E6%AD%B7%E5%8F%B2) |
 
 ## Struktur der Unterordner
-Die Unterordner beinhalten regelmäßig folgende Dateien. In Einzelfällen werden diese mit fortlaufenden Nummern versehen, sofern die ursprüngliche Datei die Grenze von 100 MB überschreitet.
+Die Unterordner beinhalten regelmäßig folgende Dateien. In Einzelfällen werden diese mit fortlaufenden Nummern versehen, sofern die ursprüngliche Datei die Grenze von 100 MB überschreitet. 
+
+[TODO Verweis auf Abschnitt in Quellenarbeit]
 
 | Datei | Funktion |
 | - | - |
