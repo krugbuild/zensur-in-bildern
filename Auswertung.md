@@ -56,14 +56,14 @@ Falun Gong ist eine religiöse Bewegung auf Basis taoistischer und buddhistische
 
 Die Auswirkungen der partizipatorischen Selbstzensur lassen sich in der Versionsgeschichte eines Artikels sehr gut an wiederholt gelöschten Bildern beobachten. Normalerweise würde das wiederholte Löschen und Hinzufügen einzelner Artikelteile auf einen Dissens in der Community hinweisen, der im besten Falle auf der Diskussionsseite des Artikels geklärt wird oder aber bei fehlender Kooperation in einen Edit-War mündet. Hier hingegen herrscht keine Parität der Kräfte, die einen Edit-War entstehen lassen könnten, stattdessen haben wir es eher mit einer Art digitalem Protest zu tun - insbesondere wenn die Akteure wiederholt versuchen, offenbar verbotene Bilder zu veröffentlichen. Sehr gut nachvollziehen lässt sich dieses Phänomen bei den Bildern der tibetischen Flagge im Artikel zur autonomen Region Tibet und dem Bild der Kokbayraq-Flagge im Artikel zur autonomen Region Xinjian, deren Flaggen als Symbole der (angestrebten) Unabhängigkeit verstanden werden. Es überrascht dabei kaum, dass eben diese Regionen häufig durch soziale Unruhen auffallen.[^10]
 
+[^10]: Vgl. Shirk, Susan L.: China, S. 58; Hongyi, Lai: Religions and Chinese Socialism: China’s Religious Policies Since the 1990s, in: Yang, Lijun; Shan, Wei: Governing Society in Contemporary China, Singapore [u.a.] 2017, S. 182 f.
+
 ### Tibet
 
 Der völkerrechtliche Status Tibets ist als umstritten zu betrachten, da die tibetische Exilregierung seit den 1950er Jahren sich für die Unabhängigkeit Tibets einsetzt, während die VR China seit 1951 den Kontrollanspruch über die Region hält, die 1965 als Autonome Region Tibet in die Volksrepublik aufgenommen wurde. Trotz der postulierten Berücksichtigung der besonderen lokalen Gegebenheiten kam es in den 1980er Jahren sowie ab März 2008 vermehrt zu Demonstrationen für die Unabhängikeit Tibets. Zentrale Themen in diesem Konflikt sind eine mögliche Benachteiligung junger Tibeter gegenüber der angesiedelten Han-Chinesen, sowie die Furcht eines Autonomieverlustes durch eine direkte Anbindung an Peking durch die Qinghai-Bahn.[^11]
 
 Ausschließlich zwischen März und August 2008 finden sich einzelne Versionen des Artikels zum Autonomen Gebiet Tibet, in denen Abbildungen der tibetischen Flagge verlinkt wurden. Diese vier Versionen wurden jeweils von anonymen Benutzern angelegt, von denen folglich nur die IP-Adresse gespeichert wurde. Dass die verwendeten IP-Adressen nach heutiger Auflösung in Polen adressiert wurden, deutet auf die Verwendung eines VPN oder Proxys zur Maskierung der eigenen Identität hin. [^12]
 -> becker verweis?`
-
-[^10]: Vgl. Shirk, Susan L.: China, S. 58 und Hongyi in Governing, 182 f.
 
 [^11]: Vgl. Noesselt, Nele: Chinesische Politik, S. 45 f.
 
@@ -77,7 +77,7 @@ Seit dem 16. Juli 2009, also nach Beginn der Internetsperre aufgrund der Ausschr
 
 Diese Beispiele zeigen anschaulich sowohl die Effektivität der sozialen Zensur, als auch ihre Grenzen. Die Bilder der Tibetischen Flagge wurden jeweils schon kurz nach Veröffentlichung wieder gelöscht und nach nur vier Versuchen wurde dieses Unterfangen ganz eingestellt - der Widerstand war zu groß. Der Vorfall im Xinjian-Artikel kann hingegen als Gegenprobe gelesen werden. Die Kokbayraq-Flagge war vermutlich nur deshalb über 14 Tage hinweg unangefochten Bestandteil des Artikels, weil die potentiellen Zensoren selbst vom Zugriff auf den Artikel abgehalten wurden. In Verbindung mit einer kurzen Analyse der beteiligten User ist es weiterhin wahrscheinlich, dass der tibetische Vorfall von chinesischen Bürgern, der Vorfall in Xinjian hingegen von Ausländern initiiert wurde. Das Ringen um Deutungshoheit ist in diesem Fall somit ein internationales Phänomen. Weiterhin verdeutlicht es, dass sich soziale Unruhen und Protest auf der Straße in Zeiten des allgegenwärtigen Internets natürlich auch auf die digitale Sphäre auswirken.
 
-[^13]: Vgl. Noesselt, Nele: Chinesische Politik, S. 46 f.; Zu religiös motivierten separationsbewegungen Vgl. Hongyi in Governing, 182.
+[^13]: Vgl. Noesselt, Nele: Chinesische Politik, S. 46 f.; Zu religiös motivierten separationsbewegungen; Hongyi, Lai: Religions and Chinese Socialism, S. 182.
 
 [^14]: Vgl. Drinhausen, Katja: China Unruhen in Xinjiang, Politischer Sonderbericht, Länderberichte China, Hanns-Seidel-Stiftung, München 08.05.2009, Online: <https://china.hss.de/fileadmin/user_upload/Projects_HSS/China/171012_Migration/China-HGB_Xinjiang_2009.pdf>, Stand: 19.02.2020, S. 1 und 4.
 
@@ -105,11 +105,22 @@ Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, da
 
 [^17]: Vgl. Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011, S. 119 f.
 
+## Tiananmen
+
+rückgriff auf das eingangs verwendete Mao-Bild 
+
+![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg)
+
+> "Tiananmensquare", 05.06.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Tiananmensquare.jpg&oldid=56682208), Urheber: Jeff Widener für AP, Stand: 25.02.2020.
+>
+>  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
+
+
+
+Umbrella Movement als Ende des offenen Zugangs?
+
 ---
 
-- Umbrella Movement als Ende des offenen Zugangs?
-- Tank man als Rückgriff auf Eröffnung?
+## Ausblick
 
----
-
-
+Dem Methodenfokus des Projekts folgend, soll sich auch der Ausblick insbesondere auf den methodischen Bereich konzentrieren. Die technische wie quellenkundliche Einschränkung auf Bilder ist für diese Untersuchung schon aus arbeitsökonomischen Gesichtspunkten zentral, jedoch könnten künftige Untersuchungen von einer breiteren Herangehensweise profitieren. Insbesondere die Analyse der User in Form einer Akteursanalyse könnte tiefgreifende Einblicke in die Strukturen und die Reichweite etwaiger Zensoren ermöglichen. Weiterhin würden zukünftige Untersuchungen natürlich von einer noch breiter aufgestellten Datenbasis profitieren. Insbesondere Die Untersuchung von Artikeln zu einzelnen Dissidenten sowie komplexen Themen wie der Taiwan-Problematik scheinen hier erfolgversprechend. Eine solche Verbreiterung würde dabei von einer performanteren Implementation der Algorithmen profitieren, wie sie im entsprechenden Kapitel im Dokument [Quellenarbeit](./Quellenarbeit.md#ausblick--lessons-learned) diskutiert wird. Schließlich bleibt festzuhalten, dass die hier erarbeiteten Methoden mit geringem Anpassungsaufwand auf andere Themengebiete und Fragestellungen übertragen werden können.
