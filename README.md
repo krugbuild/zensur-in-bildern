@@ -1,9 +1,9 @@
 # Zensur in Bildern
-## Informationsfreiheit durch Zugangssperrung? - Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern
+## Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern
 
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
-Stefan Krug, 20.02.2020.
+Stefan Krug, 26.02.2020.
 
 ---
 
