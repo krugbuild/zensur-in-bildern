@@ -4,6 +4,8 @@
 
 [In Arbeit]
 
+`Forschungsfrage`
+
 Um die Zensurpraxis in einem partizipatorischen Medium wie der Wikipedia zu diskutieren, muss zunächst geklärt werden, welche *sensiblen Inhalte* überhaupt in China der Kontrolle unterliegen. Grundsätzlich kann dabei gesagt werden, dass als sensibler Inhalt all das gewertet wird, was die soziale Stabilität des Landes gefährden könnte.[^1] In einem Ein-Parteien-System orientiert sich diese Stabilität natürlich stets an der Legitimität der politischen Führung, folglich ist jede **Kritik der KPC** per se als problematisch zu betrachten. Dazu zählen jedoch auch Forderungen nach Demokratie, Gleichheit, Freiheit oder Menschenrechten. Folglich sind auch viele humitäre NGOs sowie individuelle Kritiker Ziel der Zensurbestrebungen, wie *Human Rights Watch*, *Reporter ohne Grenzen*, *Amnesty International* und *Human Rights in China* sowie z.B. der Friedensnobelpreisträger Liu Xiaobo. Nach Becker lassen sich die üblicherweise als sensibel eingestuften Inhalte in vier weitere Kategorien einordnen: Zu den **Territorialkonflikten und ethnische Unruhen** zählen vor allem die Themen Taiwan, Tibet und Xinjian. Die völkerrechtliche Unabhängigkeit der Republik China auf Taiwan wird von der Volksrepublik China und Führung der KPC vehement bestritten. Die KPC versteht Taiwan als festen Bestandteil des eigenen Hoheitsgebiets. Ähnlich verhält es sich mit den Autonomen Regionen Tibet und Xinjian, die jedoch auch de facto Teil der VR China sind. Die buddhistisch und muslimisch geprägten Regionen waren mit ihren Unabhängigkeitsbestrebungen schon mehrmals Ausgangspunkt von Unruhen. Die Zensur offiziell **verbotener Gruppierungen** erstreckt von religiösen Gruppen wie *Falun Gong* bis hin zu demokratischen Parteien wie der *Demokratischen Partei Chinas*. Ebenfalls problematisch sind sämtliche Inhalte, die sich mit den Vorfällen auf dem **Tiananmenplatz** 1989 beschäftigen. Begriffe wie *Tiananmen-Massaker* oder die gebräuchliche Kennung *sechs-vier* sind häufig Gegenstand von Zensurbemühungen. Zur Abgrenzung zum touristisch hoch frequentierten Platz wird dabei häufig auf Protestkommentare, Jahrestage und direkte Vorwürfe geachtet. Auch **andere Protestbewegungen**, wie die Forderungen nach mehr Demokratie während des *Arabischen Frühlings* können Gegenstand der Zensur werden, wenn diese geeignet sind, sich auf die Bürger in China auszuweiten (*Jasmin Revolution*). Bemerkenswert ist in Anbetracht all dieser sensiblen Themen jedoch, dass es eine gewisse Duldung von Protesten gegen ökonomische Probleme gibt. Dies erklärt sich daraus, dass hier der Kernbereich der Legitimation der KPC berührt ist, nämlich der individuelle wie auch gemeinschaftliche Wohlstand.[^2]
 
 [^1]: Zum *Euphemismus* der sozialen Stabilität siehe Shirk, Susan L.: China: Fragile Superpower, New York 2008, S. 52 f.
@@ -27,6 +29,28 @@ Sowohl der [Artikel zu den Tiananmenplatz Protesten](https://zh.wikipedia.org/w/
 [^4]: Vgl. 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
 
 [^5]: GreatFire Analyzer | zh.wikipedia.org is 100% blocked in China, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 10.12.2019.
+
+---
+
+## Technische Zensur
+
+![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg)
+
+> "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Urheber: CDP2006 (CC-BY SA), Stand: 18.02.2020.  
+>
+> [[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md).]
+
+Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist deutlich die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind die Kontaktdaten der Partei abgebildet. Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von der politischen wie philosophischen Nähe zu den USA, zumindest in der Außendarstellung. Die Demokratische Partei Chinas gilt in China als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig zensiert werden.[^16] 
+
+Bemerkenswert ist, dass dieses Foto seit [10. Dezember 2012](https://zh.wikipedia.org/w/index.php?oldid=24044788) fester Bestandteil des Artikels zur Demokratischen Partei Chinas ist. Entgegen der oben dargelegten These zur Selbstzensur der User wurde dieses Foto trotz des offenkundig pro-amerikanischen Sujets nicht gelöscht. Das "partizipatorische Panoptikum" [^17] reicht also nicht zur Erklärung der Phänomene aus. Stattdessen greifen hier vermutlich andere Mechanismen. Während die gegenseitige Kontrolle der Nutzer als Konsequenz einer Abschreckungsstrategie verstanden werden kann, ist für eine effektive Zensur im Internet die technische Zugangsbeschränkung ein weiterer Baustein. So war die chinesische Wikipedia selbst vor 2015 durchaus zugänglich, Teile derselben unterlagen jedoch weiterhin einer technischen Zensur.
+
+Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, dass eine soziale Zensur durch Löschung des Bildes nicht erfolgte. Vermutlich kommen jedoch nur zwei Techniken in Frage: die **Filterung** von Internetressourcen auf Paketebene oder die **Sperrung** einzelner Adressen. Bei der Filterung würden sämtliche Anfragen auf Codewörter in der Adresse überprüft und bei positivem Befund abgelehnt werden. Dies funktioniert sowohl bei kompletten Webseiten, als auch bei einzelnen Elementen. Somit würde der Browser statt der Seite eine Fehlermeldung anzeigen, bzw. würden auf einer Seite gefilterte Elemente wie Bilder einfach nicht angezeigt werden. [BELEGE] Diese Mechanik würde problemlos bei der diskutierten Fotografie greifen, da diese im Dateinamen die Begriffe `china`, `democracy` und `party` trägt. Eine Identifizierung als unerwünscht wäre somit trivial. Die Blockierung bestimmter Seiten über Sperrlisten wäre eine naheliegende Alternative zur Filterung. Hierbei würde der Provider die Anfrage zunächst mit einer Sperrliste abgleichen und bei positivem Befund eine simple Fehlerseite oder gar eine Warnung anzeigen. [BELEG] Beide Methoden sind geeignet den Zugriff sowohl nur auf die Fotografie als auch auf den ganzen zugehörigen Artikel zu unterbinden und somit der Selbstkontrolle durch chinesische Bürger zu entziehen. Andere Methoden wie *deep packet inspection* sind ebenfalls vorstellbar, jedoch bei so klar adressierten Inhalten nicht notwendig.
+
+[^16]: Vgl. Becker, Kim-Björn: Internetzensur in China, 102 f.
+
+[^17]: Vgl. Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011, S. 119 f.
+
+---
 
 ## Soziale Zensur
 
@@ -52,7 +76,20 @@ Falun Gong ist eine religiöse Bewegung auf Basis taoistischer und buddhistische
 
 ---
 
-## Digitaler Protest
+## Umstritten: Tiananmen
+
+rückgriff auf das eingangs verwendete Mao-Bild 
+
+![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg)
+
+> "Tiananmensquare", 05.06.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Tiananmensquare.jpg&oldid=56682208), Urheber: Jeff Widener für AP, Stand: 25.02.2020.
+>
+>  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
+
+
+---
+
+## Digitaler Protest als 
 
 Die Auswirkungen der partizipatorischen Selbstzensur lassen sich in der Versionsgeschichte eines Artikels sehr gut an wiederholt gelöschten Bildern beobachten. Normalerweise würde das wiederholte Löschen und Hinzufügen einzelner Artikelteile auf einen Dissens in der Community hinweisen, der im besten Falle auf der Diskussionsseite des Artikels geklärt wird oder aber bei fehlender Kooperation in einen Edit-War mündet. Hier hingegen herrscht keine Parität der Kräfte, die einen Edit-War entstehen lassen könnten, stattdessen haben wir es eher mit einer Art digitalem Protest zu tun - insbesondere wenn die Akteure wiederholt versuchen, offenbar verbotene Bilder zu veröffentlichen. Sehr gut nachvollziehen lässt sich dieses Phänomen bei den Bildern der tibetischen Flagge im Artikel zur autonomen Region Tibet und dem Bild der Kokbayraq-Flagge im Artikel zur autonomen Region Xinjian, deren Flaggen als Symbole der (angestrebten) Unabhängigkeit verstanden werden. Es überrascht dabei kaum, dass eben diese Regionen häufig durch soziale Unruhen auffallen.[^10]
 
@@ -75,7 +112,7 @@ Das *neue Grenzgebiet* Xinjian ist für China insbesondere aus wirtschaftlichen 
 
 Seit dem 16. Juli 2009, also nach Beginn der Internetsperre aufgrund der Ausschreitungen in Urmutschi, wurde ein Bild der Kokbayraq-Flagge, einem Symbol der Unabhängigkeitsbewegung Ostturkmenistans, dem Artikel zum Autonomen Gebiet Xinjian hinzugefügt. Die verantwortliche Person identifiziert sich auf ihrer [User-Seite](https://zh.wikipedia.org/wiki/User:KEIM) als aus Nordamerika stammend und spricht sich unter Anderem für ein unabhängiges Ostturkmenistan aus. Gelöscht wurde das Bild erst am 29. Juli 2009, also kurze Zeit nach der Lockerung der Internetsperrung, von einem User mit chinesischer IP-Adresse.[^15] 
 
-Diese Beispiele zeigen anschaulich sowohl die Effektivität der sozialen Zensur, als auch ihre Grenzen. Die Bilder der Tibetischen Flagge wurden jeweils schon kurz nach Veröffentlichung wieder gelöscht und nach nur vier Versuchen wurde dieses Unterfangen ganz eingestellt - der Widerstand war zu groß. Der Vorfall im Xinjian-Artikel kann hingegen als Gegenprobe gelesen werden. Die Kokbayraq-Flagge war vermutlich nur deshalb über 14 Tage hinweg unangefochten Bestandteil des Artikels, weil die potentiellen Zensoren selbst vom Zugriff auf den Artikel abgehalten wurden. In Verbindung mit einer kurzen Analyse der beteiligten User ist es weiterhin wahrscheinlich, dass der tibetische Vorfall von chinesischen Bürgern, der Vorfall in Xinjian hingegen von Ausländern initiiert wurde. Das Ringen um Deutungshoheit ist in diesem Fall somit ein internationales Phänomen. Weiterhin verdeutlicht es, dass sich soziale Unruhen und Protest auf der Straße in Zeiten des allgegenwärtigen Internets natürlich auch auf die digitale Sphäre auswirken.
+Diese Beispiele zeigen anschaulich sowohl die Effektivität der sozialen Zensur, als auch ihre Grenzen. Die Bilder der Tibetischen Flagge wurden jeweils schon kurz nach Veröffentlichung wieder gelöscht und nach nur vier Versuchen wurde dieses Unterfangen ganz eingestellt - der Widerstand war zu groß. Der Vorfall im Xinjian-Artikel kann hingegen als Gegenprobe gelesen werden. Die Kokbayraq-Flagge war vermutlich nur deshalb über 14 Tage hinweg unangefochten Bestandteil des Artikels, weil die potentiellen Zensoren selbst vom Zugriff auf den Artikel abgehalten wurden. In Verbindung mit einer kurzen Analyse der beteiligten User ist es weiterhin wahrscheinlich, dass der tibetische Vorfall von chinesischen Bürgern, der Vorfall in Xinjian hingegen von Ausländern initiiert wurde. Das Ringen um Deutungshoheit ist in diesem Fall somit ein internationales Phänomen. Weiterhin verdeutlicht es, dass sich soziale Unruhen und Protest auf der Straße in Zeiten des allgegenwärtigen Internets natürlich auch auf die digitale Sphäre auswirken. `letzten Punkt hervorheben`
 
 [^13]: Vgl. Noesselt, Nele: Chinesische Politik, S. 46 f.; Zu religiös motivierten separationsbewegungen; Hongyi, Lai: Religions and Chinese Socialism, S. 182.
 
@@ -84,38 +121,6 @@ Diese Beispiele zeigen anschaulich sowohl die Effektivität der sozialen Zensur,
 [^15]: Siehe [Bildquellenauswertung des Artikels "Autonomes Gebiet Xinjian"](./Artikel/xinjian/README.md).
 
 ---
-
-## Technische Zensur
-
-Nicht alle Phänomene des Quellenbestandes lassen sich jedoch ausschließlich über die soziale Zensur erklären. 
-
-![China democracy party](https://upload.wikimedia.org/wikipedia/commons/f/f7/China_democracy_party.jpg)
-
-> "China democracy party", 04.06.2008. Online: [commons.wikimedia.org](https://zh.wikipedia.org/wiki/File:China_democracy_party.jpg), Urheber: CDP2006 (CC-BY SA), Stand: 18.02.2020.  
->
-> [[Zur Bildquellenauswertung des Artikels "Demokratische Partei Chinas"](./Artikel/democracy_party/README.md).]
-
-Das Foto zeigt eine größere Gruppe Personen in uniformierter Kleidung, die sich entweder im Vordergrund sitzend oder im Hintergrund stehend für das Foto aufgereiht haben. Die sitzenden Personen in der Mitte halten ein Banner mit der Aufschrift *中国民主党美国总部 China Democracy Party USA Headquarters*. Weiterhin sind auf dem Banner die Ideale der Partei aufgezählt, identifizierbar sind: *民主 Democracy, 自由 Freedom und 人权 Human rights*. Mehrere Personen halten Flaggen, zumeist die amerikanische Flagge, in die Höhe oder vor dem Körper. Im Hintergrund ist deutlich die Kuppel des Kapitols in Washington zu erkennen. In der unteren rechten Ecke ist der Name der Partei sowie das Parteiemblem abgebildet, welches an das Hoheitszeichen der Republik China erinnert. In der linken unteren Ecke sind die Kontaktdaten der Partei abgebildet. Die förmliche Überladung mit US-amerikanischen Symbolen, vom Kapitol über die Flaggen bis hin zum blau-weiß-roten Farbschema der Kleidung und Banner, zeugt von der politischen wie philosophischen Nähe zu den USA, zumindest in der Außendarstellung. Die Demokratische Partei Chinas gilt in China als verbotene Partei, weshalb mit ihr assoziierte Seiten regelmäßig zensiert werden.[^16] 
-
-Bemerkenswert ist, dass dieses Foto seit [10. Dezember 2012](https://zh.wikipedia.org/w/index.php?oldid=24044788) fester Bestandteil des Artikels zur Demokratischen Partei Chinas ist. Entgegen der oben dargelegten These zur Selbstzensur der User wurde dieses Foto trotz des offenkundig pro-amerikanischen Sujets nicht gelöscht. Das "partizipatorische Panoptikum" [^17] reicht also nicht zur Erklärung der Phänomene aus. Stattdessen greifen hier vermutlich andere Mechanismen. Während die gegenseitige Kontrolle der Nutzer als Konsequenz einer Abschreckungsstrategie verstanden werden kann, ist für eine effektive Zensur im Internet die technische Zugangsbeschränkung ein weiterer Baustein. So war die chinesische Wikipedia selbst vor 2015 durchaus zugänglich, Teile derselben unterlagen jedoch weiterhin einer technischen Zensur.
-
-Es bleibt fraglich, welche technischen Maßnahmen genau dafür gesorgt haben, dass eine soziale Zensur durch Löschung des Bildes nicht erfolgte. Vermutlich kommen jedoch nur zwei Techniken in Frage: die **Filterung** von Internetressourcen auf Paketebene oder die **Sperrung** einzelner Adressen. Bei der Filterung würden sämtliche Anfragen auf Codewörter in der Adresse überprüft und bei positivem Befund abgelehnt werden. Dies funktioniert sowohl bei kompletten Webseiten, als auch bei einzelnen Elementen. Somit würde der Browser statt der Seite eine Fehlermeldung anzeigen, bzw. würden auf einer Seite gefilterte Elemente wie Bilder einfach nicht angezeigt werden. [BELEGE] Diese Mechanik würde problemlos bei der diskutierten Fotografie greifen, da diese im Dateinamen die Begriffe `china`, `democracy` und `party` trägt. Eine Identifizierung als unerwünscht wäre somit trivial. Die Blockierung bestimmter Seiten über Sperrlisten wäre eine naheliegende Alternative zur Filterung. Hierbei würde der Provider die Anfrage zunächst mit einer Sperrliste abgleichen und bei positivem Befund eine simple Fehlerseite oder gar eine Warnung anzeigen. [BELEG] Beide Methoden sind geeignet den Zugriff sowohl nur auf die Fotografie als auch auf den ganzen zugehörigen Artikel zu unterbinden und somit der Selbstkontrolle durch chinesische Bürger zu entziehen. Andere Methoden wie *deep packet inspection* sind ebenfalls vorstellbar, jedoch bei so klar adressierten Inhalten nicht notwendig.
-
-[^16]: Vgl. Becker, Kim-Björn: Internetzensur in China, 102 f.
-
-[^17]: Vgl. Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011, S. 119 f.
-
-## Tiananmen
-
-rückgriff auf das eingangs verwendete Mao-Bild 
-
-![Tiananmensquare.jpg](https://upload.wikimedia.org/wikipedia/zh/7/70/Tiananmensquare.jpg)
-
-> "Tiananmensquare", 05.06.1989. Online: [zh.wikipedia.org](https://zh.wikipedia.org/w/index.php?title=File:Tiananmensquare.jpg&oldid=56682208), Urheber: Jeff Widener für AP, Stand: 25.02.2020.
->
->  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
-
-
 
 Umbrella Movement als Ende des offenen Zugangs?
 
