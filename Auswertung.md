@@ -86,10 +86,17 @@ rückgriff auf das eingangs verwendete Mao-Bild
 >
 >  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
 
+Diese von Jeff Widener aufgenommene Version des *Tank Man* Fotos zeigt einen einzelnen Mann, der sich vier Panzern in den Weg stellt. Die Bildmitte ist auf den Turm des zweiten Panzers ausgerichtet, sodass der als *Tank Man* berühmt gewordene Mann sich in der linken unteren Ecke des Bildes befindet. Von der Umgebung ist nur zu erkennen, dass die Panzer sich auf ein vielspurigen Straße befinden. Die Straßenlaterne am unteren Bildrand lässt darauf schließen, dass das Foto von einer stark erhöhten Position aufgenommen wurde. 
+
+zum Kontext
+
+einordnung des vorfalls - rückgriff auf mao bild
+
+anhaltender struggle um das bild in den Quellen
 
 ---
 
-## Digitaler Protest als 
+## Digitale Ausläufer lokaler Proteste
 
 Die Auswirkungen der partizipatorischen Selbstzensur lassen sich in der Versionsgeschichte eines Artikels sehr gut an wiederholt gelöschten Bildern beobachten. Normalerweise würde das wiederholte Löschen und Hinzufügen einzelner Artikelteile auf einen Dissens in der Community hinweisen, der im besten Falle auf der Diskussionsseite des Artikels geklärt wird oder aber bei fehlender Kooperation in einen Edit-War mündet. Hier hingegen herrscht keine Parität der Kräfte, die einen Edit-War entstehen lassen könnten, stattdessen haben wir es eher mit einer Art digitalem Protest zu tun - insbesondere wenn die Akteure wiederholt versuchen, offenbar verbotene Bilder zu veröffentlichen. Sehr gut nachvollziehen lässt sich dieses Phänomen bei den Bildern der tibetischen Flagge im Artikel zur autonomen Region Tibet und dem Bild der Kokbayraq-Flagge im Artikel zur autonomen Region Xinjian, deren Flaggen als Symbole der (angestrebten) Unabhängigkeit verstanden werden. Es überrascht dabei kaum, dass eben diese Regionen häufig durch soziale Unruhen auffallen.[^10]
 
