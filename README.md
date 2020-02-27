@@ -3,11 +3,11 @@
 
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
-Stefan Krug, 26.02.2020.
+Stefan Krug, 27.02.2020.
 
 ---
 
-Status: in Arbeit.
+Status: in Korrektur.
 
 **[[Zur Leseansicht](https://krugbuild.github.io/zensur-in-bildern/)]**  
 (Die Nutzung der Leseansicht sei hiermit ausdrücklich empfohlen, da nur so Fußnoten auf gewohnte Art und Weise aufgelöst werden. Zudem entspricht das Textbild eher dem gewohnter Publikationsformen.)
@@ -22,6 +22,7 @@ Status: in Arbeit.
 
 - In der [Auswertung](Auswertung.md) findet sich die historiografische Analyse sowie das Ergebnis des Projekts.  
 - Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
+- Sämtliche verwendete Literatur ist als [BibTex](./Literatur.bib) hinterlegt. 
 - Im Unterordner [Artikel](./Artikel) befinden sich die Forschungsdaten zu den untersuchten Artikeln.
 - Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zugeordnet werden können.
 - Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
