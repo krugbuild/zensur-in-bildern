@@ -2,15 +2,15 @@
 
 # Informationsfreiheit durch Zugangssperrung?
 
-Analysen chinesischer Zensurpraxis konzentrieren sich allzu gern auf die Situation der *etablierten Medien* in der Volksrepublik China (VRC) und behandeln *soziale Medien* bestenfalls beiläufig.[^0] Dieses Projekt widmet sich daher einem Medium, das bisher nur zögerlich als Quelle historiographischer Analysen in Betracht gezogen wird.[^01] Im Folgenden soll die Zensurpraxis der VRC innerhalb partizipatorischer Medien am Beispiel der chinesischen Sprachversion der Wikipedia diskutiert werden. Die Untersuchung beschränkt sich dabei auf die Verwendung von Fotografien und anderen Bildern in ausgewählten Artikeln.[^00] Es gilt dabei zu untersuchen, inwiefern sich die Zensurpraxis auf die Auswahl der Bilder auswirkte, welche Methoden dazu voraussichtlich zum Einsatz kamen und wie sich diese Praxis in den 2010er Jahren entwickelte. Grundlage der Auswahl der Artikel und Bilder ist hierbei der Begriff der *sensiblen Inhalte*. Diese definieren sich darüber, dass sie grundsätzlich dazu geeignet sind, die *soziale Stabilität* des Landes zu gefährden.[^1] Ihre genauen Ausprägungen werden im Folgenden diskutiert.
+Analysen chinesischer Zensurpraxis konzentrieren sich allzu gern auf die Situation der *etablierten Medien* in der Volksrepublik China (VRC) und behandeln *soziale Medien* bestenfalls beiläufig.[^1] Dieses Projekt widmet sich daher einem Medium, das bisher nur zögerlich als Quelle historiographischer Analysen in Betracht gezogen wird.[^2] Im Folgenden soll die Zensurpraxis der VRC innerhalb partizipatorischer Medien am Beispiel der chinesischen Sprachversion der Wikipedia diskutiert werden. Die Untersuchung beschränkt sich dabei auf die Verwendung von Fotografien und anderen Bildern in ausgewählten Artikeln.[^3] Es gilt dabei zu untersuchen, inwiefern sich die Zensurpraxis auf die Auswahl der Bilder auswirkte, welche Methoden dazu voraussichtlich zum Einsatz kamen und wie sich diese Praxis in den 2010er Jahren entwickelte. Grundlage der Auswahl der Artikel und Bilder ist hierbei der Begriff der *sensiblen Inhalte*. Diese definieren sich darüber, dass sie grundsätzlich dazu geeignet sind, die *soziale Stabilität* des Landes zu gefährden.[^4] Ihre genauen Ausprägungen werden im Folgenden diskutiert.
 
-[^0]: Bemerkenswerte Überblickswerke über die Entwicklung des Internets und der zugehörigen Zensurpraxis in China finden sich bei Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011; Sowie Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011 (Ostasien - Pazifik: Trierer Studien zu Politik, Wirtschaft, Gesellschaft, Kultur).
+[^1]: Hilfreiche Überblickswerke über die Entwicklung des Internets und der zugehörigen Zensurpraxis in China finden sich bei Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011; Sowie Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011 (Ostasien - Pazifik: Trierer Studien zu Politik, Wirtschaft, Gesellschaft, Kultur).
 
-[^01]: Wikipediaartikel als Quellengegenstand wurden vom Autor bereits in einem früheren Projekt evaluiert, siehe: Krug, Stefan: Crowds, sources and manipulation. Begriffshistorische Analysen mittels Wikipedia am Beispiel des Artikels «Populismus» zwischen 2014 und 2017, GitHub, 27.11.2019, <https://github.com/krugbuild/crowds-sources-manipulation>, Stand: 27.02.2020.
+[^2]: Wikipediaartikel als Quellengegenstand wurden vom Autor bereits in einem früheren Projekt evaluiert, siehe: Krug, Stefan: Crowds, sources and manipulation. Begriffshistorische Analysen mittels Wikipedia am Beispiel des Artikels «Populismus» zwischen 2014 und 2017, GitHub, 27.11.2019, <https://github.com/krugbuild/crowds-sources-manipulation>, Stand: 27.02.2020.
 
-[^00]: Zur Auswahl, Aufbereitung und Auswertung der Quellen siehe das Dokument [Quellenarbeit](./Quellenarbeit.md).
+[^3]: Zur Auswahl, Aufbereitung und Auswertung der Quellen siehe das Dokument [Quellenarbeit](./Quellenarbeit.md).
 
-[^1]: Zum *Euphemismus* der sozialen Stabilität siehe Shirk, Susan L.: China: Fragile Superpower, New York 2008, S. 52 f.
+[^4]: Zum *Euphemismus* der sozialen Stabilität siehe Shirk, Susan L.: China: Fragile Superpower, New York 2008, S. 52 f.
 
 ---
 
@@ -20,15 +20,17 @@ Analysen chinesischer Zensurpraxis konzentrieren sich allzu gern auf die Situati
 >
 >  [[Zur Bildquellenauswertung des Artikels "Tiananmen Zwischenfall"](./Artikel/tiananmen/README.md)]
 
-Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Zu den Seiten des Tores stehen Menschen Spalier, einige blicken in Richtung Kamera, andere sind der Tormitte zugewandt. Im Tor selbst steht eine Menschenmenge, wobei die vordersten Personen Flaggen und ein Transparent tragen. Vermutlich handelt es sich dabei um einen Demonstrationszug, der sich bis in den Bildhintergrund erstreckt. Über dem Tor und der Menschenmenge hängt das Portrait Mao Zedongs, auf dem verschiedenfarbige Flecken zu erkennen sind. Es handelt sich hierbei offenkundig um eine Form der Verschandelung. Zwar ist der Umgang der chinesischen Öffentlichkeit und Führung mit dem Andenken Maos keinesfalls unkritisch, doch werden öffentliche Respektlosigkeiten wie diese klar als Angriff auf die Kommunistische Partei Chinas (KPC) selbst gewertet.[^3] Die Gegenüberstellung des verunstalteten Portraits mit der demonstrierenden Menschengruppe, unter völliger Abwesenheit von Ordnungskräften, impliziert zudem eine öffentliche Akzeptanz der Tat. Das Foto kann somit als Symbol der Erosion der sozialen Stabilität verstanden werden - einem Eckpfeiler der KPC-Herrschaft.
+Das Foto zeigt das sogenannte *Tor des Himmlischen Friedens* in Frontalaufnahme. Zu den Seiten des Tores stehen Menschen Spalier, einige blicken in Richtung Kamera, andere sind der Tormitte zugewandt. Im Tor selbst steht eine Menschenmenge, wobei die vordersten Personen Flaggen und ein Transparent tragen. Vermutlich handelt es sich dabei um einen Demonstrationszug, der sich bis in den Bildhintergrund erstreckt. Über dem Tor und der Menschenmenge hängt das Portrait Mao Zedongs, auf dem verschiedenfarbige Flecken zu erkennen sind. Es handelt sich hierbei offenkundig um eine Form der Verschandelung. Zwar ist der Umgang der chinesischen Öffentlichkeit und Führung mit dem Andenken Maos keinesfalls unkritisch, doch werden öffentliche Respektlosigkeiten wie diese klar als Angriff auf die Kommunistische Partei Chinas (KPC) selbst gewertet.[^5] Die Gegenüberstellung des verunstalteten Portraits mit der demonstrierenden Menschengruppe, unter völliger Abwesenheit von Ordnungskräften, impliziert zudem eine öffentliche Akzeptanz der Tat. Das Foto kann somit als Symbol der Erosion der sozialen Stabilität verstanden werden - einem Eckpfeiler der KPC-Herrschaft.
 
-Sowohl der [Artikel zu den Tiananmenplatz Protesten](https://zh.wikipedia.org/w/index.php?oldid=5009873), als auch das Digitalisat des Fotos sind seit 2007 online.[^4] Trotz dieser potentiellen Verfügbarkeit und einer geeigneten Plattform wurde das Foto jedoch erst am [01. März 2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) in den Artikel aufgenommen. Diese Verzögerung erklärt sich vermutlich durch die gelebte Zensurpraxis, die vermutlich erst mit der Sperrung der chinesischen Wikipedia für chinesische User gegen Anfang 2015 endete. Die Erreichbarkeit beliebiger Internetseiten aus China kann über das Portal von [greatfire.org](en.greatfire.org) geprüft werden, wobei Abfragen protokolliert und anschließend in einer Kalenderansicht veröffentlicht werden. Mit Hilfe dieser Darstellung lässt sich leicht nachvollziehen, dass die chinesische Wikipedia ([zh.wikipedia.org](zh.wikipedia.org)) bis Ende 2014 von China aus erreichbar war.[^5] Vor 2015 war es chinesischen Bürgern somit nicht nur möglich, auf das freie und von Freiwilligen gepflegte Lexikon Wikipedia zuzugreifen, sondern sie konnten diese aktiv mitgestalten. Mit der sich änderten Nutzerbasis haben sich also möglicherweise auch die Ansprüche an die Inhalte der Wikipedia geändert. Zuvor Zensiertes konnte veröffentlicht werden - aus der Zugangssperrung erwuchs Informationsfreiheit.
+Sowohl der [Artikel zu den Tiananmenplatz Protesten](https://zh.wikipedia.org/w/index.php?oldid=5009873)[^6], als auch das Digitalisat des Fotos sind seit 2007 online.[^7] Trotz dieser potentiellen Verfügbarkeit und einer geeigneten Plattform wurde das Foto jedoch erst am [01. März 2015](https://zh.wikipedia.org/w/index.php?oldid=34491036) in den Artikel aufgenommen. Diese Verzögerung erklärt sich vermutlich durch die gelebte Zensurpraxis, die vermutlich erst mit der Sperrung der chinesischen Wikipedia für chinesische User gegen Anfang 2015 endete. Die Erreichbarkeit beliebiger Internetseiten aus China kann über das Portal von [greatfire.org](en.greatfire.org) geprüft werden, wobei Abfragen protokolliert und anschließend in einer Kalenderansicht veröffentlicht werden. Mit Hilfe dieser Darstellung lässt sich leicht nachvollziehen, dass die chinesische Wikipedia ([zh.wikipedia.org](zh.wikipedia.org)) bis Ende 2014 von China aus erreichbar war.[^8] Vor 2015 war es chinesischen Bürgern somit nicht nur möglich, auf das freie und von Freiwilligen gepflegte Lexikon Wikipedia zuzugreifen, sondern sie konnten diese aktiv mitgestalten. Mit der sich änderten Nutzerbasis haben sich also möglicherweise auch die Ansprüche an die Inhalte der Wikipedia geändert. Zuvor Zensiertes konnte veröffentlicht werden - aus der Zugangssperrung erwuchs Informationsfreiheit.
 
-[^3]: Vgl. Noesselt, Nele: Chinesische Politik: Nationale und globale Dimensionen, Baden-Baden 2016, S. 93 f; Zur Zensur von KPC-kritischen Inhalten siehe Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011, S. 103 f.
+[^5]: Vgl. Noesselt, Nele: Chinesische Politik: Nationale und globale Dimensionen, Baden-Baden 2016, S. 93 f; Zur Zensur von KPC-kritischen Inhalten siehe Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011, S. 103 f.
 
-[^4]: Vgl. 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
+[^6]: In Anbetracht des anhaltenden Diskurses um eine angemessene Bezeichnung der Studierendenproteste und der Ausschreitungen von 1989 verwendet der Autor im Folgenden stets den Begriff *Tiananmen Zwischenfall*, der auch am ehesten dem chinesischen Artikeltitel entspricht.
 
-[^5]: GreatFire Analyzer | zh.wikipedia.org is 100% blocked in China, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 10.12.2019.
+[^7]: Vgl. 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
+
+[^8]: GreatFire Analyzer | zh.wikipedia.org is 100% blocked in China, <https://en.greatfire.org/zh.wikipedia.org>, Stand: 10.12.2019.
 
 ---
 
@@ -78,7 +80,7 @@ Falun Gong ist eine religiöse Bewegung auf Basis taoistischer und buddhistische
 
 ---
 
-## Umstritten: Tiananmen
+## Im Ringen um den richtigen Umgang - Tiananmen
 
 Die Auswirkungen der partizipatorischen Selbstzensur lassen sich in der Versionsgeschichte eines Artikels besonders gut an wiederholt gelöschten Bildern beobachten. Üblicherweise weist das wiederholte Löschen und Hinzufügen einzelner Artikelteile auf einen Dissens in der Community hin, wobei im vorliegenden Fall der Umgang mit dem international bekannten Vorfall auf dem Tiananmenplatz 1989 ausgehandelt wird. Gemäß Becker unterliegen Inhalte, die sich mit diesemVorfall beschäftigen, regelmäßig der Zensur. Begriffe wie *Tiananmen-Massaker* oder die gebräuchliche Kennung *sechs-vier* werden dabei mit hoher Wahrscheinlich geblockt, während das Vorgehen bei unverfänglicheren Begriffen weniger klar ist. Zur Abgrenzung zum touristisch hoch frequentierten Platz wird dann üblicherweise auf Protestkommentare, Jahrestage und direkte Vorwürfe geachtet - sofern möglich.[^98] Einen derart unklaren Fall stellt auch das Foto *Tank Man* dar.
 
@@ -102,23 +104,9 @@ Das Foto ist seit spätestens 29. April 2011 in der chinesischen Wikipedia verf�
 
 ---
 
-## Digitale Ausläufer lokaler Proteste
+## Digitale Ausläufer lokaler Proteste - Tibet und Xinjian
 
-<!--
-
-Die bisher behandelten Themen drehte sich die Frage der Zensur stets um die 
-
-bewegten sich häufig in der historischen Ebene, höchstens das Nachwirken der blockierten Medien sowie die Brisanz der Themen selbst vermitteln eine aktuelle Relevanz.
-
-Die folgenden zwei Beispiele behandeln jedoch Fälle von akuter Relevanz für das jeweilige Thema. 
-
-Zu den **Territorialkonflikten und ethnische Unruhen** zählen vor allem die Themen Taiwan, Tibet und Xinjian. Die völkerrechtliche Unabhängigkeit der Republik China auf Taiwan wird von der Volksrepublik China und Führung der KPC vehement bestritten. Die KPC versteht Taiwan als festen Bestandteil des eigenen Hoheitsgebiets. Ähnlich verhält es sich mit den Autonomen Regionen Tibet und Xinjian, die jedoch auch de facto Teil der VRC sind. Die buddhistisch und muslimisch geprägten Regionen waren mit ihren Unabhängigkeitsbestrebungen schon mehrmals Ausgangspunkt von Unruhen.
-
- 
-
- stattdessen haben wir es eher mit einer Art digitalem Protest zu tun - insbesondere wenn die Akteure wiederholt versuchen, offenbar verbotene Bilder zu veröffentlichen. Sehr gut nachvollziehen lässt sich dieses Phänomen bei den Bildern der tibetischen Flagge im Artikel zur autonomen Region Tibet und dem Bild der Kokbayraq-Flagge im Artikel zur autonomen Region Xinjian, deren Flaggen als Symbole der (angestrebten) Unabhängigkeit verstanden werden. Es überrascht dabei kaum, dass eben diese Regionen häufig durch soziale Unruhen auffallen.[^10]
-
--->
+In den Artikeln zu den häufig durch Unruhen auffallenden[^10] Autonomen Regionen Tibet und Xinjian lässt sich derweil beobachten, dass die Darstellungen in der Wikipedia keinen ausschließlich retrospektiven Charakter haben, sondern auch zum Teil des historischen Geschehens werden. Hier haben wir es mit einer Vermischung des lokalen mit einem digitalen Protest zu tun. Dabei versuchten die Akteure, Nationalflaggen als Symbol der Unabhängigkeit von der VRC in den entsprechenden Artikeln zu platzieren. 
 
 [^10]: Vgl. Shirk, Susan L.: China, S. 58; Hongyi, Lai: Religions and Chinese Socialism: China’s Religious Policies Since the 1990s, in: Yang, Lijun; Shan, Wei: Governing Society in Contemporary China, Singapore [u.a.] 2017, S. 182 f.
 
