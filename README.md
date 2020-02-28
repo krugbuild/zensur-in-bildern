@@ -7,8 +7,6 @@ Stefan Krug, 28.02.2020.
 
 ---
 
-Status: in Korrektur.
-
 **[[Zur Leseansicht](https://krugbuild.github.io/zensur-in-bildern/)]**  
 (Die Nutzung der Leseansicht sei hiermit ausdrücklich empfohlen, da nur so Fußnoten auf gewohnte Art und Weise aufgelöst werden. Zudem entspricht das Textbild eher dem gewohnter Publikationsformen.)
 
