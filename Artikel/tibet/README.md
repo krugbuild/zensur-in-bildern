@@ -21,9 +21,15 @@ Die zum Eintragen der Tibetischen Flagge verwendeten IP-Adressen wurden am 18.02
 
 ## Artikeldaten
 
+Anzahl der Artikelversionen: 722
+
 Die Daten wurden am 27. Januar 2020 zwischen 17:51:48 Uhr und 18:18:38 Uhr CET abgerufen. Es wurde die vollständige Versionsgeschichte zum Zeitpunkt der Untersuchung abgerufen. Siehe [articleData_log.txt](articleData_log.txt) sowie [historyData_log.txt](historyData_log.txt).
 
 ## Bilddaten
+
+Anzahl der Bilder: 44
+
+Anzahl der Bildreferenzen: 7854
 
 Die Datenverarbeitung fand am 27. Januar 2020 zwischen 18:34:48 Uhr und 18:35:55 Uhr CET sowie am 29. Januar 2020 zwischen 14:32:12 Uhr und 14:58:23 Uhr CET statt. Siehe [imageData_log.txt](imageData_log.txt) sowie [imageTable_log.txt](imageTable_log.txt).
 

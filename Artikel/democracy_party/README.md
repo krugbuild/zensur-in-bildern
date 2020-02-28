@@ -8,9 +8,15 @@
 
 ## Artikeldaten
 
+Anzahl der Artikelversionen: 281 
+
 Die Daten wurden am 30. Januar 2020 zwischen 10:51:58 Uhr und 10:58:53 Uhr CET abgerufen. Es wurde die vollständige Versionsgeschichte zum Zeitpunkt der Untersuchung abgerufen. Siehe [articleData_log.txt](articleData_log.txt) sowie [historyData_log.txt](historyData_log.txt).
 
 ## Bilddaten
+
+Anzahl der Bilder: 19
+
+Anzahl der Bildreferenzen: 1538
 
 Die Datenverarbeitung fand am 30. Januar 2020 11:23:26 Uhr bis 11:23:32 Uhr CET sowie am 30. Januar 2020 11:24:04 Uhr bis 11:25:04 Uhr CET statt. Siehe [imageData_log.txt](imageData_log.txt) sowie [imageTable_log.txt](imageTable_log.txt).
 

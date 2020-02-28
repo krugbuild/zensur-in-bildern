@@ -3,7 +3,7 @@
 
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
-Stefan Krug, 27.02.2020.
+Stefan Krug, 28.02.2020.
 
 ---
 
@@ -20,13 +20,23 @@ Status: in Korrektur.
 
 ### Projektstruktur
 
-- In der [Auswertung](Auswertung.md) findet sich die historiografische Analyse sowie das Ergebnis des Projekts.  
+- In der [Auswertung](Auswertung.md) findet sich die historiographische Analyse sowie das Ergebnis des Projekts.  
 - Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
 - Sämtliche verwendete Literatur ist als [BibTex](./Literatur.bib) hinterlegt. 
 - Im Unterordner [Artikel](./Artikel) befinden sich die Forschungsdaten zu den untersuchten Artikeln.
 - Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zugeordnet werden können.
 - Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
 
+### Kennzahlen
+
+| untersuchte Wikipediaartikel | 12 |
+| - | - |
+| Zeitraum | 2000 bis 2020 |
+| Artikelversionen, gesamt | 18541 |
+| Bilder, nach einzigartiger URL | |
+| Bildreferenzen, gesamt | 388198 |
+
 ---
 
-[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizensiert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Der Autor folgt hierbei der CC BY-SA-Lizensierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Der Autor folgt hierbei der CC BY-SA-Lizenzierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.
+
