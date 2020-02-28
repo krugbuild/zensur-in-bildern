@@ -10,6 +10,8 @@ Jede Version verfügt zudem über eine einmalige ID, mittels derer sie eindeutig
 
 [^2]: Versionsverwaltung, in: Wikipedia, 05.02.2020. Online: <https://de.wikipedia.org/w/index.php?title=Versionsverwaltung&oldid=196516773>, Stand: 20.02.2020.
 
+---
+
 ## Methodik
 
 Um Veränderungen über größere Zeiträume nachvollziehen zu können, ohne sich auf jeweils winzige sprachliche Veränderungen je Versionssprung beziehen zu müssen, bietet es sich an, die Verwendung von Bildern in Artikeln über die Versionsgeschichte zu analysieren. Im Gegensatz zum Text eines Artikels, der sich durchaus hochfrequent mit kleinen Änderungen entwickeln kann, ohne dass sich die Aussage signifikant ändert, sind Bilder relativ stabile Medien. Bilder werden im Mediawiki ähnlich wie Artikel behandelt, also werden auch bei ihnen sämtliche Änderungen gespeichert - gleichwohl sind diese eher die Ausnahme. Sie werden im HTML eines Artikels stets (und technisch zwangsläufig) mittels `<img>`-Tag eingebunden und sind damit über eine simple Mustererkennung zu identifizieren. Die inhaltliche Bewertung wird folglich über die Gegenwart oder Abwesenheit eines bestimmten Bildes in einer bestimmten Version durchgeführt. Diese Annäherung an den Untersuchungsgegenstand über den Quelltext der einzelnen Artikel ermöglicht es zudem, die Analyse unabhängig von spezialisierten Sprachkenntnissen durchzuführen, da der auszuwertende Quelltext stets in HTML geschrieben ist.
@@ -19,6 +21,8 @@ Da der Quellenbezug und die Quellenaufbereitung hoch repetitive Aufgaben sind, b
 Dem Anspruch an eine freie Wissenschaft folgend, wurde bei der Wahl der technischen Mittel stets auf den Einsatz von Open Source geachtet, es wurden alle Teile des Forschungsprozesses offengelegt und die Ergebnisse unter freien Lizenzen zur Verfügung gestellt.[^3] Als Skriptumgebung wurde die [BASH](https://www.gnu.org/software/bash/) gewählt, die dort verwendeten Konsolenprogramme sind über gebräuchliche Repositorien verfügbar und zur Ausführung kamen Systeme auf Basis von GNU/Linux zum Einsatz. Weiterhin sind sämtliche Skripte und Schemata dieses Projekts unter [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/de/) und alle Auswertungen und Ergebnisse unter [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/de/) lizenziert. 
 
 [^3]: Siehe auch Grötschel, Martin: Elektronisches Publizieren, Open Access, Open Science und ähnliche Träume, in: Wissenschaftliches Publizieren: zwischen Digitalisierung, Leistungsmessung, Ökonomisierung und medialer Beobachtung, Berlin ; Boston 2016, S. 252.
+
+---
 
 ## Exemplarischer Ablauf
 
@@ -77,6 +81,8 @@ In den ersten beiden Spalten der Tabelle finden sich die ID der einzelnen Versio
 
 [^5]: Bei sehr großen Datenmengen kann es nötig sein, die `articleData.xml` in mehreren Schritten auszuwerten. Die dabei erzeugten `imageData.xml` können anschließend über das Schema `combineImages.xsl` zusammengefügt werden. Siehe hierzu die [entsprechende Dokumentation](./Skripte/README.md#combineimages-xsl).
 
+---
+
 ## Erläuterung der Quellendokumention
 
 Die Dokumentation und Auswertung der erhobenen Daten ist je Artikel in der zugehörigen ReadMe hinterlegt. Das Dokument folgt einem standardisierten Aufbau: Die Überschrift besteht stets aus der deutschen Übersetzung und dem originalen Titel des Artikels, zudem ist ihr ein Verweis zum Artikel hinterlegt. Unter **Auffällige Bilder** sind all jene Bilder aufgeführt, die durch ihr Motiv, die ermittelten Zeitreihen oder andere Details auffallen. Sie sind besonders, jedoch nicht exklusiv, für eine historiographische Auswertung geeignet. Datumsangaben in der zugehörigen Tabelle sind stets im Format `YYYY-MM-DD (ID)` wobei sich der Klammerausdruck auf die ID der zugehörigen Artikelversion bezieht. Solche Datumsangaben sind i.d.R. mit einem Link zur entsprechenden Artikelversion hinterlegt. Unter **Artikeldaten** ist der Zeitraum des Datenabrufs der einzelnen Artikelversionen angeben, zudem wird auf die zugehörigen Logdateien verwiesen. Zudem ist die Anzahl der abgerufenen Artikelversionen aufgeführt. Unter **Bilddaten** sind die Zeiträume zur Ermittlung der Bilddaten aus den Artikeldaten sowie zur Auswertung der Bilddaten durch Erstellung er Auswertungstabelle angegeben. Es wird auf die zugehörigen Logdateien und die Auswertungstabelle verwiesen. *Anzahl der Bilder* bezieht sich auf die in der Artikelhistorie vorkommenden, einzigartigen Bilder. Die *Anzahl der Bildreferenzen* hingegen bezieht sich auf die Summe aller in der Artikelhistorie referenzierten Bilder. Im Abschnitt **Ausgeschlossene Daten** sind all jene Dateien und deren Dateigröße aufgeführt, die im Rahmen der Auswertung angefallen sind, jedoch nicht mit ins Repositorium aufgenommen wurden. Diese Prozessdaten entsprechen üblicherweise den ursprünglichen Quelldaten und bieten nach erfolgter Auswertung keinen Mehrwert für die Untersuchung. Wenn es der Dokumentation oder Auswertung zuträglich war, wurde diese Struktur um neue Abschnitte erweitert.
@@ -90,6 +96,8 @@ Die Auswertung umfangreicher Datensätze ist in der derzeitigen Implementation u
 Die Präsentation insbesondere der historiographischen Analyse im Markdownformat ist wegen der mangelhaften Unterstützung von Fußnoten nur eingeschränkt empfehlenswert. Zwar ist *Markdown* als simple Auszeichnungssprache für eine Vielzahl von Dokumententypen ein völlig angemessenes Werkzeug, jedoch stößt es bei der gewohnten Gestalt akademischer Texte an seine Grenzen. Weiterhin ist die fehlende Unterstützung gängiger Zitationsprogramme ein Ärgerniss. Der suboptimalen Darstellung der Fußnoten kann mit entsprechenden Technologien, in der hier verwendeten *Leseansicht* ist es [jekyll](https://jekyllrb.com/) über [GitHub Pages](https://pages.github.com/), begegnet werden. In Anbetracht der fehlenden Literaturverwaltungsunterstützung weist das Schreiben in *Markdown* aber weiterhin signifikante Nachteile gegenüber üblichen Textverarbeitungsprogrammen auf.[^6]
 
 Für folgende Untersuchungen ist die exakte Implementation der Versionsverwaltung der Bildartikel im Mediawiki zu klären. In Einzelfällen, wie dem Bild [Tiananmensquare.jpg](https://zh.wikipedia.org/wiki/File:Tiananmensquare.jpg) des Artikels zum Tiananmen Zwischenfall[^7], sind die Verweise im Artikel früher zu datieren, als die älteste Dateiversion. Der exakte Zustand des referenzierten Bildes kann für solche Zeiträume folglich nicht rekonstruiert werden.
+
+---
 
 [^6]: Zur Praxistauglichkeit verschiedener Applikationen und Vorgehensweisen beim Verfassen von Open Science Publikationen siehe: Heise, Christian: Von Open Access zu Open Science: zum Wandel digitaler Kulturen der wissenschaftlichen Kommunikation, Leuphana Universität Lüneburg, Lüneburg 2018, S. 223-233. Online: <http://offene-doktorarbeit.de/>.
 
