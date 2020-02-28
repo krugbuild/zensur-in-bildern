@@ -22,7 +22,7 @@ Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte si
 
 - In der [Auswertung](Auswertung.md) findet sich die historiographische Analyse sowie das Ergebnis des Projekts.  
 - Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
-- Im der Datei [Literatur.bib](./Literatur.bib) ist die zitierte Literatur notiert. 
+- Im der Datei [Literatur.bib](./Literatur.bib) ist die zitierte Literatur als BibTeX notiert. 
 - Im Unterordner [Artikel](./Artikel) befinden sich die Forschungsdaten zu den untersuchten Artikeln.
 - Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zuzuordnen sind.
 - Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
