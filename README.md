@@ -16,24 +16,24 @@ Status: in Korrektur.
 
 ### Abstract
 
-> Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte sich der Kreis der möglichen Autoren. In dieser Arbeit wird an ausgewählten Wikipediaartikeln untersucht, inwiefern sich diese Änderung auf die in den Artikeln verwendeten Bilder auswirkt. Der Autor folgt dabei der These, dass in den Artikelversionen vor 2015 eine systematische Zensur der Bilder nachgewiesen werden kann. Eine besondere Berücksichtigung erfährt die Analyse der verschiedenen Zensurmethoden. Die Erhebung und Auswertung der Artikeldaten wird durch digitalhistorische Methoden ermöglicht.
+Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte sich der Kreis der möglichen Autoren. In dieser Arbeit wird an ausgewählten Wikipediaartikeln untersucht, inwiefern sich diese Änderung auf die in den Artikeln verwendeten Bilder auswirkt. Der Autor folgt dabei der These, dass in den Artikelversionen vor 2015 eine systematische Zensur der Bilder nachgewiesen werden kann. Eine besondere Berücksichtigung erfährt die Analyse der verschiedenen Zensurmethoden. Die Erhebung und Auswertung der Artikeldaten wird durch digitalhistorische Methoden ermöglicht.
 
 ### Projektstruktur
 
 - In der [Auswertung](Auswertung.md) findet sich die historiographische Analyse sowie das Ergebnis des Projekts.  
 - Im Dokument zur [Quellenarbeit](Quellenarbeit.md) wird der technische Hintergrund der Quellen, die Methodik der Erhebung und Auswertung der Daten sowie die Struktur der kommentierten Quelldaten erläutert.
-- Sämtliche verwendete Literatur ist als [BibTex](./Literatur.bib) hinterlegt. 
+- Im der Datei [Literatur.bib](./Literatur.bib) ist die zitierte Literatur notiert. 
 - Im Unterordner [Artikel](./Artikel) befinden sich die Forschungsdaten zu den untersuchten Artikeln.
-- Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zugeordnet werden können.
+- Im Unterordner [Dokumente](./Dokumente) befinden sich sämtliche Dokumente, die nicht direkt der Datenauswertung zuzuordnen sind.
 - Im Unterordner [Skripte](./Skripte) befinden sich alle Skripte und Schemata, die zum Abruf und der Aufbereitung der Artikel genutzt wurden.
 
 ### Kennzahlen
 
 | untersuchte Wikipediaartikel | 12 |
 | - | - |
-| Zeitraum | 2000 bis 2020 |
+| Zeitraum | 2000-01 bis 2020-01 |
 | Artikelversionen, gesamt | 18541 |
-| Bilder, nach einzigartiger URL | |
+| Bilder, nach einzigartiger URL | 1198 |
 | Bildreferenzen, gesamt | 388198 |
 
 ---

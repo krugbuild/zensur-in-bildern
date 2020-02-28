@@ -2,7 +2,7 @@
 
 ## Bemerkenswerte Bilder
 
-keine
+*keine*
 
 ## Artikeldaten
 
