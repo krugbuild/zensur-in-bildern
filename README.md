@@ -1,5 +1,5 @@
 # Zensur in Bildern
-## Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern
+## Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren
 
 [![DOI](https://zenodo.org/badge/233598495.svg)](https://zenodo.org/badge/latestdoi/233598495)
 
@@ -40,8 +40,7 @@ Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte si
 
 Zitationsvorschlag:
 
-> Krug, Stefan: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern, 28.02.2020, <https://doi.org/10.5281/zenodo.3711513>.
-
+> Krug, Stefan: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren, https://github.com/krugbuild/zensur-in-bildern, 28.02.2020, [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).
 
 ---
 
