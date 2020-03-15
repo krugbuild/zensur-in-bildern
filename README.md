@@ -1,6 +1,8 @@
 # Zensur in Bildern
 ## Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern
 
+[![DOI](https://zenodo.org/badge/233598495.svg)](https://zenodo.org/badge/latestdoi/233598495)
+
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
 Stefan Krug, 28.02.2020.
@@ -33,6 +35,13 @@ Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte si
 | Artikelversionen, gesamt | 18541 |
 | Bilder, nach einzigartiger URL | 1198 |
 | Bildreferenzen, gesamt | 388198 |
+
+---
+
+Zitationsvorschlag:
+
+> Krug, Stefan: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren in Bildern, 28.02.2020, <https://doi.org/10.5281/zenodo.3711513>.
+
 
 ---
 
