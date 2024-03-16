@@ -10,7 +10,7 @@
 #	- count:		Anzahl der zusätzlichen articleData[n].xml-Dateien; 0 = nur ursrüngliche articleData.xml, ohne Ziffer
 #	- directory:	Arbeitsverzeichnis.
 #
-# Autor: 		Stefan Krug
+# Autor: 		Alexandra Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
 # Stand:		2020-01-27
 -->
