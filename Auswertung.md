@@ -6,7 +6,7 @@ Analysen chinesischer Zensurpraxis konzentrieren sich allzu gern auf die Situati
 
 [^1]: Hilfreiche Überblickswerke über die Entwicklung des Internets und der zugehörigen Zensurpraxis in China finden sich bei Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011; Sowie Goldenstein, Jan: Internetperzeption in der VR China: Entwicklung, Wirkung und Potentiale eines globalen Mediums aus chinesischer Perspektive, Bd. 22, Berlin 2011 (Ostasien - Pazifik: Trierer Studien zu Politik, Wirtschaft, Gesellschaft, Kultur).
 
-[^2]: Wikipediaartikel als Quellengegenstand wurden vom Autor bereits in einem früheren Projekt evaluiert, siehe: Krug, Stefan: Crowds, sources and manipulation. Begriffshistorische Analysen mittels Wikipedia am Beispiel des Artikels «Populismus» zwischen 2014 und 2017, GitHub, 27.11.2019, <https://github.com/krugbuild/crowds-sources-manipulation>, Stand: 27.02.2020.
+[^2]: Wikipediaartikel als Quellengegenstand wurden von der Autorin bereits in einem früheren Projekt evaluiert, siehe: Krug, Alexandra: Crowds, sources and manipulation. Begriffshistorische Analysen mittels Wikipedia am Beispiel des Artikels «Populismus» zwischen 2014 und 2017, GitHub, 27.11.2019, <https://github.com/krugbuild/crowds-sources-manipulation>, Stand: 27.02.2020.
 
 [^3]: Zur Auswahl, Aufbereitung und Auswertung der Quellen siehe das Dokument [Quellenarbeit](./Quellenarbeit.md).
 
@@ -26,7 +26,7 @@ Sowohl der [Artikel zum Tiananmen Zwischenfall](https://zh.wikipedia.org/w/index
 
 [^5]: Vgl. Noesselt, Nele: Chinesische Politik: Nationale und globale Dimensionen, Baden-Baden 2016, S. 93 f; Zur Zensur von KPC-kritischen Inhalten siehe Becker, Kim-Björn: Internetzensur in China: Aufbau und Grenzen des chinesischen Kontrollsystems, Wiesbaden 2011, S. 103 f.
 
-[^6]: In Anbetracht des anhaltenden Diskurses um eine angemessene Bezeichnung der Studierendenproteste und der Ausschreitungen von 1989 verwendet der Autor im Folgenden stets den Begriff *Tiananmen Zwischenfall*, der auch am ehesten dem chinesischen Artikeltitel entspricht.
+[^6]: In Anbetracht des anhaltenden Diskurses um eine angemessene Bezeichnung der Studierendenproteste und der Ausschreitungen von 1989 verwendet die Autorin im Folgenden stets den Begriff *Tiananmen Zwischenfall*, der auch am ehesten dem chinesischen Artikeltitel entspricht.
 
 [^7]: Vgl. 六四臨近遭人破壞 天安門毛像被擲燃燒彈, in: Apple Daily 蘋果日報, 13.05.2007. Online: <http://hk.apple.nextmedia.com/international/art/20070513/7096562>, Stand: 17.02.2020.
 
