@@ -2,37 +2,37 @@
 #
 # Das Skript ruft anhand einer ID-Liste (idR. wird diese aus einer historyData.xml ausgelesen) Wikipedia-Artikel ab und speichert diese als Elemente in einer gemeinsamen XML-Datei.
 # Mit dem Parameter -l wird ein Auslesen aus einer lokalen Datei erzwungen. Per default wird das Skript getHistory.sh aufgerufen, um die historyData.xml zu generieren.
-# Um die maximale Dateigrˆﬂe zu begrenzen wird ab einer definierten Grˆﬂe (default 200mb) eine neue Ziel-Datei mit fortlauender Nummer generiert.
+# Um die maximale Dateigr√∂√üe zu begrenzen wird ab einer definierten Gr√∂√üe (default 200mb) eine neue Ziel-Datei mit fortlauender Nummer generiert.
 #
 # Parameter:
 #			-u 		(optional) Abzurufende URL. Jede URL ist valide, die Transformation ist jedoch nur auf die Versionsgeschichten der Wikipedia ausgelegt. Bei fehlender Eingabe wird URL zur Laufzeit abgefragt.
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
-#			-b		(optional) BEGINN des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf > gepr¸ft.
-#			-e		(optional) Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf < gepr¸ft.
+#			-b		(optional) BEGINN des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf > gepr√ºft.
+#			-e		(optional) Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm. Es wird auf < gepr√ºft.
 #			-l		(Kennzeichen) Nur lokal. Verhindert den (erneuten) Abruf der historyData.xml.
 #
-# Autor: 	Stefan Krug
+# Autor: 	Alexandra Krug
 # Lizenz: 	CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
 # Stand:	2020-01-23
 
 echo "\n### getArticles.sh - Stand 2020-01-23 - Initialisierung.."
 
 ## Variablendefinition
-	xmlSource="historyData.xml"	# Quelldatei f¸r die Liste
-	xmlFile="articleData.xml"		# Zielpfad f¸r die XML-Datei
-	logFile="articleData_log.txt"	# Zielpfad f¸r das Log
+	xmlSource="historyData.xml"	# Quelldatei f√ºr die Liste
+	xmlFile="articleData.xml"		# Zielpfad f√ºr die XML-Datei
+	logFile="articleData_log.txt"	# Zielpfad f√ºr das Log
 	timer=0.5s					# Wartezeit zwischen den Abrufen der Artikel, um eine Wertung des Vorgangs als DOS-Attacke zu vermeiden
 	idList=""						# Abfragestring zur Ermittlung der IDs
-	verzeichnis="false"			# Arbeitsverzeichnis f¸r die zu lesenden und zu erstellenden Dateien
+	verzeichnis="false"			# Arbeitsverzeichnis f√ºr die zu lesenden und zu erstellenden Dateien
 	zBeginn=0					# Beginn des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	zEnde=0						# Ende des abzurufenden Zeitraums im Format YYYYMMDDhhmm; 0=Abfrage zum Modus
 	url="false"					# URL der abzurufenden Versionsgeschichte, um ID-Liste zu ermitteln
 	lokal="false"					# Parameter, Aufruf von getHistory.sh zu verhinden
-	maxFileSize="200000"			# maximale Dateigrˆﬂe f¸r die Ziel-XML in kb, default 200.000kb
+	maxFileSize="200000"			# maximale Dateigr√∂√üe f√ºr die Ziel-XML in kb, default 200.000kb
 	
 	statUrl='https://zh.wikipedia.org/w/index.php?oldid='	# statischer Teil der URL, ist nach Landesversion anzupassen
 
-## Parameter ¸bergeben
+## Parameter √ºbergeben
 	while getopts v:b:e:u:l option; do
 		case "${option}" in
 			
@@ -59,7 +59,7 @@ uname -s -r -v -m >> $logFile		# initialer logFile-Eintrag mit Systeminformation
 echo $(date) "getArticles.sh - start" >> $logFile
 echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 
-## Pr¸fen, ob Parameter zum Eingrenzen der Versionsgeschichte gesetzt sind - sonst Abfrage
+## Pr√ºfen, ob Parameter zum Eingrenzen der Versionsgeschichte gesetzt sind - sonst Abfrage
 	if [ $zBeginn != "0" ] && [ $zEnde != "0" ]; then
 		
 		option=3;
@@ -71,7 +71,7 @@ echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 		read option
 	fi
 
-## Vorbereitung des Abrufs gem‰ﬂ Auswahl. Hierzu wird die Variable $idList mit der Auswahl entsprechenden Abrufstrings bef¸llt 
+## Vorbereitung des Abrufs gem√§√ü Auswahl. Hierzu wird die Variable $idList mit der Auswahl entsprechenden Abrufstrings bef√ºllt 
 	if [ $option = "1" ]; then					# Option 1 erwartet eine simple Liste mit IDs
 			
 		echo "Bitte geben Sie den Dateinamen der einzulesenden Liste ein:"
@@ -119,18 +119,18 @@ echo "-> definiertes Arbeitsverzeichnis=" $verzeichnis >> $logFile
 echo "-> Die IDs werden im Modus" $option "im Bereich zwischen" $zBeginn "und" $zEnde "ermittelt." >> $logFile
 echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwischen den Abfragen betraegt:" $timer"\n"
 
-## Artikel gem‰ﬂ Auswahl abrufen und als XML speichern
+## Artikel gem√§√ü Auswahl abrufen und als XML speichern
 	if [ -f $xmlFile ]; then	# es folgen Append-Operationen, deshalb brauchen wir eine 'leere' Datei
 		
 		$(rm $xmlFile)
 
 	fi
 
-	echo "<article>" >> $xmlFile		# ˆffnenden Tag setzen, um Wohlgeformtheit im XML zu gew‰hrleisten
+	echo "<article>" >> $xmlFile		# √∂ffnenden Tag setzen, um Wohlgeformtheit im XML zu gew√§hrleisten
 
 	xmlFileCore=$(eval 'basename $xmlFile ".xml"')	# Dateinamen ohne Verzeichnis und Endung ermitteln
 	
-	fileCounter=1		# Z‰hler zur fortlaufenden Bezeichnung der Ausgabedateien
+	fileCounter=1		# Z√§hler zur fortlaufenden Bezeichnung der Ausgabedateien
 	
 	for id in $(eval $idList)
 	do
@@ -146,14 +146,14 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 		
 		echo "</version>" >> $xmlFile			# </version> wird ans Ende des abzurufenden Inhalts gesetzt
 		
-		sleep $timer							# kurze Wartzeit, um f‰lschliche DOS-Erkennung zu vermeiden
+		sleep $timer							# kurze Wartzeit, um f√§lschliche DOS-Erkennung zu vermeiden
 		
-		# Dateigrˆﬂe der Ausgabe pr¸fen und ggf. eine neue Datei beginnen
+		# Dateigr√∂√üe der Ausgabe pr√ºfen und ggf. eine neue Datei beginnen
 		if [ $(du -k "$xmlFile" | cut -f 1) -gt $maxFileSize ]; then 
 
-			echo "</article>" >> $xmlFile				# schlieﬂenden Tag setzen, um Wohlgeformtheit des Dokuments zu gew‰hleisten
+			echo "</article>" >> $xmlFile				# schlie√üenden Tag setzen, um Wohlgeformtheit des Dokuments zu gew√§hleisten
 
-			$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irregul‰re Tags aus HTML entfernen
+			$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irregul√§re Tags aus HTML entfernen
 			
 			echo "\nDas HTML-Teil-Abbild wurde als "$xmlFile" gespeichert."
 			
@@ -167,15 +167,15 @@ echo "Das Ergebnis wird in die Datei" $xmlFile "geschrieben. Die Wartezeit zwisc
 			
 			fi
 			
-			echo "<article>" >> $xmlFile		# ˆffnenden Tag setzen, um Wohlgeformtheit im XML zu gew‰hrleisten
+			echo "<article>" >> $xmlFile		# √∂ffnenden Tag setzen, um Wohlgeformtheit im XML zu gew√§hrleisten
 			
 			fileCounter=$((fileCounter + 1))
 		fi
 	done
 
-	echo "</article>" >> $xmlFile				# schlieﬂenden Tag setzen, um Wohlgeformtheit des Dokuments zu gew‰hleisten
+	echo "</article>" >> $xmlFile				# schlie√üenden Tag setzen, um Wohlgeformtheit des Dokuments zu gew√§hleisten
 
-	$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irregul‰re Tags aus HTML entfernen
+	$(eval "sed -i 's/<!DOCTYPE html>//g' $xmlFile")	# irregul√§re Tags aus HTML entfernen
 
 	echo "\nDas HTML-Abbild wurde als "$xmlFile" gespeichert."
 
