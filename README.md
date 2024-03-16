@@ -5,7 +5,7 @@
 
 Dieses Projekt ist als kommentiertes Forschungsdatenrepositorium zu verstehen, in dem Forschungsdaten, Software, Dokumentation und Analyse im Verbund zur freien Verfügung gestellt werden. Den Rahmen bildet eine Modulabschlussprüfung im Masterstudiengang Geschichtswissenschaften mit Schwerpunkt Digital History an der Humboldt-Universität zu Berlin.
 
-Stefan Krug, 28.02.2020.
+Alexandra Krug, 28.02.2020.
 
 ---
 
@@ -40,9 +40,9 @@ Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte si
 
 Zitationsvorschlag:
 
-> Krug, Stefan: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren, https://github.com/krugbuild/zensur-in-bildern, 28.02.2020, [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).
+> Krug, Alexandra: Zensur in Bildern. Verlauf der Zensur der chinesischen Wikipedia in den 2010er Jahren, https://github.com/krugbuild/zensur-in-bildern, 28.02.2020, [doi:10.5281/zenodo.3711513](https://doi.org/10.5281/zenodo.3711513).
 
 ---
 
-[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Der Autor folgt hierbei der CC BY-SA-Lizenzierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.
+[![Creative Commons Lizenzvertrag](https://i.creativecommons.org/l/by-sa/3.0/de/88x31.png)](http://creativecommons.org/licenses/by-sa/3.0/de/) Sofern in den einzelnen Dateien nicht anders angegeben, ist dieses Werk lizenziert unter einer [Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz](http://creativecommons.org/licenses/by-sa/3.0/de/). Die Autorin folgt hierbei der CC BY-SA-Lizenzierung der Wikipediaartikel, welche die Quellenbasis des Projektes bilden.
 
