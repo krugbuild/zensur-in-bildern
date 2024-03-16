@@ -1,27 +1,27 @@
 #!/bin/bash
 #
-# Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unveränderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML.
-# Für den zweiten Schritt ist es notwendig, dass sich die Transformationsdatei (i.d.R. history.xsl) im Skriptverzeichnis befindet.
+# Das Skript ruft eine angegebene Wikipedia-Artikelgeschichte ab und speichert neben der unverÃ¤nderten HTML-Datei auch eine auf Kennwerte reduzierte und vom HTML freigestellte XML.
+# FÃ¼r den zweiten Schritt ist es notwendig, dass sich die Transformationsdatei (i.d.R. history.xsl) im Skriptverzeichnis befindet.
 #
 # Parameter:
 #			-u 		(optional) Abzurufende URL. Jede URL ist valide, die Transformation ist jedoch nur auf die Versionsgeschichten der Wikipedia ausgelegt. Bei fehlender Eingabe wird URL zur Laufzeit abgefragt.
 #			-v		(optional) Arbeitsverzeichnis. Legt einen definierten Unterordner an und speichert dort die zu erzeugenden Dateien.
 #
-# Autor: 		Stefan Krug
+# Autor: 		Alexandra Krug
 # Lizenz: 		CC BY 3.0 DE Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung 3.0 Deutschland Lizenz. (http://creativecommons.org/licenses/by/3.0/de/)
 # Stand:		2020-01-27
 
 echo "\n### getHistory.sh - Stand 2020-01-27 - Initialisierung.."
 
 ## Variablendefinition
-	stylesheet="history.xsl"		# XSLT, muss für Transformation vorhanden sein
-	htmlFile="historyData.html"		# Zieldatei für das HTML-Abbild
-	xmlFile="historyData.xml"		# Zieldatei für die XML-Datei
-	logFile="historyData_log.txt"	# Zieldatei für das Log
-	verzeichnis="false"			# Arbeitsverzeichnis für die zu erstellenden Dateien
+	stylesheet="history.xsl"		# XSLT, muss fÃ¼r Transformation vorhanden sein
+	htmlFile="historyData.html"		# Zieldatei fÃ¼r das HTML-Abbild
+	xmlFile="historyData.xml"		# Zieldatei fÃ¼r die XML-Datei
+	logFile="historyData_log.txt"	# Zieldatei fÃ¼r das Log
+	verzeichnis="false"			# Arbeitsverzeichnis fÃ¼r die zu erstellenden Dateien
 	url="false"					# URL zur abzurufenden Versionsgeschichte
 
-## Parameter übergeben
+## Parameter Ã¼bergeben
 	while getopts u:v: option; do
 		case "${option}" in
 			
@@ -44,7 +44,7 @@ uname -s -r -v -m >> $logFile	# initialer logFile-Eintrag mit Systeminformatione
 echo $(date) "getHistory.sh - start" >> $logFile
 echo "definiertes Arbeitsverzeichnis=" $verzeichnis
 
-## Prüfung auf Transformationsschema - ohne wird kein Transformationsversuch unternommen
+## PrÃ¼fung auf Transformationsschema - ohne wird kein Transformationsversuch unternommen
 	if [ -f "$stylesheet" ]; then
 
 		echo "-> Schemadatei" $stylesheet "gefunden." >> $logFile
@@ -56,7 +56,7 @@ echo "definiertes Arbeitsverzeichnis=" $verzeichnis
 		
 	fi
 
-## Prüfung auf URL - wenn false, wird eine Eingabe verlangt
+## PrÃ¼fung auf URL - wenn false, wird eine Eingabe verlangt
 	if [ $url = "false" ]; then
 	
 		echo "\nBitte fuegen Sie die parametrisierte URL der zu verarbeitenden Wikipedia-Versionsgeschichte ein. Achten Sie auf eine sinnvolle Groesse des Parameters &limit.\n"
