@@ -16,7 +16,7 @@ Alexandra Krug, 28.02.2020.
 
 ### Abstract
 
-Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte sich der Kreis der möglichen Autoren. In dieser Arbeit wird an ausgewählten Wikipediaartikeln untersucht, inwiefern sich diese Änderung auf die in den Artikeln verwendeten Bilder auswirkt. Der Autor folgt dabei der These, dass in den Artikelversionen vor 2015 eine systematische Zensur der Bilder nachgewiesen werden kann. Eine besondere Berücksichtigung erfährt die Analyse der verschiedenen Zensurmethoden. Die Erhebung und Auswertung der Artikeldaten wird durch digitalhistorische Methoden ermöglicht.
+Mit der Sperrung der chinesischen Wikipedia in China im Jahr 2015 veränderte sich der Kreis der möglichen Autoren. In dieser Arbeit wird an ausgewählten Wikipediaartikeln untersucht, inwiefern sich diese Änderung auf die in den Artikeln verwendeten Bilder auswirkt. Die Autorin folgt dabei der These, dass in den Artikelversionen vor 2015 eine systematische Zensur der Bilder nachgewiesen werden kann. Eine besondere Berücksichtigung erfährt die Analyse der verschiedenen Zensurmethoden. Die Erhebung und Auswertung der Artikeldaten wird durch digitalhistorische Methoden ermöglicht.
 
 ### Projektstruktur
 
